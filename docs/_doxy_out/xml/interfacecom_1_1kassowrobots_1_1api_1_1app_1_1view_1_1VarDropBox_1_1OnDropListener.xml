@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnDropListener" kind="interface" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::app::view::VarDropBox::OnDropListener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnDropListener_1adbb9dceeda47fc33c46779bc3d0349f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.app.view.VarDropBox.OnDropListener.onDrop</definition>
+        <argsstring>(@NonNull IVar&lt;?&gt; aVariable)</argsstring>
+        <name>onDrop</name>
+        <qualifiedname>com.kassowrobots.api.app.view.VarDropBox.OnDropListener.onDrop</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt;?&gt;</type>
+          <declname>aVariable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when a variable has been dropped.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aVariable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable that was dropped. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/VarDropBox.java" line="210" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface definition for a callback to be invoked when a variable is dropped. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/VarDropBox.java" line="203" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/VarDropBox.java" bodystart="203" bodyend="212"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnDropListener_1adbb9dceeda47fc33c46779bc3d0349f3" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::VarDropBox::OnDropListener</scope><name>onDrop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

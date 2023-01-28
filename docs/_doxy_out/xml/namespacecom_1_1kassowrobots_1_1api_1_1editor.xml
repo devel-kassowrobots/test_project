@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespacecom_1_1kassowrobots_1_1api_1_1editor" kind="namespace" language="Java">
+    <compoundname>com::kassowrobots::api::editor</compoundname>
+    <innerclass refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" prot="public">com::kassowrobots::api::editor::CustomTeachingHandler</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager" prot="public">com::kassowrobots::api::editor::SelectionManager</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" prot="public">com::kassowrobots::api::editor::TeachingManager</innerclass>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1editor_1_1var">com::kassowrobots::api::editor::var</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/editor/CustomTeachingHandler.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

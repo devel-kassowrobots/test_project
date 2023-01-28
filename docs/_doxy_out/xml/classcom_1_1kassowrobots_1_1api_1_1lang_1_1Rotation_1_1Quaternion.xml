@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::lang::Rotation::Quaternion</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1addef2f2b591a31455b574f14cdfaeec0" prot="protected" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double com.kassowrobots.api.lang.Rotation.Quaternion.m_x</definition>
+        <argsstring></argsstring>
+        <name>m_x</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.m_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="358" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a13fb71c7bf26aa893f9d86b5c95eb57f" prot="protected" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double com.kassowrobots.api.lang.Rotation.Quaternion.m_y</definition>
+        <argsstring></argsstring>
+        <name>m_y</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.m_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="360" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1afd36023eb0645d7df1161ce333f75aea" prot="protected" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double com.kassowrobots.api.lang.Rotation.Quaternion.m_z</definition>
+        <argsstring></argsstring>
+        <name>m_z</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.m_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="362" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a607203ba8e2165a2886e9ed19727b1b1" prot="protected" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double com.kassowrobots.api.lang.Rotation.Quaternion.m_w</definition>
+        <argsstring></argsstring>
+        <name>m_w</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.m_w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="364" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a5298249e60b4268146cd946fd4816896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.Rotation.Quaternion.Quaternion</definition>
+        <argsstring>(double aX, double aY, double aZ, double aW)</argsstring>
+        <name>Quaternion</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.Quaternion</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aY</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aZ</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aW</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="366" column="16" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="366" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a36ebdc797ce18b620dce4710ec8afcf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.Rotation.Quaternion.getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.getX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="373" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="373" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a138960aab36d395d0efc8845a503c223" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.Rotation.Quaternion.getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.getY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="377" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="377" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1ae5c9540ec6066d7868a10154a6651d5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.Rotation.Quaternion.getZ</definition>
+        <argsstring>()</argsstring>
+        <name>getZ</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.getZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="381" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="381" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a908a508cf9052f49b8d9dcecf5c71729" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.Rotation.Quaternion.getW</definition>
+        <argsstring>()</argsstring>
+        <name>getW</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.getW</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="385" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="385" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1acdfb282e5fcf24a721d0ac335d6541e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.lang.Rotation.Quaternion.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="396" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="396" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1ad9dfa8aba0222992a74c5b1ee44f83b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.kassowrobots.api.lang.Rotation.Quaternion.equals</definition>
+        <argsstring>(@Nullable Object aObject)</argsstring>
+        <name>equals</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.equals</qualifiedname>
+        <param>
+          <type>@Nullable Object</type>
+          <declname>aObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="401" column="24" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="401" bodyend="407"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1af816cdcede16b2eb081965102d51e132" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Quaternion</type>
+        <definition>Quaternion com.kassowrobots.api.lang.Rotation.Quaternion.normalize</definition>
+        <argsstring>()</argsstring>
+        <name>normalize</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.Quaternion.normalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="389" column="28" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="389" bodyend="392"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Quaternion data class. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="356" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="356" bodyend="409"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1ad9dfa8aba0222992a74c5b1ee44f83b7" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>equals</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a908a508cf9052f49b8d9dcecf5c71729" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>getW</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a36ebdc797ce18b620dce4710ec8afcf2" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>getX</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a138960aab36d395d0efc8845a503c223" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>getY</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1ae5c9540ec6066d7868a10154a6651d5c" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>getZ</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a607203ba8e2165a2886e9ed19727b1b1" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>m_w</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1addef2f2b591a31455b574f14cdfaeec0" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>m_x</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a13fb71c7bf26aa893f9d86b5c95eb57f" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>m_y</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1afd36023eb0645d7df1161ce333f75aea" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>m_z</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1af816cdcede16b2eb081965102d51e132" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>normalize</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a5298249e60b4268146cd946fd4816896" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1acdfb282e5fcf24a721d0ac335d6541e3" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::Quaternion</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

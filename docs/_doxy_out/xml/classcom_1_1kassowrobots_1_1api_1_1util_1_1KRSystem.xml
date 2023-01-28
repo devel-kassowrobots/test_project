@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRSystem" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::util::KRSystem</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRSystem_1afdcab76fd3451fb52c67b8bba8c47fd3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.kassowrobots.api.util.KRSystem.exit</definition>
+        <argsstring>()</argsstring>
+        <name>exit</name>
+        <qualifiedname>com.kassowrobots.api.util.KRSystem.exit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Terminates currently running CBun App, ie. it tells the host app to remove the CBun App fragment from the screen and destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/util/KRSystem.java" line="12" column="24" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/util/KRSystem.java" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains few useful system functions. This class cannot be instantiated. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/util/KRSystem.java" line="6" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/util/KRSystem.java" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRSystem_1afdcab76fd3451fb52c67b8bba8c47fd3" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::util::KRSystem</scope><name>exit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

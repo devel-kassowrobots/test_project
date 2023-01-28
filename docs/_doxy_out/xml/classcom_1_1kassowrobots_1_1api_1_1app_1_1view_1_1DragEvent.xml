@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::app::view::DragEvent</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1ae99ec7ac933fed67293984e75aec95ab" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_STARTED</definition>
+        <argsstring></argsstring>
+        <name>ACTION_DRAG_STARTED</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_STARTED</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="12" column="29" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a1ce5d92b21beb6404a925331c64b332f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_LOCATION</definition>
+        <argsstring></argsstring>
+        <name>ACTION_DRAG_LOCATION</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_LOCATION</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="15" column="29" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1aa7062d28d738d4373d1217a94fe4b9d6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.kassowrobots.api.app.view.DragEvent.ACTION_DROP</definition>
+        <argsstring></argsstring>
+        <name>ACTION_DROP</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.ACTION_DROP</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Action constant returned by <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a198c31aa378a728d41cfd2c5b8502b05" kindref="member">getAction()</ref></computeroutput>: Signals that the user has release the dragged item and the release location is withing the bounding box of the view. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="21" column="29" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a71c8c56093eaa2810ea9b19f7dd7cac2" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_ENDED</definition>
+        <argsstring></argsstring>
+        <name>ACTION_DRAG_ENDED</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_ENDED</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="24" column="29" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a9734d496f68549ab86c58f72caf09681" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_ENTERED</definition>
+        <argsstring></argsstring>
+        <name>ACTION_DRAG_ENTERED</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_ENTERED</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="27" column="29" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1af1608a1ef8c8c038d52c0bb7050dd13f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_EXITED</definition>
+        <argsstring></argsstring>
+        <name>ACTION_DRAG_EXITED</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.ACTION_DRAG_EXITED</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="30" column="29" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a70c1730a35b504a39ee40cb0abe350ce" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.kassowrobots.api.app.view.DragEvent.m_action</definition>
+        <argsstring></argsstring>
+        <name>m_action</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.m_action</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="32" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1aea1e840adf56c11650aaba33e51d34d6" prot="private" static="no" mutable="no">
+        <type>final Object</type>
+        <definition>final Object com.kassowrobots.api.app.view.DragEvent.m_data</definition>
+        <argsstring></argsstring>
+        <name>m_data</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.m_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="34" column="26" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a95d0bd6295fd10b90135cb19f6cf6d50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.app.view.DragEvent.DragEvent</definition>
+        <argsstring>(int aAction, @Nullable Object aData)</argsstring>
+        <name>DragEvent</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.DragEvent</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>aAction</declname>
+        </param>
+        <param>
+          <type>@Nullable Object</type>
+          <declname>aData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="36" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a198c31aa378a728d41cfd2c5b8502b05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.kassowrobots.api.app.view.DragEvent.getAction</definition>
+        <argsstring>()</argsstring>
+        <name>getAction</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.getAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the action value of this event.</para>
+<para><simplesect kind="return"><para>One of the following action constants, in the order in which they usually occur during a drag and drop operation: <itemizedlist>
+<listitem>
+<para><computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1aa7062d28d738d4373d1217a94fe4b9d6" kindref="member">ACTION_DROP</ref></computeroutput> </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="50" column="16" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a1d6fe95d7114dc01cbd09a3a994b4151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object com.kassowrobots.api.app.view.DragEvent.getData</definition>
+        <argsstring>()</argsstring>
+        <name>getData</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragEvent.getData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the data object sent as a part of the event.</para>
+<para><simplesect kind="return"><para>Data object sent by the event producer. This data usually represents the dragged item (such as <computeroutput><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar&lt;&gt;</ref></computeroutput> in case of variable drag&amp;drop). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="62" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents an event that is sent out by the host app at various times during a drag and drop operation. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" line="9" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragEvent.java" bodystart="9" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a71c8c56093eaa2810ea9b19f7dd7cac2" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>ACTION_DRAG_ENDED</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a9734d496f68549ab86c58f72caf09681" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>ACTION_DRAG_ENTERED</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1af1608a1ef8c8c038d52c0bb7050dd13f" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>ACTION_DRAG_EXITED</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a1ce5d92b21beb6404a925331c64b332f" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>ACTION_DRAG_LOCATION</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1ae99ec7ac933fed67293984e75aec95ab" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>ACTION_DRAG_STARTED</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1aa7062d28d738d4373d1217a94fe4b9d6" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>ACTION_DROP</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a95d0bd6295fd10b90135cb19f6cf6d50" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>DragEvent</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a198c31aa378a728d41cfd2c5b8502b05" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>getAction</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a1d6fe95d7114dc01cbd09a3a994b4151" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>getData</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a70c1730a35b504a39ee40cb0abe350ce" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>m_action</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1aea1e840adf56c11650aaba33e51d34d6" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragEvent</scope><name>m_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

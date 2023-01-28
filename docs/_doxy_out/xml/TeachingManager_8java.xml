@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="TeachingManager_8java" kind="file" language="Java">
+    <compoundname>TeachingManager.java</compoundname>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" prot="public">com::kassowrobots::api::editor::TeachingManager</innerclass>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1editor">com::kassowrobots::api::editor</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.kassowrobots.api.editor;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" kindref="compound">TeachingManager</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1af26469ae0b62403d9cb9ca816c36e515" kindref="member">attach</ref>(<ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" kindref="compound">CustomTeachingHandler</ref><sp/>aHandler)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1a9a8fd640b8fdef402ac5faae1044eadc" kindref="member">detach</ref>(<ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" kindref="compound">CustomTeachingHandler</ref><sp/>aHandler)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1af5d512b4db27cf2981300e360d9bb07c" kindref="member">TeachingManager</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java"/>
+  </compounddef>
+</doxygen>

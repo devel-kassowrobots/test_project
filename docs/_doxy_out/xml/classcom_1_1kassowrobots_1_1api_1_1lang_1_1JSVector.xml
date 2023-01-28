@@ -1,0 +1,673 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::lang::JSVector</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a55906170ddb749418f3e08717a349005" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.m_j1</definition>
+        <argsstring></argsstring>
+        <name>m_j1</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.m_j1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="12" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1af2804d134318eb3a369671ba3630e382" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.m_j2</definition>
+        <argsstring></argsstring>
+        <name>m_j2</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.m_j2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="15" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ab8ae4669f3a7d7b5fbef2be7f5c4340f" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.m_j3</definition>
+        <argsstring></argsstring>
+        <name>m_j3</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.m_j3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="18" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a4c9f1674c089f4ef8fec2228c378c612" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.m_j4</definition>
+        <argsstring></argsstring>
+        <name>m_j4</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.m_j4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="21" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a51c5a1e540fd404abd000b755e8043e2" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.m_j5</definition>
+        <argsstring></argsstring>
+        <name>m_j5</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.m_j5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="24" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afbcfefb932f770dd960e22484799cc6c" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.m_j6</definition>
+        <argsstring></argsstring>
+        <name>m_j6</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.m_j6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="27" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afb43246f5b51c175085875ed4a5ae057" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.m_j7</definition>
+        <argsstring></argsstring>
+        <name>m_j7</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.m_j7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="30" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afda27c935898860a9d3d5977e3b215b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.JSVector.JSVector</definition>
+        <argsstring>()</argsstring>
+        <name>JSVector</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.JSVector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs configuration with default (zero) joint positions. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="35" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1abbadbb366adac12c8d39d8b72d9e7785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.JSVector.JSVector</definition>
+        <argsstring>(double aJ1, double aJ2, double aJ3, double aJ4, double aJ5, double aJ6, double aJ7)</argsstring>
+        <name>JSVector</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.JSVector</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aJ1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ4</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ5</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ6</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs configuration with given joint positions.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aJ1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 1 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 2 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 3 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ4</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 4 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ5</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 5 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ6</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 6 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ7</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 7 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="50" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a11c817307ebe089cb9e46c8ea43f6f74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.JSVector.JSVector</definition>
+        <argsstring>(@NonNull JSVector aSource)</argsstring>
+        <name>JSVector</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.JSVector</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector" kindref="compound">JSVector</ref></type>
+          <declname>aSource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs configuration as a copy of source configuration.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aSource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>source configuration to be copied </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="59" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a4d222a8a15c8452942856d2c3c98c287" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.JSVector.set</definition>
+        <argsstring>(double aJ1, double aJ2, double aJ3, double aJ4, double aJ5, double aJ6, double aJ7)</argsstring>
+        <name>set</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.set</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aJ1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ4</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ5</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ6</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aJ7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets all joint positions at once.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aJ1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 1 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 2 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 3 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ4</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 4 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ5</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 5 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ6</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 6 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aJ7</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint 7 position [radians] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="74" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="74" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a82a7f42f89acb54a76d8c199fa77712f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.getJ1</definition>
+        <argsstring>()</argsstring>
+        <name>getJ1</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.getJ1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns joint 1 position.</para>
+<para><simplesect kind="return"><para>joint 1 position [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="89" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a71ed5339bf7f8a87003d4f07491cf7b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.JSVector.setJ1</definition>
+        <argsstring>(double aPosition)</argsstring>
+        <name>setJ1</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.setJ1</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="93" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a22741f8b280f8f1dc9d6f3fe982ef910" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.getJ2</definition>
+        <argsstring>()</argsstring>
+        <name>getJ2</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.getJ2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns joint 2 position.</para>
+<para><simplesect kind="return"><para>joint 2 position [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="102" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a253817f80b591e210e37b4d9ae510480" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.JSVector.setJ2</definition>
+        <argsstring>(double aPosition)</argsstring>
+        <name>setJ2</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.setJ2</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="106" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a5a12e6a1ef535293f9ec884ce42865ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.getJ3</definition>
+        <argsstring>()</argsstring>
+        <name>getJ3</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.getJ3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns joint 3 position.</para>
+<para><simplesect kind="return"><para>joint 3 position [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="115" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ace308272949e3699b64896bb7d1ad347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.JSVector.setJ3</definition>
+        <argsstring>(double aPosition)</argsstring>
+        <name>setJ3</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.setJ3</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="119" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="119" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ae9d02354158a0e6d45add91f02cc38cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.getJ4</definition>
+        <argsstring>()</argsstring>
+        <name>getJ4</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.getJ4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns joint 4 position.</para>
+<para><simplesect kind="return"><para>joint 4 position [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="128" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="128" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a663df93f45207546550caa1add0648b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.JSVector.setJ4</definition>
+        <argsstring>(double aPosition)</argsstring>
+        <name>setJ4</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.setJ4</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="132" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="132" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a93a4bec30392130982a837c124961540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.getJ5</definition>
+        <argsstring>()</argsstring>
+        <name>getJ5</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.getJ5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns joint 5 position.</para>
+<para><simplesect kind="return"><para>joint 5 position [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="141" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a05e3c8c95eea21e410be2b51264cc078" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.JSVector.setJ5</definition>
+        <argsstring>(double aPosition)</argsstring>
+        <name>setJ5</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.setJ5</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="145" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a519b53849902421b2cc6f8a683e64fc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.getJ6</definition>
+        <argsstring>()</argsstring>
+        <name>getJ6</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.getJ6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns joint 6 position.</para>
+<para><simplesect kind="return"><para>joint 6 position [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="154" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="154" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a25432ddfa07d797249c3e7118d1e2e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.JSVector.setJ6</definition>
+        <argsstring>(double aPosition)</argsstring>
+        <name>setJ6</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.setJ6</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="158" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="158" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1aa6010f93e5392f7af9e332838c2037c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.JSVector.getJ7</definition>
+        <argsstring>()</argsstring>
+        <name>getJ7</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.getJ7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns joint 7 position.</para>
+<para><simplesect kind="return"><para>joint 7 position [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="167" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="167" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a26aebf017cbac05ab8c53041cccd7004" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.JSVector.setJ7</definition>
+        <argsstring>(double aPosition)</argsstring>
+        <name>setJ7</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.setJ7</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="171" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afc4dac355fd56c49ec02aaccea021e11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.lang.JSVector.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="177" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="177" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a3538350eabb616e6376f4ebc00b9e448" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.kassowrobots.api.lang.JSVector.equals</definition>
+        <argsstring>(@Nullable Object aObject)</argsstring>
+        <name>equals</name>
+        <qualifiedname>com.kassowrobots.api.lang.JSVector.equals</qualifiedname>
+        <param>
+          <type>@Nullable Object</type>
+          <declname>aObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="182" column="20" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="182" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The (joints) Configuration data type consists of J1 to J7 coordinates. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" line="9" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/JSVector.java" bodystart="9" bodyend="193"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a3538350eabb616e6376f4ebc00b9e448" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>equals</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a82a7f42f89acb54a76d8c199fa77712f" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>getJ1</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a22741f8b280f8f1dc9d6f3fe982ef910" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>getJ2</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a5a12e6a1ef535293f9ec884ce42865ed" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>getJ3</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ae9d02354158a0e6d45add91f02cc38cf" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>getJ4</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a93a4bec30392130982a837c124961540" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>getJ5</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a519b53849902421b2cc6f8a683e64fc2" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>getJ6</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1aa6010f93e5392f7af9e332838c2037c1" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>getJ7</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afda27c935898860a9d3d5977e3b215b7" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>JSVector</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1abbadbb366adac12c8d39d8b72d9e7785" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>JSVector</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a11c817307ebe089cb9e46c8ea43f6f74" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>JSVector</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a55906170ddb749418f3e08717a349005" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>m_j1</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1af2804d134318eb3a369671ba3630e382" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>m_j2</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ab8ae4669f3a7d7b5fbef2be7f5c4340f" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>m_j3</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a4c9f1674c089f4ef8fec2228c378c612" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>m_j4</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a51c5a1e540fd404abd000b755e8043e2" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>m_j5</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afbcfefb932f770dd960e22484799cc6c" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>m_j6</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afb43246f5b51c175085875ed4a5ae057" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>m_j7</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a4d222a8a15c8452942856d2c3c98c287" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>set</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a71ed5339bf7f8a87003d4f07491cf7b4" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>setJ1</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a253817f80b591e210e37b4d9ae510480" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>setJ2</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ace308272949e3699b64896bb7d1ad347" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>setJ3</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a663df93f45207546550caa1add0648b2" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>setJ4</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a05e3c8c95eea21e410be2b51264cc078" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>setJ5</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a25432ddfa07d797249c3e7118d1e2e2a" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>setJ6</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a26aebf017cbac05ab8c53041cccd7004" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>setJ7</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afc4dac355fd56c49ec02aaccea021e11" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::JSVector</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

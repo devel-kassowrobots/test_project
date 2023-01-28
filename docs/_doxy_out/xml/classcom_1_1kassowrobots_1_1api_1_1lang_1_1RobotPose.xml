@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::lang::RobotPose</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ae5ce11815ba7171b47bfd1fd30b1f4cc" prot="protected" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position" kindref="compound">Position</ref></type>
+        <definition>final Position com.kassowrobots.api.lang.RobotPose.m_position</definition>
+        <argsstring></argsstring>
+        <name>m_position</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.m_position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="16" column="30" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a0232147e9d74bc50a7dde54a354ad8b2" prot="protected" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation" kindref="compound">Rotation</ref></type>
+        <definition>final Rotation com.kassowrobots.api.lang.RobotPose.m_rotation</definition>
+        <argsstring></argsstring>
+        <name>m_rotation</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.m_rotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="20" column="30" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a7ea8e9978d63e70969b1e48a77690758" prot="protected" static="no" mutable="no">
+        <type>final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector" kindref="compound">JSVector</ref></type>
+        <definition>final JSVector com.kassowrobots.api.lang.RobotPose.m_configuration</definition>
+        <argsstring></argsstring>
+        <name>m_configuration</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.m_configuration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="24" column="30" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a67fe9392c52bd3c0251c3bdf112878e3" prot="protected" static="no" mutable="no">
+        <type><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref> &gt;</type>
+        <definition>IVar&lt;RobotPose&gt; com.kassowrobots.api.lang.RobotPose.m_reference</definition>
+        <argsstring></argsstring>
+        <name>m_reference</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.m_reference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="28" column="20" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ad13bff5cf47582fe8f4d605873297441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.RobotPose.RobotPose</definition>
+        <argsstring>()</argsstring>
+        <name>RobotPose</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.RobotPose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs robot pose with zero position/rotation/configuration and null reference. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="33" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1aef7e798a133137b9d04640cd6f6eddab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.RobotPose.RobotPose</definition>
+        <argsstring>(@NonNull Position aPosition, @NonNull Rotation aRotation)</argsstring>
+        <name>RobotPose</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.RobotPose</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position" kindref="compound">Position</ref></type>
+          <declname>aPosition</declname>
+        </param>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation" kindref="compound">Rotation</ref></type>
+          <declname>aRotation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs robot pose with given position/rotation, zero configuration and null reference.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rotation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="43" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1af63c35277dcab3b5e23bcd5e8bdfd765" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.RobotPose.RobotPose</definition>
+        <argsstring>(@NonNull Position aPosition, @NonNull Rotation aRotation, @Nullable IVar&lt; RobotPose &gt; aReference)</argsstring>
+        <name>RobotPose</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.RobotPose</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position" kindref="compound">Position</ref></type>
+          <declname>aPosition</declname>
+        </param>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation" kindref="compound">Rotation</ref></type>
+          <declname>aRotation</declname>
+        </param>
+        <param>
+          <type>@Nullable <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref> &gt;</type>
+          <declname>aReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs robot pose with given position/rotation/reference and zero configuration.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rotation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aReference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference (optional) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="54" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ac8834066a8f5e9a73dd3d5bd6aa9d7c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.RobotPose.RobotPose</definition>
+        <argsstring>( @NonNull Position aPosition, @NonNull Rotation aRotation, @NonNull JSVector aConfiguration, @Nullable IVar&lt; RobotPose &gt; aReference)</argsstring>
+        <name>RobotPose</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.RobotPose</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position" kindref="compound">Position</ref></type>
+          <declname>aPosition</declname>
+        </param>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation" kindref="compound">Rotation</ref></type>
+          <declname>aRotation</declname>
+        </param>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector" kindref="compound">JSVector</ref></type>
+          <declname>aConfiguration</declname>
+        </param>
+        <param>
+          <type>@Nullable <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref> &gt;</type>
+          <declname>aReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs robot pose with given position, rotation, configuration and reference.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rotation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aConfiguration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>joint configuration </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aReference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference (optional) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="66" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="66" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ab180b031fc5c9c96bb48e304a235d55e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.RobotPose.RobotPose</definition>
+        <argsstring>(@NonNull RobotPose aSource)</argsstring>
+        <name>RobotPose</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.RobotPose</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref></type>
+          <declname>aSource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs robot pose as a copy of source robot pose.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aSource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>source robot pose to be copied </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="83" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a91e8d48eeff60b8229ec35e7faf66356" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position" kindref="compound">Position</ref></type>
+        <definition>Position com.kassowrobots.api.lang.RobotPose.position</definition>
+        <argsstring>()</argsstring>
+        <name>position</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns position of this robot pose.</para>
+<para><simplesect kind="return"><para>position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="96" column="21" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1afdd4a6ffa9dd2a6c83d5dfec03013eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation" kindref="compound">Rotation</ref></type>
+        <definition>Rotation com.kassowrobots.api.lang.RobotPose.rotation</definition>
+        <argsstring>()</argsstring>
+        <name>rotation</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.rotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns rotation of this robot pose.</para>
+<para><simplesect kind="return"><para>rotation </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="106" column="21" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a5854e7b776fcd7534ecbddd86023ce23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector" kindref="compound">JSVector</ref></type>
+        <definition>JSVector com.kassowrobots.api.lang.RobotPose.configuration</definition>
+        <argsstring>()</argsstring>
+        <name>configuration</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.configuration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns configuration of this robot pose.</para>
+<para><simplesect kind="return"><para>configuration </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="116" column="21" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a9086be37dbc863e5c8500decd52f058e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref> &gt;</type>
+        <definition>IVar&lt; RobotPose &gt; com.kassowrobots.api.lang.RobotPose.getReference</definition>
+        <argsstring>()</argsstring>
+        <name>getReference</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.getReference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns reference variable.</para>
+<para><simplesect kind="return"><para>reference variable </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="126" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a5708e8a220f388dbd2d15c642b9ddd53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.lang.RobotPose.setReference</definition>
+        <argsstring>(@Nullable IVar&lt; RobotPose &gt; aReference)</argsstring>
+        <name>setReference</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.setReference</qualifiedname>
+        <param>
+          <type>@Nullable <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref> &gt;</type>
+          <declname>aReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets reference variable.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aReference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new reference variable </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="135" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="135" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a74b9d28c7e178d4ccd65a0dedf38cdff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.lang.RobotPose.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="141" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="141" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a8b871c628d6f4e192da688d74077951d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.kassowrobots.api.lang.RobotPose.equals</definition>
+        <argsstring>(@Nullable Object aObject)</argsstring>
+        <name>equals</name>
+        <qualifiedname>com.kassowrobots.api.lang.RobotPose.equals</qualifiedname>
+        <param>
+          <type>@Nullable Object</type>
+          <declname>aObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="151" column="20" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="151" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref> data type consists of <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position" kindref="compound">Position</ref>, <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation" kindref="compound">Rotation</ref>, Configuration and optional robot pose variable. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>com.kassowrobots.api.editor.var.IVar&lt; com.kassowrobots.api.lang.RobotPose &gt;</label>
+        <link refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar"/>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.lang.RobotPose</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_rotation</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_configuration</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_reference</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>com.kassowrobots.api.lang.JSVector</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector"/>
+      </node>
+      <node id="2">
+        <label>com.kassowrobots.api.lang.Position</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position"/>
+      </node>
+      <node id="3">
+        <label>com.kassowrobots.api.lang.Rotation</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" line="12" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/RobotPose.java" bodystart="12" bodyend="160"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a5854e7b776fcd7534ecbddd86023ce23" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>configuration</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a8b871c628d6f4e192da688d74077951d" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>equals</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a9086be37dbc863e5c8500decd52f058e" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>getReference</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a7ea8e9978d63e70969b1e48a77690758" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>m_configuration</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ae5ce11815ba7171b47bfd1fd30b1f4cc" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>m_position</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a67fe9392c52bd3c0251c3bdf112878e3" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>m_reference</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a0232147e9d74bc50a7dde54a354ad8b2" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>m_rotation</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a91e8d48eeff60b8229ec35e7faf66356" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>position</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ad13bff5cf47582fe8f4d605873297441" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>RobotPose</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1aef7e798a133137b9d04640cd6f6eddab" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>RobotPose</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1af63c35277dcab3b5e23bcd5e8bdfd765" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>RobotPose</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ac8834066a8f5e9a73dd3d5bd6aa9d7c1" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>RobotPose</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ab180b031fc5c9c96bb48e304a235d55e" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>RobotPose</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1afdd4a6ffa9dd2a6c83d5dfec03013eef" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>rotation</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a5708e8a220f388dbd2d15c642b9ddd53" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>setReference</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a74b9d28c7e178d4ccd65a0dedf38cdff" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::RobotPose</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

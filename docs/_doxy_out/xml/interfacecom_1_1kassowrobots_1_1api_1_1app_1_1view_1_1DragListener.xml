@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener" kind="interface" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::app::view::DragListener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener_1a778e8a6ab4eee9392990b580600a396c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.app.view.DragListener.onDragEvent</definition>
+        <argsstring>(@NonNull DragEvent aEvent)</argsstring>
+        <name>onDragEvent</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragListener.onDragEvent</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent" kindref="compound">DragEvent</ref></type>
+          <declname>aEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when a drag event is dispatched to a view. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aEvent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The event object for the drag event. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragListener.java" line="14" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface definition for a listener that&apos;s invoked when a drag event is dispatched to this view. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragListener.java" line="8" column="18" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragListener.java" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener_1a778e8a6ab4eee9392990b580600a396c" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragListener</scope><name>onDragEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

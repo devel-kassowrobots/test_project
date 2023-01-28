@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::editor::TeachingManager</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1af26469ae0b62403d9cb9ca816c36e515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.editor.TeachingManager.attach</definition>
+        <argsstring>(CustomTeachingHandler aHandler)</argsstring>
+        <name>attach</name>
+        <qualifiedname>com.kassowrobots.api.editor.TeachingManager.attach</qualifiedname>
+        <param>
+          <type><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" kindref="compound">CustomTeachingHandler</ref></type>
+          <declname>aHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attaches new custom teaching handler to this teaching manager. This teaching handler will be invoked on every teaching intent unless the handler is detached. If any custom teaching handler is already attached, this request is ignored.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aHandler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Custom teaching handler to be attached.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" kindref="compound">com.kassowrobots.api.editor.CustomTeachingHandler</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java" line="20" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1a9a8fd640b8fdef402ac5faae1044eadc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.editor.TeachingManager.detach</definition>
+        <argsstring>(CustomTeachingHandler aHandler)</argsstring>
+        <name>detach</name>
+        <qualifiedname>com.kassowrobots.api.editor.TeachingManager.detach</qualifiedname>
+        <param>
+          <type><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" kindref="compound">CustomTeachingHandler</ref></type>
+          <declname>aHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Detaches the custom teaching handler from this teaching manager, ie. this teaching handler will not be invoked on teaching intents anymore. If this custom teaching handler is not attached, this request is ignored.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aHandler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Custom teaching handler to be detached.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" kindref="compound">com.kassowrobots.api.editor.CustomTeachingHandler</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java" line="33" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1af5d512b4db27cf2981300e360d9bb07c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.editor.TeachingManager.TeachingManager</definition>
+        <argsstring>()</argsstring>
+        <name>TeachingManager</name>
+        <qualifiedname>com.kassowrobots.api.editor.TeachingManager.TeachingManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java" line="37" column="15" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows subscription of teaching events to override behaviour of default teaching intent handler. This class cannot be instantiated, instead its instance may be returned by <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" kindref="member">KRContext.getKRService(String)</ref></computeroutput> method. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java" line="9" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/TeachingManager.java" bodystart="9" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1af26469ae0b62403d9cb9ca816c36e515" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::TeachingManager</scope><name>attach</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1a9a8fd640b8fdef402ac5faae1044eadc" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::TeachingManager</scope><name>detach</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1af5d512b4db27cf2981300e360d9bb07c" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::editor::TeachingManager</scope><name>TeachingManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

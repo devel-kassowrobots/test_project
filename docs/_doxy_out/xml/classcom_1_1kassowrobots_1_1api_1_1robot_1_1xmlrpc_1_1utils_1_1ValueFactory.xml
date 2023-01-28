@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a319b8a12493180a657df7f7b27aa6b06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">Value</ref></type>
+        <definition>static Value com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.build</definition>
+        <argsstring>(@NonNull final Number aNumber)</argsstring>
+        <name>build</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.build</qualifiedname>
+        <param>
+          <type>@NonNull final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" kindref="compound">Number</ref></type>
+          <declname>aNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds the XML-RPC value (encoded in Base64) from Number data type. The format of the input value is internal, since it is intended to be used only between the tablet and the program API.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input data type</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>output XML-RPC value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" line="35" column="25" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a574002767fb24126e1330084516486e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">Value</ref></type>
+        <definition>static Value com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.build</definition>
+        <argsstring>(@NonNull final RobotPose aRobotPose)</argsstring>
+        <name>build</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.build</qualifiedname>
+        <param>
+          <type>@NonNull final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref></type>
+          <declname>aRobotPose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds the XML-RPC value (encoded in Base64) from RobotPose data type. The format of the input value is internal, since it is intended to be used only between the tablet and the program API.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aRobotPose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input data type</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>output XML-RPC value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" line="50" column="25" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a1d92d1f05081054be40c6759cb809045" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">Value</ref></type>
+        <definition>static Value com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.build</definition>
+        <argsstring>(@NonNull final Load aLoad)</argsstring>
+        <name>build</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.build</qualifiedname>
+        <param>
+          <type>@NonNull final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load" kindref="compound">Load</ref></type>
+          <declname>aLoad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds the XML-RPC value (encoded in Base64) from Load data type. The format of the input value is internal, since it is intended to be used only between the tablet and the program API.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aLoad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input data type</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>output XML-RPC value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" line="65" column="25" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" bodystart="65" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a74ca95751de7b19e13cb3629ae1d38d8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.doubleToString</definition>
+        <argsstring>(double aValue)</argsstring>
+        <name>doubleToString</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.doubleToString</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" line="71" column="27" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" bodystart="71" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a707db02995fd4ba4097092013b2e8de4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.numberToXml</definition>
+        <argsstring>(@NonNull final Number aNumber)</argsstring>
+        <name>numberToXml</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.numberToXml</qualifiedname>
+        <param>
+          <type>@NonNull final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" kindref="compound">Number</ref></type>
+          <declname>aNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" line="82" column="27" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a0110ad98e138eabe0f0dd596013ca214" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.robotPoseToXml</definition>
+        <argsstring>(@NonNull final RobotPose aRobotPose)</argsstring>
+        <name>robotPoseToXml</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.robotPoseToXml</qualifiedname>
+        <param>
+          <type>@NonNull final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref></type>
+          <declname>aRobotPose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" line="86" column="27" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" bodystart="86" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1adb1565ba922910072054629e0a416875" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.loadToXml</definition>
+        <argsstring>(@NonNull final Load aLoad)</argsstring>
+        <name>loadToXml</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.ValueFactory.loadToXml</qualifiedname>
+        <param>
+          <type>@NonNull final <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load" kindref="compound">Load</ref></type>
+          <declname>aLoad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" line="122" column="27" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" bodystart="122" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Builds XML-RPC values from KR data types. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" line="24" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/ValueFactory.java" bodystart="24" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a319b8a12493180a657df7f7b27aa6b06" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</scope><name>build</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a574002767fb24126e1330084516486e8" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</scope><name>build</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a1d92d1f05081054be40c6759cb809045" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</scope><name>build</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a74ca95751de7b19e13cb3629ae1d38d8" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</scope><name>doubleToString</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1adb1565ba922910072054629e0a416875" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</scope><name>loadToXml</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a707db02995fd4ba4097092013b2e8de4" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</scope><name>numberToXml</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a0110ad98e138eabe0f0dd596013ca214" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</scope><name>robotPoseToXml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

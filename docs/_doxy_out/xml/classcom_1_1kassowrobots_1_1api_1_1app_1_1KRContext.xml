@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::app::KRContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContextWrapper</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ac5f27905aad9890d3da050310f11005a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.kassowrobots.api.app.KRContext.TEACHING_MANAGER_SERVICE</definition>
+        <argsstring></argsstring>
+        <name>TEACHING_MANAGER_SERVICE</name>
+        <qualifiedname>com.kassowrobots.api.app.KRContext.TEACHING_MANAGER_SERVICE</qualifiedname>
+        <initializer>= &quot;teaching_manager&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use with <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" kindref="member">getKRService</ref></computeroutput> to retrieve a <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" kindref="compound">TeachingManager</ref></computeroutput> for subscribing teaching events which let you to override behaviour of default teaching handler. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" line="22" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1adcd26edb0b85558c6227baa2c2ac489f" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.kassowrobots.api.app.KRContext.SELECTION_MANAGER_SERVICE</definition>
+        <argsstring></argsstring>
+        <name>SELECTION_MANAGER_SERVICE</name>
+        <qualifiedname>com.kassowrobots.api.app.KRContext.SELECTION_MANAGER_SERVICE</qualifiedname>
+        <initializer>= &quot;selection_manager&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use with <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" kindref="member">getKRService</ref></computeroutput> to retrieve a <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager" kindref="compound">SelectionManager</ref></computeroutput> for controlling and monitoring selection of variables. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" line="29" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ad527c858c48335b2056c5515fc5f7410" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.kassowrobots.api.app.KRContext.DRAG_MANAGER_SERVICE</definition>
+        <argsstring></argsstring>
+        <name>DRAG_MANAGER_SERVICE</name>
+        <qualifiedname>com.kassowrobots.api.app.KRContext.DRAG_MANAGER_SERVICE</qualifiedname>
+        <initializer>= &quot;drag_manager&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use with <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" kindref="member">getKRService</ref></computeroutput> to retrieve a <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" kindref="compound">DragManager</ref></computeroutput> for subscribing drag events by views. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" line="36" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a2f8e812a98d5e214a1fcb28821374617" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.app.KRContext.KRContext</definition>
+        <argsstring>(Context aBaseContext)</argsstring>
+        <name>KRContext</name>
+        <qualifiedname>com.kassowrobots.api.app.KRContext.KRContext</qualifiedname>
+        <param>
+          <type>Context</type>
+          <declname>aBaseContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" line="38" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object com.kassowrobots.api.app.KRContext.getKRService</definition>
+        <argsstring>(String aName)</argsstring>
+        <name>getKRService</name>
+        <qualifiedname>com.kassowrobots.api.app.KRContext.getKRService</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>aName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the handle to a KR-level service by name. The class of the returned object varies by the requested name. Currently available names are:</para>
+<para><variablelist>
+<varlistentry><term><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ac5f27905aad9890d3da050310f11005a" kindref="member">TEACHING_MANAGER_SERVICE</ref> (&quot;teaching_manager&quot;) </term></varlistentry>
+<listitem><para>A <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" kindref="compound">TeachingManager</ref></computeroutput> for subscribing teaching events which let you to override behaviour of default teaching handler. </para>
+</listitem>
+<varlistentry><term><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1adcd26edb0b85558c6227baa2c2ac489f" kindref="member">SELECTION_MANAGER_SERVICE</ref> (&quot;selection_manager&quot;) </term></varlistentry>
+<listitem><para>A <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager" kindref="compound">SelectionManager</ref></computeroutput> for controlling and monitoring selection of variables. </para>
+</listitem>
+<varlistentry><term><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ad527c858c48335b2056c5515fc5f7410" kindref="member">DRAG_MANAGER_SERVICE</ref> (&quot;drag_manager&quot;) </term></varlistentry>
+<listitem><para>A <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" kindref="compound">DragManager</ref></computeroutput> for subscribing drag events by views. </para>
+</listitem>
+</variablelist>
+</para>
+<para>Note: KR services obtained via this API are available (non null) only if the CBun app is launched in the host (Boson) application.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the desired service.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The service or null if the service is not available</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ac5f27905aad9890d3da050310f11005a" kindref="member">TEACHING_MANAGER_SERVICE</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" kindref="compound">com.kassowrobots.api.editor.TeachingManager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1adcd26edb0b85558c6227baa2c2ac489f" kindref="member">SELECTION_MANAGER_SERVICE</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager" kindref="compound">com.kassowrobots.api.editor.SelectionManager</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ad527c858c48335b2056c5515fc5f7410" kindref="member">DRAG_MANAGER_SERVICE</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" kindref="compound">com.kassowrobots.api.app.view.DragManager</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" line="73" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface to global information about CBun app environment. It allows access to CBun app specific resources (such as strings, drawables, etc.) and classes as well as KR services. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContextWrapper</label>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.app.KRContext</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContextWrapper</label>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.app.KRContext</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" line="15" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/KRContext.java" bodystart="15" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ad527c858c48335b2056c5515fc5f7410" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::KRContext</scope><name>DRAG_MANAGER_SERVICE</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::KRContext</scope><name>getKRService</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a2f8e812a98d5e214a1fcb28821374617" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::KRContext</scope><name>KRContext</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1adcd26edb0b85558c6227baa2c2ac489f" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::KRContext</scope><name>SELECTION_MANAGER_SERVICE</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ac5f27905aad9890d3da050310f11005a" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::KRContext</scope><name>TEACHING_MANAGER_SERVICE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

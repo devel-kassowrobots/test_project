@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="ValueString_8java" kind="file" language="Java">
+    <compoundname>ValueString.java</compoundname>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString" prot="public">com::kassowrobots::api::robot::xmlrpc::values::ValueString</innerclass>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values">com::kassowrobots::api::robot::xmlrpc::values</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.kassowrobots.api.robot.xmlrpc.values;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString" kindref="compound">ValueString</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">Value</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>String<sp/>m_value;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString" kindref="compound">ValueString</ref>(String<sp/>aValue)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(<ref refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type" kindref="compound">Type</ref>.<ref refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1ad17d23880196f6373f2557c289fe3191" kindref="member">TYPE_STRING</ref>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_value<sp/>=<sp/>aValue;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString_1aaf35d50f9a7461eaae6e7c2290178d76" kindref="member">getString</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_value;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueString.java"/>
+  </compounddef>
+</doxygen>

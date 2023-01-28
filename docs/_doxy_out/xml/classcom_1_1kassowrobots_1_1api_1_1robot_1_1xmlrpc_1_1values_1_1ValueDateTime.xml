@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::robot::xmlrpc::values::ValueDateTime</compoundname>
+    <basecompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.Value</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1a71e2cd5c71fa7a059e757ce29d2d251b" prot="private" static="no" mutable="no">
+        <type>final LocalDateTime</type>
+        <definition>final LocalDateTime com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime.m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime.m_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueDateTime.java" line="10" column="33" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueDateTime.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1adce68b481bda86132bf84720340f828f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime.ValueDateTime</definition>
+        <argsstring>(LocalDateTime aValue)</argsstring>
+        <name>ValueDateTime</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime.ValueDateTime</qualifiedname>
+        <param>
+          <type>LocalDateTime</type>
+          <declname>aValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs XML-RPC value from the date-time value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Local date-time value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueDateTime.java" line="17" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueDateTime.java" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1a2775f7cf2be39af0af4190117bd92176" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LocalDateTime</type>
+        <definition>LocalDateTime com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime.getDateTime</definition>
+        <argsstring>()</argsstring>
+        <name>getDateTime</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime.getDateTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves date-time value from this XML-RPC value.</para>
+<para><simplesect kind="return"><para>Local date-time value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueDateTime.java" line="27" column="26" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueDateTime.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents XML-RPC date-time value. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.Value</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.Value</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueDateTime.java" line="8" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/ValueDateTime.java" bodystart="8" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1a2775f7cf2be39af0af4190117bd92176" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::values::ValueDateTime</scope><name>getDateTime</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1af5ed9ef42394ce89dd77c1e34f8c2340" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::values::ValueDateTime</scope><name>getType</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1a71e2cd5c71fa7a059e757ce29d2d251b" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::values::ValueDateTime</scope><name>m_value</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1ab673245d3f1dd23da817a949586a1f48" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::values::ValueDateTime</scope><name>Value</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1adce68b481bda86132bf84720340f828f" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::values::ValueDateTime</scope><name>ValueDateTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

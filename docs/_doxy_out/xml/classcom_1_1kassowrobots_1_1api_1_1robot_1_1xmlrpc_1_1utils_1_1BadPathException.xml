@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::robot::xmlrpc::utils::BadPathException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException_1aec3810c2317e1667a7126d122c16cfdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.robot.xmlrpc.utils.BadPathException.BadPathException</definition>
+        <argsstring>(String aMessage)</argsstring>
+        <name>BadPathException</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.BadPathException.BadPathException</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>aMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/BadPathException.java" line="9" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/BadPathException.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This exception is throw by <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref></computeroutput> and it signals that the attribute or value with the given path does not exist. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.robot.xmlrpc.utils.BadPathException</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.robot.xmlrpc.utils.BadPathException</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/BadPathException.java" line="7" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/BadPathException.java" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException_1aec3810c2317e1667a7126d122c16cfdb" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::BadPathException</scope><name>BadPathException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

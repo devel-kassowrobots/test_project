@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="DragListener_8java" kind="file" language="Java">
+    <compoundname>DragListener.java</compoundname>
+    <innerclass refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener" prot="public">com::kassowrobots::api::app::view::DragListener</innerclass>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1app_1_1view">com::kassowrobots::api::app::view</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.kassowrobots.api.app.view;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>androidx.annotation.NonNull;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener" kindref="compound">DragListener</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener_1a778e8a6ab4eee9392990b580600a396c" kindref="member">onDragEvent</ref>(@NonNull<sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent" kindref="compound">DragEvent</ref><sp/>aEvent);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view/DragListener.java"/>
+  </compounddef>
+</doxygen>
