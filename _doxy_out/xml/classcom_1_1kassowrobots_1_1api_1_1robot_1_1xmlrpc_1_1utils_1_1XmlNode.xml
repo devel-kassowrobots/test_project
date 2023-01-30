@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9c1a6e2fbae25bf608ccd8cf48e21804" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.m_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="24" column="26" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ae1e2e51d9261c94a04b43ef25a8e5aea" prot="private" static="no" mutable="no">
+        <type>final Map&lt; String, String &gt;</type>
+        <definition>final Map&lt;String, String&gt; com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.m_attributes</definition>
+        <argsstring></argsstring>
+        <name>m_attributes</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.m_attributes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="25" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9e77c8c23852503e90c29d7928e8025e" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.m_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="26" column="26" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ab7950ee80df3221643f0617fd9842d9c" prot="private" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref> &gt;</type>
+        <definition>final List&lt;XmlNode&gt; com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.m_children</definition>
+        <argsstring></argsstring>
+        <name>m_children</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.m_children</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="27" column="24" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1afc721e2280734579c35438b77230abe2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref></type>
+        <definition>static XmlNode com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.factory</definition>
+        <argsstring>(@NonNull String aXml)</argsstring>
+        <name>factory</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.factory</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aXml</declname>
+        </param>
+        <exceptions> throws <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlParseException" kindref="compound">XmlParseException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds the XML node from XML string. The output node represents the root element of the given XML. In case the input string does not conform to the XML format specification, this method will throw an exception.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aXml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String in XML format. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>XML root node. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlParseException" kindref="compound">XmlParseException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the XML string is not well formed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="39" column="27" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="39" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1aabd611a7af7209de35f1e8491634c7ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref></type>
+        <definition>static XmlNode com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.factory</definition>
+        <argsstring>(@NonNull XmlPullParser aParser)</argsstring>
+        <name>factory</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.factory</qualifiedname>
+        <param>
+          <type>@NonNull XmlPullParser</type>
+          <declname>aParser</declname>
+        </param>
+        <exceptions> throws <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlParseException" kindref="compound">XmlParseException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Builds the XML node from the an initialized XML parser. The output node represents the root element of the given XML. In case the input parser content does not conform to the XML format specification, this method will throw an exception.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aParser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initialized XML parser. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>XML root node. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlParseException" kindref="compound">XmlParseException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the XML string is not well formed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="61" column="27" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="61" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a3467557f44499461edfd1c5a50ec935d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.XmlNode</definition>
+        <argsstring>(@NonNull String aName, @NonNull Map&lt; String, String &gt; aAttributes, @NonNull String aValue)</argsstring>
+        <name>XmlNode</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.XmlNode</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aName</declname>
+        </param>
+        <param>
+          <type>@NonNull Map&lt; String, String &gt;</type>
+          <declname>aAttributes</declname>
+        </param>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="120" column="13" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="120" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a83a5ab3614e2bd1115ffbcc59d0b11e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.XmlNode</definition>
+        <argsstring>(@NonNull String aName, @NonNull Map&lt; String, String &gt; aAttributes, @NonNull List&lt; XmlNode &gt; aChildren)</argsstring>
+        <name>XmlNode</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.XmlNode</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aName</declname>
+        </param>
+        <param>
+          <type>@NonNull Map&lt; String, String &gt;</type>
+          <declname>aAttributes</declname>
+        </param>
+        <param>
+          <type>@NonNull List&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref> &gt;</type>
+          <declname>aChildren</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="127" column="13" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="127" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a855d774b81e2b9e42c944d52f8b762e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the name of this element.</para>
+<para><simplesect kind="return"><para>Name of the node. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="140" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="140" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a4bf7bcfce6389ba2e42dc1bd18746872" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the value of this element.</para>
+<para><simplesect kind="return"><para>Value of the node. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="150" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="150" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a1861e514c366e00930125895bda36df7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getAttribute</definition>
+        <argsstring>(@NonNull String aName)</argsstring>
+        <name>getAttribute</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getAttribute</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aName</declname>
+        </param>
+        <exceptions> throws <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kindref="compound">BadPathException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns attribute of this XML element for the given name.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the attribute to be obtained. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Attribute for given name. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kindref="compound">BadPathException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the attribute does not exist. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="162" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9b29e2d602e8973541eecc03737b4670" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getAttribute</definition>
+        <argsstring>(@NonNull String aName, @Nullable String aDefault)</argsstring>
+        <name>getAttribute</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getAttribute</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aName</declname>
+        </param>
+        <param>
+          <type>@Nullable String</type>
+          <declname>aDefault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns attribute of this XML element (node) for the given name. If such attribute does not exist, this method returns the given default value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the attribute to be obtained. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aDefault</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default attribute value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Attribute for given name or the default value, if such attribute does not exist. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="179" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="179" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9a1e3eea8569761973dcb99292add47b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getValue</definition>
+        <argsstring>(@NonNull String aPath)</argsstring>
+        <name>getValue</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getValue</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aPath</declname>
+        </param>
+        <exceptions> throws <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kindref="compound">BadPathException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns value for the given path.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path of the value to be obtained (such as pose.pos.x). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value for the given path. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kindref="compound">BadPathException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the value does not exist. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="194" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="194" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1af1f8682a124ab4b52621658d0745e0e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getValue</definition>
+        <argsstring>(@NonNull String aPath, @Nullable String aDefault)</argsstring>
+        <name>getValue</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getValue</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aPath</declname>
+        </param>
+        <param>
+          <type>@Nullable String</type>
+          <declname>aDefault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves value for the given path. If such value does not exist, this method returns the given default value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path of the value to be obtained (such as pose.pos.x). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aDefault</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value for the given path. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="221" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="221" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a73e3ae0436aea012ec4d6a1e56da05bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref></type>
+        <definition>XmlNode com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getChild</definition>
+        <argsstring>(@NonNull String aPath)</argsstring>
+        <name>getChild</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getChild</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aPath</declname>
+        </param>
+        <exceptions> throws <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kindref="compound">BadPathException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns child for the given path.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path of the child to be obtained (such as pose.pos). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Child (XML element) for the given path. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kindref="compound">BadPathException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the child does not exist. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="247" column="20" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="247" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1aa1885ab5c40073560ce901495c9a6d03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref></type>
+        <definition>XmlNode com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getChild</definition>
+        <argsstring>(@NonNull String aPath, @Nullable XmlNode aDefault)</argsstring>
+        <name>getChild</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getChild</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aPath</declname>
+        </param>
+        <param>
+          <type>@Nullable <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref></type>
+          <declname>aDefault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns child for the given path. If such child does not exist, this method returns the given default child.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path of the child to be obtained (such as pose.pos). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aDefault</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default child. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Child (XML element) for the given path. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="274" column="20" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="274" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a7a5e89b4738f739e85d6e2a3e30039dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kindref="compound">XmlNode</ref> &gt;</type>
+        <definition>List&lt; XmlNode &gt; com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getChildren</definition>
+        <argsstring>(@NonNull String aPath)</argsstring>
+        <name>getChildren</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.getChildren</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aPath</declname>
+        </param>
+        <exceptions> throws <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kindref="compound">BadPathException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the list of the children at the given path.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the element to be scanned for its children. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>List of children. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kindref="compound">BadPathException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the element to be scanned does not exist. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="300" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="300" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ae414342959acbd2a1529b0ec59edbe11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.utils.XmlNode.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="322" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="322" bodyend="343"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represents an interface for processing single XML element. It provides functions for retrieving the XML element&apos;s attributes and nested elements (in form of XMLNode), therefore it allows simple and intuitive processing of the XML format. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" line="22" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils/XmlNode.java" bodystart="22" bodyend="346"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1afc721e2280734579c35438b77230abe2" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>factory</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1aabd611a7af7209de35f1e8491634c7ae" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>factory</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a1861e514c366e00930125895bda36df7" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getAttribute</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9b29e2d602e8973541eecc03737b4670" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getAttribute</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a73e3ae0436aea012ec4d6a1e56da05bb" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getChild</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1aa1885ab5c40073560ce901495c9a6d03" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getChild</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a7a5e89b4738f739e85d6e2a3e30039dc" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getChildren</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a855d774b81e2b9e42c944d52f8b762e7" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getName</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a4bf7bcfce6389ba2e42dc1bd18746872" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getValue</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9a1e3eea8569761973dcb99292add47b" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getValue</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1af1f8682a124ab4b52621658d0745e0e0" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>getValue</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ae1e2e51d9261c94a04b43ef25a8e5aea" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>m_attributes</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ab7950ee80df3221643f0617fd9842d9c" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>m_children</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9c1a6e2fbae25bf608ccd8cf48e21804" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>m_name</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9e77c8c23852503e90c29d7928e8025e" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>m_value</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ae414342959acbd2a1529b0ec59edbe11" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>toString</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a3467557f44499461edfd1c5a50ec935d" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>XmlNode</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a83a5ab3614e2bd1115ffbcc59d0b11e3" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</scope><name>XmlNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::robot::xmlrpc::values::Value</compoundname>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueArray" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueArray</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBase64" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueBase64</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBool" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueBool</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDouble" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueDouble</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueI8" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueI8</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueInt" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueInt</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueNil" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueNil</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueString</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct" prot="public" virt="non-virtual">com.kassowrobots.api.robot.xmlrpc.values.ValueStruct</derivedcompoundref>
+    <innerclass refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type" prot="public">com::kassowrobots::api::robot::xmlrpc::values::Value::Type</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1a83c09942c0351492fa1f3bc64fe3ae8c" prot="private" static="no" mutable="no">
+        <type>final <ref refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type" kindref="compound">Type</ref></type>
+        <definition>final Type com.kassowrobots.api.robot.xmlrpc.values.Value.m_type</definition>
+        <argsstring></argsstring>
+        <name>m_type</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.values.Value.m_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/Value.java" line="88" column="24" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/Value.java" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1ab673245d3f1dd23da817a949586a1f48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.robot.xmlrpc.values.Value.Value</definition>
+        <argsstring>(Type aType)</argsstring>
+        <name>Value</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.values.Value.Value</qualifiedname>
+        <param>
+          <type><ref refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type" kindref="compound">Type</ref></type>
+          <declname>aType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/Value.java" line="90" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/Value.java" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1af5ed9ef42394ce89dd77c1e34f8c2340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type" kindref="compound">Type</ref></type>
+        <definition>Type com.kassowrobots.api.robot.xmlrpc.values.Value.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.values.Value.getType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the type of the value.</para>
+<para><simplesect kind="return"><para><ref refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type" kindref="compound">Type</ref> of the value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/Value.java" line="99" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/Value.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a general value in XML-RPC <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params" kindref="compound">Params</ref></computeroutput> and also the return value of XML-RPC request. This is the base class for the specific value implementations.</para>
+<para><simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1XmlRpcClient" kindref="compound">com.kassowrobots.api.robot.xmlrpc.XmlRpcClient</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params" kindref="compound">com.kassowrobots.api.robot.xmlrpc.Params</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.Value</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value"/>
+      </node>
+      <node id="2">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueArray</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueArray"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueBase64</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBase64"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueBool</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueDateTime</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueDouble</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDouble"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueI8</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueI8"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueInt</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueInt"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueNil</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueNil"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueString</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>com.kassowrobots.api.robot.xmlrpc.values.ValueStruct</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/Value.java" line="10" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values/Value.java" bodystart="10" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1af5ed9ef42394ce89dd77c1e34f8c2340" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::values::Value</scope><name>getType</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1a83c09942c0351492fa1f3bc64fe3ae8c" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::values::Value</scope><name>m_type</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1ab673245d3f1dd23da817a949586a1f48" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::values::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

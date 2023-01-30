@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Error" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::robot::xmlrpc::Error</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Error_1a9ab30fc3963d30665c35cde6b3269f7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.robot.xmlrpc.Error.Error</definition>
+        <argsstring>(String aDescription)</argsstring>
+        <name>Error</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.Error.Error</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>aDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Error.java" line="9" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Error.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Signals that a XML-RPC error has occurred during the XML-RPC request. This exception may be thrown by top (application) layer of XML-RPC stack, for example on invalid cast of XML-RPC values. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.robot.xmlrpc.Error</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.robot.xmlrpc.Error</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Error.java" line="7" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Error.java" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Error_1a9ab30fc3963d30665c35cde6b3269f7e" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::Error</scope><name>Error</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

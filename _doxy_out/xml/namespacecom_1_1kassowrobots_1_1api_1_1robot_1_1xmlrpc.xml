@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespacecom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc" kind="namespace" language="Java">
+    <compoundname>com::kassowrobots::api::robot::xmlrpc</compoundname>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Error" prot="public">com::kassowrobots::api::robot::xmlrpc::Error</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault" prot="public">com::kassowrobots::api::robot::xmlrpc::Fault</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params" prot="public">com::kassowrobots::api::robot::xmlrpc::Params</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1XmlRpcClient" prot="public">com::kassowrobots::api::robot::xmlrpc::XmlRpcClient</innerclass>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils">com::kassowrobots::api::robot::xmlrpc::utils</innernamespace>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values">com::kassowrobots::api::robot::xmlrpc::values</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Error.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

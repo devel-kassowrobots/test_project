@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Use Cases &mdash; Kassow Android Api  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Releases" href="../releases/releases.html" />
+    <link rel="prev" title="First CBun App" href="../first_cbun_app/first_cbun_app.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kassow Android Api
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../first_cbun_app/first_cbun_app.html">First CBun App</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Use Cases</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#standalone-app">Standalone App</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#device-dashboard">Device Dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#define-pose-tool">Define Pose Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../releases/releases.html">Releases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/api.html">API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/examples.html">Code Examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kassow Android Api</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Use Cases</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/use_cases/use_cases.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="use-cases">
+<h1>Use Cases<a class="headerlink" href="#use-cases" title="Permalink to this headline"></a></h1>
+<p>There are multiple ways how the CBun App can be integrated into the Teach Pendant host application, such as</p>
+<ul class="simple">
+<li><p>standalone app</p></li>
+<li><p>device dashboard</p></li>
+<li><p>define pose/tcp tool</p></li>
+</ul>
+<p>Each of these use cases is designed to satisfy some specific user intent.</p>
+<div class="section" id="standalone-app">
+<h2>Standalone App<a class="headerlink" href="#standalone-app" title="Permalink to this headline"></a></h2>
+<p>Standalone app is the basic and most open use case. Such CBun App does not have any constraints regarding its purpose. It can be a calculator, web browser, robot control app or a maintenance wizzard. It is listed in Workcell -&gt; CBun Apps section and the user can launch it by clicking its icon.</p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/01_standalone_app.jpg"><img alt="Standalone App" src="../_images/01_standalone_app.jpg" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">standalone app use case</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</div>
+<p>The standalone CBun app is specified via the proper <code class="docutils literal notranslate"><span class="pre">&lt;intent-filter&gt;</span></code> element that combines action <code class="docutils literal notranslate"><span class="pre">MAIN</span></code> together with the <code class="docutils literal notranslate"><span class="pre">LAUNCHER</span></code> category. This ensures that the CBun app will be listed in the CBun Apps section of the Workcell.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?document type=&quot;cbunxml&quot; version=&quot;1.0&quot; ?&gt;</span>
+<span class="nt">&lt;bundle</span> <span class="na">name=</span><span class="s">&quot;CalculatorCBun&quot;</span> <span class="na">version=</span><span class="s">&quot;1.0.3&quot;</span> <span class="na">path=</span><span class="s">&quot;&quot;</span> <span class="na">type=</span><span class="s">&quot;custom&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label&gt;</span>Calculator CBun<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;author&gt;</span>Kassow Robots<span class="nt">&lt;/author&gt;</span>
+    <span class="nt">&lt;description&gt;</span>Calculator example CBun implemented in Kotlin using Jetpack Compose.<span class="nt">&lt;/description&gt;</span>
+    <span class="nt">&lt;application</span>
+        <span class="na">package=</span><span class="s">&quot;com.kassowrobots.calculator&quot;</span>
+        <span class="na">label=</span><span class="s">&quot;Calculator&quot;</span>
+        <span class="na">icon=</span><span class="s">&quot;ic_calc.png&quot;</span>
+        <span class="na">apk=</span><span class="s">&quot;/calc.apk&quot;</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;fragment</span>
+          <span class="na">name=</span><span class="s">&quot;.CalcFragment&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;intent-filter&gt;</span>
+            <span class="nt">&lt;action</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.action.MAIN&quot;</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;category</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.category.LAUNCHER&quot;</span><span class="nt">/&gt;</span>
+          <span class="nt">&lt;/intent-filter&gt;</span>
+       <span class="nt">&lt;/fragment&gt;</span>
+    <span class="nt">&lt;/application&gt;</span>
+<span class="nt">&lt;/bundle&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="device-dashboard">
+<h2>Device Dashboard<a class="headerlink" href="#device-dashboard" title="Permalink to this headline"></a></h2>
+<p>Device dashboard app is related to some specific custom device. It allows the developers to extend the automatically generated custom device UI with their own CBun App UI. It can be utilised for plotting the sensor data, controlling the gripper, configuration of some vision system and much more. The device dashboard app can be launched by clicking the custom device dashboard icon.</p>
+<div class="figure align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/02_device_dashboard.jpg"><img alt="Device Dashboard" src="../_images/02_device_dashboard.jpg" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">device dashboard use case</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+</div>
+<p>The dashboard CBun app can be developed the same way like the standalone CBun App. The difference lies in the description of the application via bundle.xml. There is no need to specify the intent-filter for the dashboard app, since it will be launched explicitly. Instead, the fully qualified fragment <code class="docutils literal notranslate"><span class="pre">class</span></code> attribute has to be specified within the custom device <code class="docutils literal notranslate"><span class="pre">&lt;dashboard&gt;</span></code> element.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;bundle</span> <span class="na">name=</span><span class="s">&quot;VirtualDevices&quot;</span> <span class="na">version=</span><span class="s">&quot;1.0.0&quot;</span> <span class="na">path=</span><span class="s">&quot;libcbun_virtual_devices&quot;</span><span class="nt">&gt;</span>
+    ...
+    <span class="nt">&lt;class</span> <span class="na">name=</span><span class="s">&quot;kswx_virtual_devices::Gripper&quot;</span>
+        <span class="na">base=</span><span class="s">&quot;kr2_bundle_api::CustomDevice&quot;</span>
+        <span class="na">instance_prefix=</span><span class="s">&quot;GRIPPER&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;dashboard</span> <span class="na">class=</span><span class="s">&quot;com.kassowrobots.virtualdevices.Gripper&quot;</span><span class="nt">/&gt;</span>
+        ...
+    <span class="nt">&lt;/class&gt;</span>
+    <span class="nt">&lt;application</span>
+        <span class="na">package=</span><span class="s">&quot;com.kassowrobots.virtualdevices&quot;</span>
+        <span class="na">apk=</span><span class="s">&quot;/virtual_devices.apk&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;fragment</span>
+            <span class="na">name=</span><span class="s">&quot;.Gripper&quot;</span>
+            <span class="na">label=</span><span class="s">&quot;Gripper Dashboard&quot;</span>
+            <span class="na">icon=</span><span class="s">&quot;ic_gripper.png&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/fragment&gt;</span>
+    <span class="nt">&lt;/application&gt;</span>
+<span class="nt">&lt;/bundle&gt;</span>
+</pre></div>
+</div>
+<p>Dashboard fragment is always launched with the unique device name argument. This argument identifies the specific device instance that was used to launch the dashboard. Such information can be utilised to the proper addressing of C++ backend via XML-RPC (for example when 2 grippers are attached to the robot). The device name can be obtained within the KRFragment class by calling the following code:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">String</span> <span class="n">deviceName</span> <span class="o">=</span> <span class="n">requireArguments</span><span class="p">().</span><span class="na">getString</span><span class="p">(</span><span class="n">KRFragment</span><span class="p">.</span><span class="na">ARG_DEVICE_NAME</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="define-pose-tool">
+<h2>Define Pose Tool<a class="headerlink" href="#define-pose-tool" title="Permalink to this headline"></a></h2>
+<p>Define pose tools allow the user to set robot pose coordinates in various ways, from the simplest ones (such as using current coordinates of the TCP frame) to more sophisticated ones (such as frame calculation from OXYZ). The define pose tools are accessible within the robot pose options panel.</p>
+<div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/03_define_pose.jpg"><img alt="Define Pose Tool" src="../_images/03_define_pose.jpg" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">define pose tool use case</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+</div>
+<p>The dashboard CBun app can be developed the same way like the standalone CBun App. The difference lies in the description of the application via bundle.xml. The define pose tool intent-filter has to specify <code class="docutils literal notranslate"><span class="pre">DEFINE_POSE</span></code> and/or <code class="docutils literal notranslate"><span class="pre">DEFINE_TCP</span></code> action.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;bundle</span> <span class="na">name=</span><span class="s">&quot;DefinePoseTools&quot;</span> <span class="na">version=</span><span class="s">&quot;1.0.0&quot;</span> <span class="na">path=</span><span class="s">&quot;libcbun_define_pose_tools&quot;</span><span class="nt">&gt;</span>
+    ...
+    <span class="nt">&lt;application</span>
+        <span class="na">package=</span><span class="s">&quot;com.kassowrobots.definepose&quot;</span>
+        <span class="na">label=</span><span class="s">&quot;Define Pose&quot;</span>
+        <span class="na">apk=</span><span class="s">&quot;/nitro_tools.apk&quot;</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;fragment</span>
+          <span class="na">name=</span><span class="s">&quot;.fromtcp.view.DefinePoseFragment&quot;</span>
+          <span class="na">debuggable=</span><span class="s">&quot;true&quot;</span>
+          <span class="na">label=</span><span class="s">&quot;Define Pose from TCP&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;intent-filter&gt;</span>
+             <span class="nt">&lt;action</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.action.DEFINE_POSE&quot;</span><span class="nt">/&gt;</span>
+          <span class="nt">&lt;/intent-filter&gt;</span>
+       <span class="nt">&lt;/fragment&gt;</span>
+    <span class="nt">&lt;/application&gt;</span>
+<span class="nt">&lt;/bundle&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../first_cbun_app/first_cbun_app.html" class="btn btn-neutral float-left" title="First CBun App" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../releases/releases.html" class="btn btn-neutral float-right" title="Releases" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Kassow Robots.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

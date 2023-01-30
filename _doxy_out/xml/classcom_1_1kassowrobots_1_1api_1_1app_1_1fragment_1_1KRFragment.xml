@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::app::fragment::KRFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a35690ff54c9b54460c1937adfa6099dc" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.kassowrobots.api.app.fragment.KRFragment.ARG_DEVICE_NAME</definition>
+        <argsstring></argsstring>
+        <name>ARG_DEVICE_NAME</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.ARG_DEVICE_NAME</qualifiedname>
+        <initializer>= &quot;device_name&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Argument key for CBun device name. Allows to determine the device, that launched the fragment. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="26" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a3c19555d2a1487ba1af4412a4a2551de" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContextProvider" kindref="compound">KRContextProvider</ref></type>
+        <definition>KRContextProvider com.kassowrobots.api.app.fragment.KRFragment.m_contextProvider</definition>
+        <argsstring></argsstring>
+        <name>m_contextProvider</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.m_contextProvider</qualifiedname>
+        <initializer>= new <ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContextProvider" kindref="compound">KRContextProvider</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="29" column="31" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ac2adace0e2fde3f01989f48ac3df76fd" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext" kindref="compound">KRContext</ref></type>
+        <definition>KRContext com.kassowrobots.api.app.fragment.KRFragment.m_context</definition>
+        <argsstring></argsstring>
+        <name>m_context</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.m_context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="32" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a851aaf9df2aa8b20a60628697f963194" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.app.fragment.KRFragment.setContextProvider</definition>
+        <argsstring>(@NonNull KRContextProvider aContextProvider)</argsstring>
+        <name>setContextProvider</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.setContextProvider</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContextProvider" kindref="compound">KRContextProvider</ref></type>
+          <declname>aContextProvider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="34" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1afb85b09e51b5128c5ca5856894180810" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.app.fragment.KRFragment.onAttach</definition>
+        <argsstring>(@NonNull Context aContext)</argsstring>
+        <name>onAttach</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.onAttach</qualifiedname>
+        <param>
+          <type>@NonNull Context</type>
+          <declname>aContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="39" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a47424d8c953a3f675fc29baeba666a73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.app.fragment.KRFragment.onDetach</definition>
+        <argsstring>()</argsstring>
+        <name>onDetach</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.onDetach</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="45" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a6ea46005949f04ca789d3b7cbdb2eb33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Context</type>
+        <definition>Context com.kassowrobots.api.app.fragment.KRFragment.getContext</definition>
+        <argsstring>()</argsstring>
+        <name>getContext</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.getContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="52" column="20" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ace2144336767dd4b165068a288f3ad2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext" kindref="compound">KRContext</ref></type>
+        <definition>KRContext com.kassowrobots.api.app.fragment.KRFragment.getKRContext</definition>
+        <argsstring>()</argsstring>
+        <name>getKRContext</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.getKRContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext" kindref="compound">KRContext</ref></computeroutput> this fragment is currently associated with. Note that if the fragment is not attached to the screen, this method will return null. <simplesect kind="return"><para>Current fragment&apos;s context casted to <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext" kindref="compound">KRContext</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="62" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ab50dd292c136e3558ebc85573c196ecc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LayoutInflater</type>
+        <definition>LayoutInflater com.kassowrobots.api.app.fragment.KRFragment.onGetLayoutInflater</definition>
+        <argsstring>(@Nullable Bundle savedInstanceState)</argsstring>
+        <name>onGetLayoutInflater</name>
+        <qualifiedname>com.kassowrobots.api.app.fragment.KRFragment.onGetLayoutInflater</qualifiedname>
+        <param>
+          <type>@Nullable Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="68" column="27" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment" kindref="compound">KRFragment</ref> represents user interface (UI) of the CBun App, therefore each <ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment" kindref="compound">KRFragment</ref> has to: <orderedlist>
+<listitem>
+<para>define the UI layout </para>
+</listitem>
+<listitem>
+<para>handle user inputs </para>
+</listitem>
+</orderedlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Fragment</label>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.app.fragment.KRFragment</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Fragment</label>
+      </node>
+      <node id="1">
+        <label>com.kassowrobots.api.app.fragment.KRFragment</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" line="21" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment/KRFragment.java" bodystart="21" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a35690ff54c9b54460c1937adfa6099dc" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>ARG_DEVICE_NAME</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a6ea46005949f04ca789d3b7cbdb2eb33" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>getContext</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ace2144336767dd4b165068a288f3ad2c" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>getKRContext</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ac2adace0e2fde3f01989f48ac3df76fd" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>m_context</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a3c19555d2a1487ba1af4412a4a2551de" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>m_contextProvider</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1afb85b09e51b5128c5ca5856894180810" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>onAttach</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a47424d8c953a3f675fc29baeba666a73" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>onDetach</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ab50dd292c136e3558ebc85573c196ecc" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>onGetLayoutInflater</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a851aaf9df2aa8b20a60628697f963194" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::fragment::KRFragment</scope><name>setContextProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

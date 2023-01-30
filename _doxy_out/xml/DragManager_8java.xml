@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="DragManager_8java" kind="file" language="Java">
+    <compoundname>DragManager.java</compoundname>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" prot="public">com::kassowrobots::api::app::view::DragManager</innerclass>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1app_1_1view">com::kassowrobots::api::app::view</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.kassowrobots.api.app.view;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>android.view.View;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>androidx.annotation.NonNull;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" kindref="compound">DragManager</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1a5986245cbe99b6ee862380e3a0eb9a63" kindref="member">addDropView</ref>(@NonNull<sp/>View<sp/>aView,<sp/>@NonNull<sp/><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener" kindref="compound">DragListener</ref><sp/>aDragListener)<sp/>{}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1a1f7fee722feacf142c90a5efff416cc8" kindref="member">removeDropView</ref>(@NonNull<sp/>View<sp/>aView)<sp/>{}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1aff45eeeece4e07996355a6f077530bcd" kindref="member">DragManager</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java"/>
+  </compounddef>
+</doxygen>

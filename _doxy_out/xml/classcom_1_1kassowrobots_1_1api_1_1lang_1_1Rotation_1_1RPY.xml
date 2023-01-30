@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::lang::Rotation::RPY</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ad22dd29bac982750f4a2591c2dffbc76" prot="protected" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double com.kassowrobots.api.lang.Rotation.RPY.m_r</definition>
+        <argsstring></argsstring>
+        <name>m_r</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.m_r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="290" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1acb8df4ab93b74ca90693fe0964a5fcda" prot="protected" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double com.kassowrobots.api.lang.Rotation.RPY.m_p</definition>
+        <argsstring></argsstring>
+        <name>m_p</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.m_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="293" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a07235960126690ebc6df117cab489256" prot="protected" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double com.kassowrobots.api.lang.Rotation.RPY.m_y</definition>
+        <argsstring></argsstring>
+        <name>m_y</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.m_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="296" column="32" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a3cc40531fcf9137956037562d7846f37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.lang.Rotation.RPY.RPY</definition>
+        <argsstring>(double aR, double aP, double aY)</argsstring>
+        <name>RPY</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.RPY</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>aR</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aP</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs RPY data with given coordinates.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aR</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>roll [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pitch [radians] </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>yaw [radians] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="305" column="16" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="305" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1af14b3585dffd23eb77b2dcf9e836a44a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.Rotation.RPY.getR</definition>
+        <argsstring>()</argsstring>
+        <name>getR</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.getR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns roll.</para>
+<para><simplesect kind="return"><para>roll [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="316" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="316" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a951da2d64d711b631646c45ec45af932" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.Rotation.RPY.getP</definition>
+        <argsstring>()</argsstring>
+        <name>getP</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.getP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns pitch.</para>
+<para><simplesect kind="return"><para>pitch [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="325" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="325" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ab11cc3f637d4a5812032bcac5760ca40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.kassowrobots.api.lang.Rotation.RPY.getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.getY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns yaw.</para>
+<para><simplesect kind="return"><para>yaw [radians] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="334" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="334" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ab8b5376a98a8ab898aaa028232b64607" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.lang.Rotation.RPY.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="340" column="23" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="340" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a9572439d6f4c3ce8d302cc6f12ac1528" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.kassowrobots.api.lang.Rotation.RPY.equals</definition>
+        <argsstring>(@Nullable Object aObject)</argsstring>
+        <name>equals</name>
+        <qualifiedname>com.kassowrobots.api.lang.Rotation.RPY.equals</qualifiedname>
+        <param>
+          <type>@Nullable Object</type>
+          <declname>aObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="345" column="24" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="345" bodyend="350"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>RPY data class. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" line="287" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Rotation.java" bodystart="287" bodyend="351"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a9572439d6f4c3ce8d302cc6f12ac1528" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>equals</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a951da2d64d711b631646c45ec45af932" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>getP</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1af14b3585dffd23eb77b2dcf9e836a44a" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>getR</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ab11cc3f637d4a5812032bcac5760ca40" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>getY</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1acb8df4ab93b74ca90693fe0964a5fcda" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>m_p</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ad22dd29bac982750f4a2591c2dffbc76" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>m_r</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a07235960126690ebc6df117cab489256" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>m_y</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a3cc40531fcf9137956037562d7846f37" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>RPY</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ab8b5376a98a8ab898aaa028232b64607" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::lang::Rotation::RPY</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespacecom_1_1kassowrobots_1_1api_1_1lang" kind="namespace" language="Java">
+    <compoundname>com::kassowrobots::api::lang</compoundname>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame" prot="public">com::kassowrobots::api::lang::Frame</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix" prot="public">com::kassowrobots::api::lang::InertiaMatrix</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector" prot="public">com::kassowrobots::api::lang::JSVector</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load" prot="public">com::kassowrobots::api::lang::Load</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" prot="public">com::kassowrobots::api::lang::Number</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position" prot="public">com::kassowrobots::api::lang::Position</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" prot="public">com::kassowrobots::api::lang::RobotPose</innerclass>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation" prot="public">com::kassowrobots::api::lang::Rotation</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Frame.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

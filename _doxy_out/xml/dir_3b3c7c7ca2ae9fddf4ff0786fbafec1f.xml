@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_3b3c7c7ca2ae9fddf4ff0786fbafec1f" kind="dir">
+    <compoundname>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var</compoundname>
+    <innerfile refid="IVar_8java">IVar.java</innerfile>
+    <innerfile refid="Var_8java">Var.java</innerfile>
+    <innerfile refid="VarRegister_8java">VarRegister.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/"/>
+  </compounddef>
+</doxygen>

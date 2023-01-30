@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First CBun App &mdash; Kassow Android Api  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Use Cases" href="../use_cases/use_cases.html" />
+    <link rel="prev" title="Introduction" href="../introduction/introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kassow Android Api
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">First CBun App</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#prerequisities">Prerequisities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-new-project">Create New Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configure-project-structure">Configure Project Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#add-krfragment">Add KRFragment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#run-cbun-in-emulator">Run CBun in Emulator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#define-bundle-xml">Define bundle.xml</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#assemble-cbun">Assemble CBun</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#run-cbun-on-real-robot">Run CBun on Real Robot</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../use_cases/use_cases.html">Use Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releases/releases.html">Releases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/api.html">API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/examples.html">Code Examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kassow Android Api</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>First CBun App</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/first_cbun_app/first_cbun_app.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="first-cbun-app">
+<h1>First CBun App<a class="headerlink" href="#first-cbun-app" title="Permalink to this headline"></a></h1>
+<p>This document teach you how to build your very first CBun App. Make sure that you already read <a class="reference external" href="../introduction/introduction.html">Introduction</a> and therefore you are familiar with the basic concepts of the CBun App development. Whatever you learn at <a class="reference external" href="https://developer.android.com">developer.android.com</a> can be also applied for the CBun Apps.</p>
+<p>The CBun App development process is very similar to the development of any other Android application, except the following additional requirements for the CBun App:</p>
+<ul class="simple">
+<li><p>The KR Android API library has to be listed in CBun App dependencies.</p></li>
+<li><p>There has to be at least one entry-point in form of KRFragment in CBun App.</p></li>
+<li><p>CBun App description needs to be provided via bundle.xml file.</p></li>
+<li><p>Generated APK and bundle.xml are packed into a cbun file.</p></li>
+</ul>
+<div class="section" id="prerequisities">
+<h2>Prerequisities<a class="headerlink" href="#prerequisities" title="Permalink to this headline"></a></h2>
+<p>First of all, you need some IDE (integrated development environment). Android Studio is the official and recommended IDE for the development of CBun Apps. It can be installed on Windows, macOS and Linux based operating systems. You can download it for free at this <a class="reference external" href="https://developer.android.com/studio">link</a> and install it at your PC or laptop.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We use Android Studio Dolphin|2021.3.1 Patch 1 for the purposes of this tutorial. It is recommended to use the latest version of Android Studio, just beware that the UI may differ.</p>
+</div>
+<p>You will also need to download the latest version of the KR Android API library: <a class="reference download internal" download="" href="../_downloads/0ebbd35f785ab3c18e36f4b63b03930b/api-external-v0-0-1.aar"><code class="xref download docutils literal notranslate"><span class="pre">api-external.aar</span></code></a></p>
+<p>Although you can test the basic functionality of your CBun App in Android emulator (available via Android Studio) or on any Android 10 device (ideally with 10” Full HD screen), eventually you will need the real robot to test the CBun App in the production environment.</p>
+</div>
+<div class="section" id="create-new-project">
+<h2>Create New Project<a class="headerlink" href="#create-new-project" title="Permalink to this headline"></a></h2>
+<p>Android Studio starts with the following welcome screen. Click <strong>New Project</strong> button to create your new Android studio project.</p>
+<a class="reference internal image-reference" href="../_images/welcome_screen.png"><img alt="Welcome Screen" class="align-center" src="../_images/welcome_screen.png" style="width: 550px;" /></a>
+<p>Although the final CBun App does not require any activity, you will need one for standalone UI test. Select the <em>Empty Activity</em> template and click the <strong>Next</strong> button.</p>
+<a class="reference internal image-reference" href="../_images/activity_config.png"><img alt="Activity Configuration" class="align-center" src="../_images/activity_config.png" style="width: 600px;" /></a>
+<p>Fill in the name of your project, the package name (in form of &lt;domain&gt;.&lt;project_name&gt;) and select the language (this tutorial uses Kotlin). Choose API 28: Android 9.0 (Pie) as a minimum SDK in order to support all generations of our robots. Finally click the <strong>Finish</strong> button.</p>
+<a class="reference internal image-reference" href="../_images/project_config.png"><img alt="Activity Configuration" class="align-center" src="../_images/project_config.png" style="width: 600px;" /></a>
+</div>
+<div class="section" id="configure-project-structure">
+<h2>Configure Project Structure<a class="headerlink" href="#configure-project-structure" title="Permalink to this headline"></a></h2>
+<p>Once the new project is created, you need to configure the gradle build tool and define project’s dependencies, ie. the libraries that are used to build the CBun App. This step also describes how to add Jetpack Compose support to your project. All of that can me managed either via <strong>File</strong> -&gt; <strong>Project Structure</strong> wizzard or by direct modification of appropriate build.gradle files. This tutorial demonstrates both ways.</p>
+<p>To ensure the full compatibility with the Teach Pendant host app, the Gradle and Gradle Plugin versions of your CBun App project have to match the target robot SW version (see the <a class="reference external" href="../releases/releases.html">Releases</a>). Configure the gradle via the <strong>Project</strong> tab in the <strong>Project Structure</strong> wizzard. Once the gradle is configured, click the <strong>Apply</strong> button followed by the <strong>OK</strong> button.</p>
+<a class="reference internal image-reference" href="../_images/gradle_config.png"><img alt="Gradle Config" class="align-center" src="../_images/gradle_config.png" style="width: 600px;" /></a>
+<p>Now add the downloaded KR Android API library to your project by placing the api-external.aar file into the <strong>libs</strong> folder inside the <strong>app</strong> module directory.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>MyCBunApp
+├── app
+│   ├── libs
+│   │   └── api-external.aar
+│   └── ...
+├── build.gradle
+├── gradle
+│   └── ...
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── local.properties
+└── settings.gradle
+</pre></div>
+</div>
+<p>Next tell your Android project to use this dependency. In order to add new dependencies, open the app module build.gradle file.</p>
+<a class="reference internal image-reference" href="../_images/app_build_gradle.png"><img alt="App Module build.gradle" class="align-center" src="../_images/app_build_gradle.png" style="width: 700px;" /></a>
+<p>Add <code class="docutils literal notranslate"><span class="pre">api</span> <span class="pre">files('libs/api-external.aar')</span></code> entry into the <strong>dependencies</strong> section. Also add the following Jetpack Compose dependencies.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">implementation &#39;androidx.compose.ui:ui:1.3.1&#39;</span>
+<span class="l l-Scalar l-Scalar-Plain">implementation &#39;androidx.compose.material:material:1.3.1&#39;</span>
+</pre></div>
+</div>
+<p>In order to support Jetpack Compose, you need to mark its usage and define the Kotlin compiler version. Add the following code to the <strong>android</strong> section in your app module build.gradle.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">buildFeatures {</span>
+    <span class="l l-Scalar l-Scalar-Plain">compose true</span>
+<span class="l l-Scalar l-Scalar-Plain">}</span>
+<span class="l l-Scalar l-Scalar-Plain">composeOptions {</span>
+    <span class="l l-Scalar l-Scalar-Plain">kotlinCompilerExtensionVersion &#39;1.3.1&#39;</span>
+    <span class="l l-Scalar l-Scalar-Plain">kotlinCompilerVersion &#39;1.5.21&#39;</span>
+<span class="l l-Scalar l-Scalar-Plain">}</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/dependencies_added.png"><img alt="App Module build.gradle" class="align-center" src="../_images/dependencies_added.png" style="width: 700px;" /></a>
+<p>You might also need to adjust the Kotlin gradle plugin version in project build.gradle.</p>
+<a class="reference internal image-reference" href="../_images/project_build_gradle.png"><img alt="App Module build.gradle" class="align-center" src="../_images/project_build_gradle.png" style="width: 700px;" /></a>
+<p>Finally click the <strong>Sync Now</strong> button to apply all modifications.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure that dependencies, Kotlin compiler and Kotlin gradle plugin are compatible with the target robot SW version (see the <a class="reference external" href="../releases/releases.html">Releases</a>).</p>
+</div>
+</div>
+<div class="section" id="add-krfragment">
+<h2>Add KRFragment<a class="headerlink" href="#add-krfragment" title="Permalink to this headline"></a></h2>
+<p>Once the project is configured, add your first KRFragment entry-point. To add new class to your project, right-click the class target package (in your case <cite>com.example.mycbunapp</cite>) and select <strong>New</strong> followed by <strong>Kotlin Class/File</strong> from the popup menu.</p>
+<a class="reference internal image-reference" href="../_images/add_kotlin_class.png"><img alt="Add Kotlin Class" class="align-center" src="../_images/add_kotlin_class.png" style="width: 700px;" /></a>
+<p>Enter <cite>MyFragment</cite> as a class name and press Enter.</p>
+<a class="reference internal image-reference" href="../_images/new_kotlin_class.png"><img alt="New Kotlin Class" class="align-center" src="../_images/new_kotlin_class.png" style="width: 700px;" /></a>
+<p>Once the MyFragment.kt class is created, you need to modify its content. First of all, this class has to extend the KRFragment base class. Next you need to implement the <code class="docutils literal notranslate"><span class="pre">onCreateView</span></code> method to provide your own UI. This method has to return a view, that will be rendered on the screen. In this tutorial, you will use Jetpack Compose, therefore the method has to return <code class="docutils literal notranslate"><span class="pre">ComposeView</span></code>. Finally set the content of the view to <code class="docutils literal notranslate"><span class="pre">Text</span></code> composable with “Hello World!” message.</p>
+<div class="highlight-kotlin notranslate"><div class="highlight"><pre><span></span><span class="k">package</span> <span class="nn">com.example.mycbunapp</span>
+
+<span class="k">import</span> <span class="nn">android.os.Bundle</span>
+<span class="k">import</span> <span class="nn">android.view.LayoutInflater</span>
+<span class="k">import</span> <span class="nn">android.view.View</span>
+<span class="k">import</span> <span class="nn">android.view.ViewGroup</span>
+<span class="k">import</span> <span class="nn">androidx.compose.material.Text</span>
+<span class="k">import</span> <span class="nn">androidx.compose.ui.graphics.Color</span>
+<span class="k">import</span> <span class="nn">androidx.compose.ui.platform.ComposeView</span>
+<span class="k">import</span> <span class="nn">androidx.compose.ui.unit.sp</span>
+<span class="k">import</span> <span class="nn">com.kassowrobots.api.app.fragment.KRFragment</span>
+
+<span class="kd">class</span> <span class="nc">MyFragment</span> <span class="p">:</span> <span class="n">KRFragment</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="kd">override</span> <span class="kd">fun</span> <span class="nf">onCreateView</span><span class="p">(</span>
+        <span class="n">inflater</span><span class="p">:</span> <span class="n">LayoutInflater</span><span class="p">,</span> <span class="n">container</span><span class="p">:</span> <span class="n">ViewGroup?,</span>
+        <span class="n">savedInstanceState</span><span class="p">:</span> <span class="n">Bundle?</span>
+    <span class="p">):</span> <span class="n">View</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">ComposeView</span><span class="p">(</span><span class="n">requireContext</span><span class="p">()).</span><span class="na">apply</span> <span class="p">{</span>
+            <span class="n">setContent</span> <span class="p">{</span>
+                <span class="n">Text</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">,</span>
+                    <span class="n">color</span> <span class="o">=</span> <span class="n">Color</span><span class="p">.</span><span class="na">Blue</span><span class="p">,</span>
+                    <span class="n">fontSize</span> <span class="o">=</span> <span class="m">30.</span><span class="n">sp</span>
+                <span class="p">)</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="run-cbun-in-emulator">
+<h2>Run CBun in Emulator<a class="headerlink" href="#run-cbun-in-emulator" title="Permalink to this headline"></a></h2>
+<p>Although this code could be already packed into CBun and installed on the real robot, it would not be able to test it as a standalone Android application. The reason is, that there is no activity (ie. the entry-point of the standalone Android application) that would attach your fragment to the screen. Therefore you need to modify the layout of your empty activity (activity_main.xml). A fragment needs some container to be placed into. In this tutorial, you will use the <code class="docutils literal notranslate"><span class="pre">FrameLayout</span></code> container. Set the container width and height to <code class="docutils literal notranslate"><span class="pre">match_parent</span></code> and do not forget to assign an ID.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="nt">&lt;FrameLayout</span> <span class="na">xmlns:android=</span><span class="s">&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="na">android:id=</span><span class="s">&quot;@+id/container&quot;</span>
+    <span class="na">android:layout_width=</span><span class="s">&quot;match_parent&quot;</span>
+    <span class="na">android:layout_height=</span><span class="s">&quot;match_parent&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+<p>Now modify the MainActivity.kt class to add a new instance of <code class="docutils literal notranslate"><span class="pre">MyFragment</span></code> to the container in <code class="docutils literal notranslate"><span class="pre">onCreate</span></code> method (ie. once the activity is created).</p>
+<div class="highlight-kotlin notranslate"><div class="highlight"><pre><span></span><span class="k">package</span> <span class="nn">com.example.mycbunapp</span>
+
+<span class="k">import</span> <span class="nn">android.os.Bundle</span>
+<span class="k">import</span> <span class="nn">android.view.View</span>
+<span class="k">import</span> <span class="nn">android.view.Window</span>
+<span class="k">import</span> <span class="nn">androidx.appcompat.app.AppCompatActivity</span>
+
+
+<span class="kd">class</span> <span class="nc">MainActivity</span> <span class="p">:</span> <span class="n">AppCompatActivity</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="kd">override</span> <span class="kd">fun</span> <span class="nf">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">:</span> <span class="n">Bundle?)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="p">.</span><span class="na">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">)</span>
+        <span class="n">setFullscreen</span><span class="p">()</span>
+        <span class="n">setContentView</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">layout</span><span class="p">.</span><span class="na">activity_main</span><span class="p">)</span>
+        <span class="n">supportFragmentManager</span>
+            <span class="p">.</span><span class="na">beginTransaction</span><span class="p">()</span>
+            <span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">id</span><span class="p">.</span><span class="na">container</span><span class="p">,</span> <span class="n">MyFragment</span><span class="p">())</span>
+            <span class="p">.</span><span class="na">commit</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">fun</span> <span class="nf">setFullscreen</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">requestWindowFeature</span><span class="p">(</span><span class="n">Window</span><span class="p">.</span><span class="na">FEATURE_NO_TITLE</span><span class="p">)</span>
+        <span class="n">window</span><span class="p">.</span><span class="na">decorView</span><span class="p">.</span><span class="na">systemUiVisibility</span> <span class="o">=</span> <span class="p">(</span><span class="n">View</span><span class="p">.</span><span class="na">SYSTEM_UI_FLAG_LAYOUT_STABLE</span>
+                <span class="n">or</span> <span class="n">View</span><span class="p">.</span><span class="na">SYSTEM_UI_FLAG_HIDE_NAVIGATION</span>
+                <span class="n">or</span> <span class="n">View</span><span class="p">.</span><span class="na">SYSTEM_UI_FLAG_FULLSCREEN</span>
+                <span class="n">or</span> <span class="n">View</span><span class="p">.</span><span class="na">SYSTEM_UI_FLAG_IMMERSIVE_STICKY</span><span class="p">)</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Open <strong>Tools</strong> -&gt; <strong>Device Manager</strong> to configure an emulated virtual device for the standalone application test. Click <strong>Create device</strong> button to add new virtual device.</p>
+<a class="reference internal image-reference" href="../_images/device_manager.png"><img alt="Device Manager" class="align-center" src="../_images/device_manager.png" style="width: 700px;" /></a>
+<p>Click the <strong>New Hardware Profile</strong> to create new emulator profile, that will match the UI behaviour of the real robot in terms of the resolution and the density of pixels.</p>
+<a class="reference internal image-reference" href="../_images/device_selection.png"><img alt="Device Selection" class="align-center" src="../_images/device_selection.png" style="width: 600px;" /></a>
+<p>Enter the device name (for example CBun App Emulator) and configure the emulator resolution (932 x 987 px) and screen size (6.1”) to fit the CBun App container in the Teach Pendant host app. The click the <strong>Finish</strong> button.</p>
+<a class="reference internal image-reference" href="../_images/emulator_config.png"><img alt="Emulator Config" class="align-center" src="../_images/emulator_config.png" style="width: 600px;" /></a>
+<p>Once the new hardware profile is added, select it and click the <strong>Next</strong> button.</p>
+<a class="reference internal image-reference" href="../_images/select_profile.png"><img alt="Select HW Profile" class="align-center" src="../_images/select_profile.png" style="width: 600px;" /></a>
+<p>Select the <strong>Q</strong> system image, since Android 10 ensures compatibility with the highest amount of our robots. Then click the <strong>Next</strong> button.</p>
+<a class="reference internal image-reference" href="../_images/system_selection.png"><img alt="System Selection" class="align-center" src="../_images/system_selection.png" style="width: 600px;" /></a>
+<p>Check the device configuration, enter the AVD Name and click the <strong>Finish</strong> button.</p>
+<a class="reference internal image-reference" href="../_images/device_summary.png"><img alt="Device Summary" class="align-center" src="../_images/device_summary.png" style="width: 600px;" /></a>
+<p>Finally click the run app button (or Ctrl-R shortcut) to launch your application in the emulator.</p>
+<a class="reference internal image-reference" href="../_images/emulator.png"><img alt="Emulator" class="align-center" src="../_images/emulator.png" style="width: 700px;" /></a>
+</div>
+<div class="section" id="define-bundle-xml">
+<h2>Define bundle.xml<a class="headerlink" href="#define-bundle-xml" title="Permalink to this headline"></a></h2>
+<p>In order to run the CBun App on the real robot, the CBun has to contain a description in form of bundle.xml file. The bundle.xml tells the robot, which CBun Apps can be launched and which fragment entry-points are available for this purpose.</p>
+<p>Display your project files in <strong>Project</strong> view rather than the default <strong>Android</strong> view. Right-click the project root folder <strong>MyCBunApp</strong> and add the new <strong>bundle.xml</strong> file.</p>
+<a class="reference internal image-reference" href="../_images/bundle-xml.png"><img alt="Bundle.xml" class="align-center" src="../_images/bundle-xml.png" style="width: 700px;" /></a>
+<p>Be careful while defining the bundle.xml file, since its content has to be perfectly aligned with the configuration of the Android project, ie. the <code class="docutils literal notranslate"><span class="pre">package</span></code> attribute of <code class="docutils literal notranslate"><span class="pre">application</span></code> element has to match the package of your Android project (in your case it is <code class="docutils literal notranslate"><span class="pre">com.example.mycbunapp</span></code>). Also the <code class="docutils literal notranslate"><span class="pre">name</span></code> attribute of <code class="docutils literal notranslate"><span class="pre">fragment</span></code> element has to represent the path to your KRFragment relatively to the package (in your case it is <code class="docutils literal notranslate"><span class="pre">.MyFragment</span></code>).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you join the <code class="docutils literal notranslate"><span class="pre">package</span></code> application attribute with the <code class="docutils literal notranslate"><span class="pre">name</span></code> fragment attribute, it matches the fully qualified name of your KRFragment, ie. <code class="docutils literal notranslate"><span class="pre">com.example.mycbunapp.MyFragment</span></code>.</p>
+</div>
+<p>Use the following intent-filter to make the CBun App accessible from the Workcell tool:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;intent-filter&gt;</span>
+    <span class="nt">&lt;action</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.action.MAIN&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;category</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.category.LAUNCHER&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/intent-filter&gt;</span>
+</pre></div>
+</div>
+<p>Finally, the <code class="docutils literal notranslate"><span class="pre">apk</span></code> attribute in <code class="docutils literal notranslate"><span class="pre">application</span></code> element has to represent the path to the output APK in your CBun (see Assemble CBun section). Your final bundle.xml file may look like this:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?document type=&quot;cbunxml&quot; version=&quot;1.0&quot; ?&gt;</span>
+<span class="nt">&lt;bundle</span> <span class="na">name=</span><span class="s">&quot;MyFirstCBun&quot;</span> <span class="na">version=</span><span class="s">&quot;1.0.0&quot;</span> <span class="na">path=</span><span class="s">&quot;&quot;</span> <span class="na">type=</span><span class="s">&quot;custom&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label&gt;</span>My First CBun<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;author&gt;</span>Kassow Robots<span class="nt">&lt;/author&gt;</span>
+    <span class="nt">&lt;description&gt;</span>My first CBun implemented in Kotlin using Jetpack Compose.<span class="nt">&lt;/description&gt;</span>
+    <span class="nt">&lt;application</span>
+        <span class="na">package=</span><span class="s">&quot;com.example.mycbunapp&quot;</span>
+        <span class="na">label=</span><span class="s">&quot;My CBun App&quot;</span>
+        <span class="na">apk=</span><span class="s">&quot;/mycbunapp.apk&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;fragment</span>
+            <span class="na">name=</span><span class="s">&quot;.MyFragment&quot;</span>
+            <span class="na">debuggable=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;intent-filter&gt;</span>
+                <span class="nt">&lt;action</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.action.MAIN&quot;</span><span class="nt">/&gt;</span>
+                <span class="nt">&lt;category</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.category.LAUNCHER&quot;</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;/intent-filter&gt;</span>
+        <span class="nt">&lt;/fragment&gt;</span>
+    <span class="nt">&lt;/application&gt;</span>
+<span class="nt">&lt;/bundle&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="assemble-cbun">
+<h2>Assemble CBun<a class="headerlink" href="#assemble-cbun" title="Permalink to this headline"></a></h2>
+<p>First of all, you need to build the APK. In order to do so, click the <strong>Build</strong> -&gt; <strong>Build Bundle(s) / APK(s)</strong> -&gt; <strong>Build APK(s)</strong>. The APK file will be accessible at <code class="docutils literal notranslate"><span class="pre">&lt;yourpath&gt;/MyCBunApp/app/build/outputs/apk/debug/app-debug.apk</span></code> path.</p>
+<p>Once the APK is generated and bundle.xml is defined, it can be assembled into the CBun file. The CBun file is simply a tarball of the package with the following structure:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>CBun
+├── bundle.xml
+└── mycbunapp.apk
+</pre></div>
+</div>
+<p>This document demonstrates, how to manually assemble CBun using bash. Run the following commands from the root of your Android project.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>mkdir assemble
+<span class="nb">cd</span> assemble
+mkdir MyFirstCBun
+cp ../bundle.xml ./MyFirstCBun
+cp ../app/build/outputs/apk/debug/app-debug.apk ./MyFirstCBun/mycbunapp.apk
+tar -cvzf ../myfirstcbun.cbun -C ./MyFirstCBun .
+<span class="nb">cd</span> ..
+rm -rf assemble
+</pre></div>
+</div>
+<p>Finally, the <code class="docutils literal notranslate"><span class="pre">myfirstcbun.cbun</span></code> file is generated in the root folder of your Android project.</p>
+</div>
+<div class="section" id="run-cbun-on-real-robot">
+<h2>Run CBun on Real Robot<a class="headerlink" href="#run-cbun-on-real-robot" title="Permalink to this headline"></a></h2>
+<p>There are two ways for installing a 3rd party CBun. The CBun can be installed either from the USB flash drive or from the Google Drive. For the purpose of this tutorial, put your CBun onto a USB stick and plug the stick to the robot cabinet. Go to <strong>Settings</strong> -&gt; <strong>CBuns</strong> and click the <strong>+</strong> button. Select your USB device and click the <strong>myfirstcbun</strong> file.</p>
+<a class="reference internal image-reference" href="../_images/usb_cbun_list.png"><img alt="USB CBun list" class="align-center" src="../_images/usb_cbun_list.png" style="width: 600px;" /></a>
+<p>Confirm the installation of your CBun by clicking the <strong>Install</strong> button.</p>
+<a class="reference internal image-reference" href="../_images/cbun_installation.png"><img alt="CBun installation dialog" class="align-center" src="../_images/cbun_installation.png" style="width: 600px;" /></a>
+<p>Go to <strong>Workcell</strong> tool and click <strong>My CBun App</strong> item in <strong>CBun Apps</strong> section to launch your first CBun App.</p>
+<a class="reference internal image-reference" href="../_images/cbun_runtime.png"><img alt="CBun runtime" class="align-center" src="../_images/cbun_runtime.png" style="width: 600px;" /></a>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../introduction/introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../use_cases/use_cases.html" class="btn btn-neutral float-right" title="Use Cases" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Kassow Robots.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

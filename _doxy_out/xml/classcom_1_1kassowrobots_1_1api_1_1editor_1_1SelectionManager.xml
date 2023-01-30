@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::editor::SelectionManager</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a91528ae703cf1e2159910a9cfb1339b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt;?&gt; &gt;</type>
+        <definition>List&lt; IVar&lt;?&gt; &gt; com.kassowrobots.api.editor.SelectionManager.getVarSelection</definition>
+        <argsstring>()</argsstring>
+        <name>getVarSelection</name>
+        <qualifiedname>com.kassowrobots.api.editor.SelectionManager.getVarSelection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the current selection of variables.</para>
+<para><simplesect kind="return"><para>The list of selected variables. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" line="23" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a5fdf8049d384d24208e59242a1e7ebe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.editor.SelectionManager.setVarSelection</definition>
+        <argsstring>(@NonNull List&lt; IVar&lt;?&gt; &gt; aSelection)</argsstring>
+        <name>setVarSelection</name>
+        <qualifiedname>com.kassowrobots.api.editor.SelectionManager.setVarSelection</qualifiedname>
+        <param>
+          <type>@NonNull List&lt; <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt;?&gt; &gt;</type>
+          <declname>aSelection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the selection of variables.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aSelection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of variables to be selected. If the list is empty, the variables selection is cleared. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" line="33" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a6360e0fbb1e204e25238291d59824fda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.editor.SelectionManager.setSelection</definition>
+        <argsstring>(@NonNull IVar&lt;?&gt; aVariable)</argsstring>
+        <name>setSelection</name>
+        <qualifiedname>com.kassowrobots.api.editor.SelectionManager.setSelection</qualifiedname>
+        <param>
+          <type>@NonNull <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt;?&gt;</type>
+          <declname>aVariable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selects a single variable.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aVariable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable to be selected. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" line="40" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1aa4fb9edee4c0d6db54fecc03fb93c7fa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.editor.SelectionManager.SelectionManager</definition>
+        <argsstring>()</argsstring>
+        <name>SelectionManager</name>
+        <qualifiedname>com.kassowrobots.api.editor.SelectionManager.SelectionManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" line="42" column="15" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" bodystart="42" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows to control and monitor selection of variables. This class cannot be instantiated, instead its instance may be returned by <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" kindref="member">KRContext.getKRService(String)</ref></computeroutput> method. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" line="16" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/SelectionManager.java" bodystart="16" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a91528ae703cf1e2159910a9cfb1339b7" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::SelectionManager</scope><name>getVarSelection</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1aa4fb9edee4c0d6db54fecc03fb93c7fa" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::editor::SelectionManager</scope><name>SelectionManager</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a6360e0fbb1e204e25238291d59824fda" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::SelectionManager</scope><name>setSelection</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a5fdf8049d384d24208e59242a1e7ebe9" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::SelectionManager</scope><name>setVarSelection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

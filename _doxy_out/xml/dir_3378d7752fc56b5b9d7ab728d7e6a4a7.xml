@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_3378d7752fc56b5b9d7ab728d7e6a4a7" kind="dir">
+    <compoundname>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang</compoundname>
+    <innerfile refid="Frame_8java">Frame.java</innerfile>
+    <innerfile refid="InertiaMatrix_8java">InertiaMatrix.java</innerfile>
+    <innerfile refid="JSVector_8java">JSVector.java</innerfile>
+    <innerfile refid="Load_8java">Load.java</innerfile>
+    <innerfile refid="Number_8java">Number.java</innerfile>
+    <innerfile refid="Position_8java">Position.java</innerfile>
+    <innerfile refid="RobotPose_8java">RobotPose.java</innerfile>
+    <innerfile refid="Rotation_8java">Rotation.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/"/>
+  </compounddef>
+</doxygen>

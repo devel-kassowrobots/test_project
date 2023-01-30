@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::app::view::DragManager</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1a5986245cbe99b6ee862380e3a0eb9a63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.app.view.DragManager.addDropView</definition>
+        <argsstring>(@NonNull View aView, @NonNull DragListener aDragListener)</argsstring>
+        <name>addDropView</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragManager.addDropView</qualifiedname>
+        <param>
+          <type>@NonNull View</type>
+          <declname>aView</declname>
+        </param>
+        <param>
+          <type>@NonNull <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener" kindref="compound">DragListener</ref></type>
+          <declname>aDragListener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Registers the view as a drop view, ie. the drag listener will be invoked when a drag event is dispatched to this view.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aView</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The view to be registered for receiving the drag events. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aDragListener</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The drag listener that will be invoked on view drag events. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java" line="22" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1a1f7fee722feacf142c90a5efff416cc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.app.view.DragManager.removeDropView</definition>
+        <argsstring>(@NonNull View aView)</argsstring>
+        <name>removeDropView</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragManager.removeDropView</qualifiedname>
+        <param>
+          <type>@NonNull View</type>
+          <declname>aView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unregisters the view as a drop view, ie. the previously registered drag listener will not be invoked anymore when a drag event is dispatched to this view.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aView</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The view to be unregistered from receiving the drag events. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java" line="30" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1aff45eeeece4e07996355a6f077530bcd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.app.view.DragManager.DragManager</definition>
+        <argsstring>()</argsstring>
+        <name>DragManager</name>
+        <qualifiedname>com.kassowrobots.api.app.view.DragManager.DragManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java" line="32" column="15" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides interface for subscription of drag events by views. This class cannot be instantiated, instead its instance may be returned by <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" kindref="member">KRContext.getKRService(String)</ref></computeroutput> method. </para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java" line="13" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view/DragManager.java" bodystart="13" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1a5986245cbe99b6ee862380e3a0eb9a63" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragManager</scope><name>addDropView</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1aff45eeeece4e07996355a6f077530bcd" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragManager</scope><name>DragManager</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1a1f7fee722feacf142c90a5efff416cc8" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::view::DragManager</scope><name>removeDropView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

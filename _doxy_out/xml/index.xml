@@ -1,0 +1,776 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.5" xml:lang="en-US">
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1ApiConfig" kind="class"><name>com::kassowrobots::api::ApiConfig</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1ApiConfig_1a7897934ad37c95894fe098cce6c72f0a" kind="variable"><name>VERSION</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::utils::BadPathException</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1BadPathException_1aec3810c2317e1667a7126d122c16cfdb" kind="function"><name>BadPathException</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder" kind="class"><name>com::kassowrobots::api::editor::var::Var::Builder</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder_1a827d6211a4822df4d1e9c6b2354d0a4e" kind="variable"><name>m_name</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder_1ac0772a1335fb88c921fb63c3a42e18d1" kind="variable"><name>m_class</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder_1a536461b17bdbe2c284fe5bf1d21075b9" kind="variable"><name>m_systemId</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder_1a29469549b7d2b00e1aa8713e0f22d669" kind="function"><name>Builder</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder_1a762e12989bbd0677315a7eef647d3771" kind="function"><name>withName</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder_1aee9b8836ae2997ce8aee0a215a1a1798" kind="function"><name>withDataType</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder_1a17950a7b6a559151a5c9eb3d9983c5c0" kind="function"><name>withSystemId</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder_1af21def294f390a9fcf7d2e7dbb824c5b" kind="function"><name>build</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" kind="interface"><name>com::kassowrobots::api::editor::CustomTeachingHandler</name>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler_1a77a0bf37892aeabbde417578f1ca8027" kind="function"><name>onTeachingIntent</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent" kind="class"><name>com::kassowrobots::api::app::view::DragEvent</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1ae99ec7ac933fed67293984e75aec95ab" kind="variable"><name>ACTION_DRAG_STARTED</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a1ce5d92b21beb6404a925331c64b332f" kind="variable"><name>ACTION_DRAG_LOCATION</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1aa7062d28d738d4373d1217a94fe4b9d6" kind="variable"><name>ACTION_DROP</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a71c8c56093eaa2810ea9b19f7dd7cac2" kind="variable"><name>ACTION_DRAG_ENDED</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a9734d496f68549ab86c58f72caf09681" kind="variable"><name>ACTION_DRAG_ENTERED</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1af1608a1ef8c8c038d52c0bb7050dd13f" kind="variable"><name>ACTION_DRAG_EXITED</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a70c1730a35b504a39ee40cb0abe350ce" kind="variable"><name>m_action</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1aea1e840adf56c11650aaba33e51d34d6" kind="variable"><name>m_data</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a95d0bd6295fd10b90135cb19f6cf6d50" kind="function"><name>DragEvent</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a198c31aa378a728d41cfd2c5b8502b05" kind="function"><name>getAction</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragEvent_1a1d6fe95d7114dc01cbd09a3a994b4151" kind="function"><name>getData</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener" kind="interface"><name>com::kassowrobots::api::app::view::DragListener</name>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragListener_1a778e8a6ab4eee9392990b580600a396c" kind="function"><name>onDragEvent</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" kind="class"><name>com::kassowrobots::api::app::view::DragManager</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1a5986245cbe99b6ee862380e3a0eb9a63" kind="function"><name>addDropView</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1a1f7fee722feacf142c90a5efff416cc8" kind="function"><name>removeDropView</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager_1aff45eeeece4e07996355a6f077530bcd" kind="function"><name>DragManager</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Error" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::Error</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Error_1a9ab30fc3963d30665c35cde6b3269f7e" kind="function"><name>Error</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::Fault</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a42f402d4964e1cb4bc6b43c1a5cd2763" kind="variable"><name>CODE_PARSE_ERROR_NOT_WELL_FORMED</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a2bb67f0394b8755f5e020acbea905d0a" kind="variable"><name>CODE_PARSE_ERROR_UNSUPPORTED_ENC</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a29ae90a0b6a645dc62877a1c06fbaf42" kind="variable"><name>CODE_PARSE_ERROR_INVALID_CHAR</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1ade90eaf821c06cd824947345e19d31e3" kind="variable"><name>CODE_INVALID_XML_RPC</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a33998140884bda075324b1dd511711a9" kind="variable"><name>CODE_METHOD_NOT_FOUND</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a50295ff5b47c82f320a2b15bc21dd95b" kind="variable"><name>CODE_INVALID_METHOD_PARAMETERS</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1af1501aa25f6981ba0616b8695d2b4a05" kind="variable"><name>CODE_INTERNAL_XML_RPC_ERROR</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1af6df7429e5ed41329816db73a141c45f" kind="variable"><name>CODE_APPLICATION_ERROR</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a6136f7265484b81f8512ea6aef5d0b20" kind="variable"><name>CODE_SYSTEM_ERROR</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1ab303d3284983c345e2401bbb5dc4eeb2" kind="variable"><name>CODE_TRANSPORT_ERROR</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a73580f57191a09e8542adbc6a403aee3" kind="variable"><name>m_code</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a436aebbbe3190c788a1938e7dd3855c9" kind="variable"><name>m_description</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a286c1e03535b62ece5e6479785efbfe3" kind="function"><name>Fault</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1aef0dd85e9529e042f42adc72590b0446" kind="function"><name>getCode</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Fault_1a510a51a455a1c6c091ee14bfa343b29a" kind="function"><name>getDescription</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame" kind="class"><name>com::kassowrobots::api::lang::Frame</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1aa61abf6676ef8dfc262f27a35ac01871" kind="variable"><name>m_position</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1ad8ce0296555913fd51d98db45becac4a" kind="variable"><name>m_rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1a69ac13b44e693f63541bacd627bdc9ec" kind="function"><name>Frame</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1ab767a56b40757aea4564d1c25eb98449" kind="function"><name>Frame</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1a6acb35d48f04cb38141df0ed27b8f0f0" kind="function"><name>Frame</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1a179fb467f7ef9991022bfe4dc1a5aa6c" kind="function"><name>position</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1a9711d4f2428f614d7025ed086097fa87" kind="function"><name>rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1a435dfd047c87822c952c06d486617a74" kind="function"><name>multiply</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1ac5b33519bcdeb4634152afd77c29acc8" kind="function"><name>inverse</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1acf9804eb44fce149901611b875cff715" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Frame_1ac84628172b86633814d4732668cbae7a" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID" kind="enum"><name>com::kassowrobots::api::robot::FrameID</name>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a431f88d82053f05d5accab087cd40420" kind="variable"><name>WORLD</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1aa857cff23188fc2bd761f55eae42fa6e" kind="variable"><name>BASE</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a547ae2f0af7fc2cf60c3a7b0568e8be7" kind="variable"><name>LINK1</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1aea9622d517b1b3bc13cf1dea3a716fb0" kind="variable"><name>LINK2</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1ab2e36fd351df593fffcb9b016eb87db2" kind="variable"><name>LINK3</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a408657ba4fe536b8b762aae4f5457027" kind="variable"><name>LINK4</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a7b65e4078fd23b8049de1e3599967146" kind="variable"><name>LINK5</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a0a3ec276c7162c0c6fcfb25c6095e031" kind="variable"><name>LINK6</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a713bc24a379509d36855ed6aaf86f9c2" kind="variable"><name>LINK7</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1ade556f810c331c690fa0746c110a2d32" kind="variable"><name>FLANGE</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a50c889d96c0007b29b7031d63f578947" kind="variable"><name>TCP</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1ae81e4016e911c364512318aee873a140" kind="variable"><name>TOOL</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1ac5cffc71a0ef04fe8ab80b584d63bd6e" kind="variable"><name>PAYLOAD</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1ac6b4dc5941d4a01c8120e3a85882fa88" kind="variable"><name>TARGET</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a8a71ea6f40b1d77c274f5052371d8f86" kind="variable"><name>XRF</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1ad215c651af28da6d357e75ad239a1006" kind="variable"><name>ARTO</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1aaf5d93470f09e8c7c5dc1e3963c684e3" kind="variable"><name>m_systemID</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1ad542863848353f887d438a489427bb6d" kind="function"><name>FrameID</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1a4aede39382b29d07b1c449051dd7bac9" kind="function"><name>getSystemID</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID_1ab069a7a216749dabb66dc0bf2bf9b3de" kind="function"><name>fromSystemID</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1ILogImpl" kind="interface"><name>com::kassowrobots::api::util::KRLog::ILogImpl</name>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1ILogImpl_1a1ce3dfbfaeeeb6a64afbf1cc61c311d1" kind="function"><name>println</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix" kind="class"><name>com::kassowrobots::api::lang::InertiaMatrix</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1affa4e8cf141de5eebc6956adfadaf3f4" kind="variable"><name>m_xx</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a89f7f90c6963fa0a34ae13753bfa5f11" kind="variable"><name>m_yy</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1aa991421bcc7c65e9a08b8d7a5a48f0fb" kind="variable"><name>m_zz</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1af1abf4a1ada899367dd8858a7094d4eb" kind="variable"><name>m_xy</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a9f078e513c7ecdeba2862c9da9c86be5" kind="variable"><name>m_xz</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a3dd26cf6760266adfa3d024dbebd8702" kind="variable"><name>m_yz</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a381eb8ecf986889255d30440b6b02128" kind="function"><name>InertiaMatrix</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1ae139b6587ba7ba272fee3106f87eab7c" kind="function"><name>InertiaMatrix</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a1c69e2c481413a169c83fadafebb8bbc" kind="function"><name>InertiaMatrix</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a6ad9389bbca524a7ee50ea56f3cc9865" kind="function"><name>getXX</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1ab5ea70f8a75c458e2b862f8223b9f283" kind="function"><name>setXX</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1ad4edeb45c9d76071aa3d68156aca0863" kind="function"><name>getYY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1aa46c7fe12779c9374af2ff3ef3be24a6" kind="function"><name>setYY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a1acd05a970a80322827eaf2416ca36b8" kind="function"><name>getZZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1aca79e1c68bd70d366f9ca0d067d57f45" kind="function"><name>setZZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1aae0e1b54433af36eda44c6726e9f14df" kind="function"><name>getXY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a7bd7f82ba65a7570f05fd5700e08078d" kind="function"><name>setXY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1ac5c55931aa668b87cf4bfe82c9bb5d82" kind="function"><name>getXZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1af5ad63ddfd4933612f0f4f6cdf44ffb7" kind="function"><name>setXZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a0bbc582c0f973a851040c2d18f417ad8" kind="function"><name>getYZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1aa31175fdc0dfb87074a06d06002cd7d0" kind="function"><name>setYZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1af56c863b16a9c66cdd0c0d644c8e3c7b" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1InertiaMatrix_1a69c4f4fffb9109dc7b8bbd5dc1b89106" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kind="interface"><name>com::kassowrobots::api::editor::var::IVar</name>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a298ae979306ccfca22a3bdb230d6d0e7" kind="variable"><name>PROPERTY_DATA_CLASS</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1ae2e3c6835e24d7e8b642fb4c2d80f419" kind="variable"><name>PROPERTY_TYPE</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a35e76724e1647b321b5ecec9ea342974" kind="variable"><name>TYPE_CUSTOM</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a5da2871b93a15bda68fab1e4d3887c61" kind="variable"><name>TYPE_SYSTEM</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a04fd26568c07cb3dac6bce45c37319b4" kind="variable"><name>PROPERTY_SCOPE</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a8748560e92a839716b1e555213cc864d" kind="variable"><name>SCOPE_ANONYMOUS</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a62fe30bb586055cfe158dc16ddb5fba1" kind="variable"><name>SCOPE_LOCAL</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1ac25ca2e99f519a71102491136963e1cc" kind="variable"><name>SCOPE_GLOBAL</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a114c690dcbf8446aa7619b56150d729a" kind="variable"><name>SCOPE_PERSISTENT</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a3181544f5375f463787c5a4adbe1f255" kind="variable"><name>PROPERTY_MAPPING</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1ae55fa21d6240d23c62669906cdce95d2" kind="variable"><name>PROPERTY_REFERENCE</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1aaca0185cdab512d712503a94404bac7c" kind="function"><name>getName</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a7f77060e1cf5c168a24cae9847ff9e91" kind="function"><name>setValue</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a83f71253fbc50d11858d043cad6dd2a4" kind="function"><name>getValue</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a1182ee71bb1b9181efdfbc18b8569729" kind="function"><name>getProperty</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a87d5f7898e7e8ca8af0ca4b5e0a40521" kind="function"><name>cast</name></member>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a41056009a10ed7ffb71a34603f54ef56" kind="function"><name>sync</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector" kind="class"><name>com::kassowrobots::api::lang::JSVector</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a55906170ddb749418f3e08717a349005" kind="variable"><name>m_j1</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1af2804d134318eb3a369671ba3630e382" kind="variable"><name>m_j2</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ab8ae4669f3a7d7b5fbef2be7f5c4340f" kind="variable"><name>m_j3</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a4c9f1674c089f4ef8fec2228c378c612" kind="variable"><name>m_j4</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a51c5a1e540fd404abd000b755e8043e2" kind="variable"><name>m_j5</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afbcfefb932f770dd960e22484799cc6c" kind="variable"><name>m_j6</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afb43246f5b51c175085875ed4a5ae057" kind="variable"><name>m_j7</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afda27c935898860a9d3d5977e3b215b7" kind="function"><name>JSVector</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1abbadbb366adac12c8d39d8b72d9e7785" kind="function"><name>JSVector</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a11c817307ebe089cb9e46c8ea43f6f74" kind="function"><name>JSVector</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a4d222a8a15c8452942856d2c3c98c287" kind="function"><name>set</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a82a7f42f89acb54a76d8c199fa77712f" kind="function"><name>getJ1</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a71ed5339bf7f8a87003d4f07491cf7b4" kind="function"><name>setJ1</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a22741f8b280f8f1dc9d6f3fe982ef910" kind="function"><name>getJ2</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a253817f80b591e210e37b4d9ae510480" kind="function"><name>setJ2</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a5a12e6a1ef535293f9ec884ce42865ed" kind="function"><name>getJ3</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ace308272949e3699b64896bb7d1ad347" kind="function"><name>setJ3</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1ae9d02354158a0e6d45add91f02cc38cf" kind="function"><name>getJ4</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a663df93f45207546550caa1add0648b2" kind="function"><name>setJ4</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a93a4bec30392130982a837c124961540" kind="function"><name>getJ5</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a05e3c8c95eea21e410be2b51264cc078" kind="function"><name>setJ5</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a519b53849902421b2cc6f8a683e64fc2" kind="function"><name>getJ6</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a25432ddfa07d797249c3e7118d1e2e2a" kind="function"><name>setJ6</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1aa6010f93e5392f7af9e332838c2037c1" kind="function"><name>getJ7</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a26aebf017cbac05ab8c53041cccd7004" kind="function"><name>setJ7</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1afc4dac355fd56c49ec02aaccea021e11" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1JSVector_1a3538350eabb616e6376f4ebc00b9e448" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext" kind="class"><name>com::kassowrobots::api::app::KRContext</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ac5f27905aad9890d3da050310f11005a" kind="variable"><name>TEACHING_MANAGER_SERVICE</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1adcd26edb0b85558c6227baa2c2ac489f" kind="variable"><name>SELECTION_MANAGER_SERVICE</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1ad527c858c48335b2056c5515fc5f7410" kind="variable"><name>DRAG_MANAGER_SERVICE</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a2f8e812a98d5e214a1fcb28821374617" kind="function"><name>KRContext</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext_1a794b8c77e02d4c71e30b0b2024ede36b" kind="function"><name>getKRService</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContextProvider" kind="class"><name>com::kassowrobots::api::app::KRContextProvider</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContextProvider_1a302518b3bd12384540c766c1866bc163" kind="function"><name>getContext</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment" kind="class"><name>com::kassowrobots::api::app::fragment::KRFragment</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a35690ff54c9b54460c1937adfa6099dc" kind="variable"><name>ARG_DEVICE_NAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a3c19555d2a1487ba1af4412a4a2551de" kind="variable"><name>m_contextProvider</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ac2adace0e2fde3f01989f48ac3df76fd" kind="variable"><name>m_context</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a851aaf9df2aa8b20a60628697f963194" kind="function"><name>setContextProvider</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1afb85b09e51b5128c5ca5856894180810" kind="function"><name>onAttach</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a47424d8c953a3f675fc29baeba666a73" kind="function"><name>onDetach</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1a6ea46005949f04ca789d3b7cbdb2eb33" kind="function"><name>getContext</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ace2144336767dd4b165068a288f3ad2c" kind="function"><name>getKRContext</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1fragment_1_1KRFragment_1ab50dd292c136e3558ebc85573c196ecc" kind="function"><name>onGetLayoutInflater</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog" kind="class"><name>com::kassowrobots::api::util::KRLog</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1ae594ab3143822705823700f88ef5b39f" kind="variable"><name>VERBOSE</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1ad6d2d5ebf7f78fccbb3e40db69e8bf9b" kind="variable"><name>DEBUG</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1aed43079aa13402122edd8da97cad0c47" kind="variable"><name>INFO</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1aca27b3ab9ad6694469cf741757a4c25b" kind="variable"><name>WARN</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1aeeb0f77c35a658f1cfa49756534f2e57" kind="variable"><name>ERROR</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1ab768c133842e5fac8c83f9a23ec47e21" kind="variable"><name>ASSERT</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a84c7985e8194f7c98940503f9d4b20f2" kind="variable"><name>m_impl</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a6c8242991111640abe9042d0807cc711" kind="function"><name>setImpl</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a486fb24a83b2e5575ffa5fe714bd7396" kind="function"><name>v</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a8c5adc26d18ec436befa42f160bff0bb" kind="function"><name>v</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1ac8ad28dd196f88595f8913493742b1c6" kind="function"><name>d</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a12dc55e0ea93dc5a2a82a42d7463c18c" kind="function"><name>d</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a8d328daa773e660a1a45926b9373b05c" kind="function"><name>i</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a5a68a6b3fa37c6f14f15460533945a45" kind="function"><name>i</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a7bf55ce3f0f3b384923e7b2f6d929e87" kind="function"><name>w</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1ad0ea46f3f0b872cf50ab0dcb08d1a371" kind="function"><name>w</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a9b10f71344605a1d5b110f416807991f" kind="function"><name>w</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a00cf2fe5c2df6debccde2c7db2e88dec" kind="function"><name>e</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a7ecc4c7b847eab405fc549c3c35b189b" kind="function"><name>e</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a043d3718b02a0108923a3c0080e47e74" kind="function"><name>getStackTraceString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1a80f2ceb8dcee45c1aca8c2a76e0b9687" kind="function"><name>println</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRSystem" kind="class"><name>com::kassowrobots::api::util::KRSystem</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRSystem_1afdcab76fd3451fb52c67b8bba8c47fd3" kind="function"><name>exit</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load" kind="class"><name>com::kassowrobots::api::lang::Load</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1ab2d01299ed3ff57eefdeee5d8902c5c7" kind="variable"><name>m_mass</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1abc779a56c268af75b79539dcf793b651" kind="variable"><name>m_centreOfGravity</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a819433c748141a94de902d50acedcf80" kind="variable"><name>m_inertiaMatrix</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1acf42d28332383b2a71dd5d5299b2f470" kind="variable"><name>m_pose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a397bbacdf766ad9966ce001bd790677a" kind="function"><name>Load</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a94062c8bd583f5989fb53829646bd43b" kind="function"><name>Load</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a18f27223d1c4c75351172419850945ea" kind="function"><name>Load</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a62ddf115c7938bc6d0040b34347c5821" kind="function"><name>getMass</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1aef5947c59c9befd52e4d0d930aa71e8d" kind="function"><name>setMass</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1ad7c5d7f7fddef01b4fc8f078dabd843b" kind="function"><name>centerOfGravity</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a80fd50efcad97cbd7756afd7781a5457" kind="function"><name>inertiaMatrix</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a2878aa5f50cb3bcc35ec6cd60e327ab2" kind="function"><name>getPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a27f1b662437acfcc9bae1cad0c68455b" kind="function"><name>setPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a47ba63ec7e07db801baca54b89f135ae" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load_1a5979e6137d2b1284734895ffbf0cf04d" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1LoadID" kind="enum"><name>com::kassowrobots::api::robot::LoadID</name>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1LoadID_1ae543d057ba51c76f91f0a3957090e45e" kind="variable"><name>TOOL</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1LoadID_1a8716698999297ac3d166064a33178e33" kind="variable"><name>PAYLOAD</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1LoadID_1a85dc5c0ce732d9dc3a5dd8156e27ae91" kind="variable"><name>m_systemID</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1LoadID_1ae84f21f7335cf3d6501745a6c1e41487" kind="function"><name>LoadID</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1LoadID_1a0b376bd427f6654f985619f8fcf91346" kind="function"><name>getSystemID</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1LoadID_1abbbe0a6d5e5092ee4bbd668eaef4bd2c" kind="function"><name>fromSystemID</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1MockLog" kind="class"><name>com::kassowrobots::api::util::KRLog::MockLog</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1MockLog_1aa4c2df0493d8c63c7ed5afd465632d15" kind="function"><name>println</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1Model" kind="class"><name>com::kassowrobots::api::robot::Model</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1Model_1a7bb029c1d0d7c95a88075382cb18843f" kind="function"><name>getRealModel</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1Model_1a33e33c9c8aae8ecc50aa474cce1d0605" kind="function"><name>getFrame</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1Model_1a48ae3546daaee1368767bada82e1c465" kind="function"><name>getJoints</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1Model_1a63d5671c51ac609f86b5bac78a71a80a" kind="function"><name>getLoad</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1Model_1a33854dd57febd6aab4881dc8efdcaa90" kind="function"><name>Model</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" kind="class"><name>com::kassowrobots::api::lang::Number</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a6f4dafd43aaf900fe4ec426876fabc94" kind="function"><name>Number</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a0fe10c1e555c39337ee21b28c21a808b" kind="function"><name>Number</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a4f5d560a855b975726489e52c599ae0f" kind="function"><name>Number</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a5cd854ed5164f63f1dfec57c3ac9c7ae" kind="function"><name>l</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1ae3171d57a57fcbe9e1cfab8066e7bcd0" kind="function"><name>d</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a027b4b1ddbf465b02bc6463ef5f289fe" kind="function"><name>set</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afa111c7a0e602d12e77339c9efdcc274" kind="function"><name>set</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1ae1d31fc4d30e7b0bddb5ff68ad97d805" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1ab115c178e997a1b53a28701bd8686067" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnClearListener" kind="interface"><name>com::kassowrobots::api::app::view::VarDropBox::OnClearListener</name>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnClearListener_1a663959eb3b379f131bf88d9765964a24" kind="function"><name>onClear</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnDropListener" kind="interface"><name>com::kassowrobots::api::app::view::VarDropBox::OnDropListener</name>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnDropListener_1adbb9dceeda47fc33c46779bc3d0349f3" kind="function"><name>onDrop</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnVarClickListener" kind="interface"><name>com::kassowrobots::api::app::view::VarDropBox::OnVarClickListener</name>
+    <member refid="interfacecom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1_1OnVarClickListener_1a02e0463c736910c71a7875b882692020" kind="function"><name>onClick</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::Params</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1aa355d6575564df5ca42d1ec4019a0e18" kind="variable"><name>m_valueList</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1a1d5da8a776908a187e12a26b778d18e1" kind="function"><name>Params</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1a39fb066bc318fed4adc12f6d14d55834" kind="function"><name>add</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1afaf6a70fd4062af1723f8949c9e5ae31" kind="function"><name>size</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1abc1f5aa46a12658ad24805f196e76c2a" kind="function"><name>getValue</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position" kind="class"><name>com::kassowrobots::api::lang::Position</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1ab76526bc3ba0a3190b69153e4b8fb373" kind="variable"><name>m_x</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a7051380a4e5c67b657ece90280b7a832" kind="variable"><name>m_y</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1aeb68e40f6f418450a2a29e73cdba65d0" kind="variable"><name>m_z</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1abf6800dd04fd01fab4243c49aeb9b31f" kind="function"><name>Position</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a3df019a6cdd384289f37ead37703f2e0" kind="function"><name>Position</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a3ea6854282dfa76034ff231df94f83f2" kind="function"><name>Position</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a792a76be475e922713528074c6e025bf" kind="function"><name>set</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1aa4b1bb0e65707818fa82f233ff6439b0" kind="function"><name>getX</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1afba7d0828b027ad73315f2c5a61c615a" kind="function"><name>setX</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1ab3b2cc805d88b72ba62aaa6f7e3dfead" kind="function"><name>getY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a352337e408f7faa10464d97858a5458a" kind="function"><name>setY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a0a93ee48afd3cd3232bd2dec731ce4cc" kind="function"><name>getZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a7951a6676acc0f0aa51fadb2fc3ad157" kind="function"><name>setZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1aa5c070613879eb37c4104adfab85e04d" kind="function"><name>add</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a11124163bde5c100237989600b1ab774" kind="function"><name>minus</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1a14f8be19b8f425aa7933c8330e7b3ddc" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Position_1ae0bb7200e21525e5245241173b5ef023" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion" kind="class"><name>com::kassowrobots::api::lang::Rotation::Quaternion</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1addef2f2b591a31455b574f14cdfaeec0" kind="variable"><name>m_x</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a13fb71c7bf26aa893f9d86b5c95eb57f" kind="variable"><name>m_y</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1afd36023eb0645d7df1161ce333f75aea" kind="variable"><name>m_z</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a607203ba8e2165a2886e9ed19727b1b1" kind="variable"><name>m_w</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a5298249e60b4268146cd946fd4816896" kind="function"><name>Quaternion</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a36ebdc797ce18b620dce4710ec8afcf2" kind="function"><name>getX</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a138960aab36d395d0efc8845a503c223" kind="function"><name>getY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1ae5c9540ec6066d7868a10154a6651d5c" kind="function"><name>getZ</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1a908a508cf9052f49b8d9dcecf5c71729" kind="function"><name>getW</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1acdfb282e5fcf24a721d0ac335d6541e3" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1ad9dfa8aba0222992a74c5b1ee44f83b7" kind="function"><name>equals</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1Quaternion_1af816cdcede16b2eb081965102d51e132" kind="function"><name>normalize</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kind="class"><name>com::kassowrobots::api::lang::RobotPose</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ae5ce11815ba7171b47bfd1fd30b1f4cc" kind="variable"><name>m_position</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a0232147e9d74bc50a7dde54a354ad8b2" kind="variable"><name>m_rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a7ea8e9978d63e70969b1e48a77690758" kind="variable"><name>m_configuration</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a67fe9392c52bd3c0251c3bdf112878e3" kind="variable"><name>m_reference</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ad13bff5cf47582fe8f4d605873297441" kind="function"><name>RobotPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1aef7e798a133137b9d04640cd6f6eddab" kind="function"><name>RobotPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1af63c35277dcab3b5e23bcd5e8bdfd765" kind="function"><name>RobotPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ac8834066a8f5e9a73dd3d5bd6aa9d7c1" kind="function"><name>RobotPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1ab180b031fc5c9c96bb48e304a235d55e" kind="function"><name>RobotPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a91e8d48eeff60b8229ec35e7faf66356" kind="function"><name>position</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1afdd4a6ffa9dd2a6c83d5dfec03013eef" kind="function"><name>rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a5854e7b776fcd7534ecbddd86023ce23" kind="function"><name>configuration</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a9086be37dbc863e5c8500decd52f058e" kind="function"><name>getReference</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a5708e8a220f388dbd2d15c642b9ddd53" kind="function"><name>setReference</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a74b9d28c7e178d4ccd65a0dedf38cdff" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose_1a8b871c628d6f4e192da688d74077951d" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation" kind="class"><name>com::kassowrobots::api::lang::Rotation</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1ac92881348cb55bffe9d5f296cf3f3ff2" kind="variable"><name>m_data</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a09491ce36958e323cd1ad99a42e5b9b9" kind="function"><name>fromRPY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a62df646338b194c5ab383090d27e3031" kind="function"><name>fromQuaternion</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1abdd1d65ad9ee29d81555853faab2b070" kind="function"><name>Rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a4afddd2feb640affc23dc248012201db" kind="function"><name>Rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1ac3869feac28dd812a75aac5b95573248" kind="function"><name>Rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a00513637a854aa794d0f7e3700e41120" kind="function"><name>Rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a184beb4213d0297eb16ec642d612b255" kind="function"><name>Rotation</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1ab2f4212d9fc64221e62e014166e80d77" kind="function"><name>set</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1ac729e3ef2178e3c69706b55d9a24d818" kind="function"><name>set</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a3bff36fea9c8ae5fb572a3bc18052607" kind="function"><name>set</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1afb6e4a4d562a3083bb7ca1d5911d4144" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1aa93375be3c6be58867680c2f49078a7f" kind="function"><name>equals</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a5a751d53e4fb3fbf36318e40b7bf2867" kind="function"><name>asRPY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1ab6564fb90780b9d78c16992003cc7406" kind="function"><name>asQuaternion</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a6e9c157ea782989156f8fd0066ac955a" kind="function"><name>multiply</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a4d81f9869fb3fc88adf47059ee4a3a95" kind="function"><name>multiply</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a69c34106865765c0f32c74311c82008a" kind="function"><name>inverse</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1addc58a6cf0551a19a190be42c5a25306" kind="function"><name>inverse</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a5b03191c1549afa7b66cfdd58e46a20e" kind="function"><name>asRotationMatrix</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1ac2da33a58a5fbe259f270d5aa03423ca" kind="function"><name>get</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1a47b2686dc82286989324c5f70751b570" kind="function"><name>setInverse</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY" kind="class"><name>com::kassowrobots::api::lang::Rotation::RPY</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ad22dd29bac982750f4a2591c2dffbc76" kind="variable"><name>m_r</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1acb8df4ab93b74ca90693fe0964a5fcda" kind="variable"><name>m_p</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a07235960126690ebc6df117cab489256" kind="variable"><name>m_y</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a3cc40531fcf9137956037562d7846f37" kind="function"><name>RPY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1af14b3585dffd23eb77b2dcf9e836a44a" kind="function"><name>getR</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a951da2d64d711b631646c45ec45af932" kind="function"><name>getP</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ab11cc3f637d4a5812032bcac5760ca40" kind="function"><name>getY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1ab8b5376a98a8ab898aaa028232b64607" kind="function"><name>toString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Rotation_1_1RPY_1a9572439d6f4c3ce8d302cc6f12ac1528" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager" kind="class"><name>com::kassowrobots::api::editor::SelectionManager</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a91528ae703cf1e2159910a9cfb1339b7" kind="function"><name>getVarSelection</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a5fdf8049d384d24208e59242a1e7ebe9" kind="function"><name>setVarSelection</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1a6360e0fbb1e204e25238291d59824fda" kind="function"><name>setSelection</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1SelectionManager_1aa4fb9edee4c0d6db54fecc03fb93c7fa" kind="function"><name>SelectionManager</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID" kind="class"><name>com::kassowrobots::api::robot::SystemID</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a4b6e93e9878ac07f72bb62d2597c6501" kind="variable"><name>WORLD_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1aa185cfe01d37b4e46a6efec15258bacb" kind="variable"><name>BASE_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a4d7db7d362ab6e46ee4d006829e0f1f1" kind="variable"><name>LINK1_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a8d05e8cf42f86e150e2a67dd3b63acd3" kind="variable"><name>LINK2_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1aa84ff278907a26869165511c9c502424" kind="variable"><name>LINK3_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a9e9ea64627281ce5b8bf712032338138" kind="variable"><name>LINK4_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a80eba3e0be6d36256a840320b9f9c0a9" kind="variable"><name>LINK5_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1aace13a2d23ed077c10b5265a50ed2028" kind="variable"><name>LINK6_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a8370589c4b7dec202f280dd1487624f9" kind="variable"><name>LINK7_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a104c08d695c2a3c1f3aa28ba8a0715ba" kind="variable"><name>FLANGE_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1aff9c8fe1cb002327fc964a6daeedd245" kind="variable"><name>TCP_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a247f4fafe6a58a4a19deea7b169d0347" kind="variable"><name>TOOL_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a5fbe26831f01675adba7d754f1d66a25" kind="variable"><name>PAYLOAD_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a0d71a77de80e428b6669472555148bd2" kind="variable"><name>TARGET_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1ad55ca478e0db989d41a7f2f59e9dbdca" kind="variable"><name>XRF_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a26ca1de48b016c0215729ae85bf5cf88" kind="variable"><name>ARTO_FRAME</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a9135a71b3b65a57e7e2d4c0d2d7c125e" kind="variable"><name>JOINTS_ANGLE</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1ab26b5aef54059f0a30bc54e4c8e80017" kind="variable"><name>JOINTS_VELOCITY</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a54245a4180108312e64594241a863d6e" kind="variable"><name>JOINTS_ACCELERATION</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a2443c855f3dca759faa219fcfb215a47" kind="variable"><name>JOINTS_TORQUE</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1af128a74af07c4af2fd634d1f31c9a087" kind="variable"><name>TOOL_LOAD</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1SystemID_1a5a1a15d7497f5a5420615c5568e75091" kind="variable"><name>PAYLOAD</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager" kind="class"><name>com::kassowrobots::api::editor::TeachingManager</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1af26469ae0b62403d9cb9ca816c36e515" kind="function"><name>attach</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1a9a8fd640b8fdef402ac5faae1044eadc" kind="function"><name>detach</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1TeachingManager_1af5d512b4db27cf2981300e360d9bb07c" kind="function"><name>TeachingManager</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1Transform" kind="class"><name>com::kassowrobots::api::util::Transform</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1Transform_1a0c2cbba2242ca72716d05e81e1a2d568" kind="function"><name>convertToNewReference</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1Transform_1a611fabb84a57b47d1a60cc8d128a4958" kind="function"><name>moveToNewReference</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1Transform_1a4957bc6b14af2da8e71855f5a0e6b875" kind="function"><name>evaluate</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1Transform_1a23e5bd17a83dd580c40705ce32ccdc3e" kind="function"><name>isWorldFrame</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1Transform_1ae4189f44137f30cdc4828e4161cc7248" kind="function"><name>toPose</name></member>
+  </compound>
+  <compound refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type" kind="enum"><name>com::kassowrobots::api::robot::xmlrpc::values::Value::Type</name>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a5e6d4a791b982062d1921bffb32841bf" kind="variable"><name>TYPE_INT</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1af5db53f4bea168c3d40832fa8b4b9754" kind="variable"><name>TYPE_BOOLEAN</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a1593a83dc72dccadc179edef452c7acc" kind="variable"><name>TYPE_DOUBLE</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a8b71ede123b6270aeb4b89e6d2a00bee" kind="variable"><name>TYPE_DATETIME</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1ad17d23880196f6373f2557c289fe3191" kind="variable"><name>TYPE_STRING</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1ab2d7e2271edd304c3fa21944133c0ff9" kind="variable"><name>TYPE_BASE64</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1ae51440896b79c53d77205934e912e7ba" kind="variable"><name>TYPE_ARRAY</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a68e4d262d23fcb88b0680ad0643aebdd" kind="variable"><name>TYPE_STRUCT</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a932814aef9e32dae2db9d7365d906965" kind="variable"><name>TYPE_NIL</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a1eeae499f46a259cb9f97d62b6cdbdce" kind="variable"><name>TYPE_I8</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a03ceafecbe6c67dfa19ff7e63072c68d" kind="variable"><name>m_id</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a9f721d8f3b90743cea4aec5ff8fee28c" kind="function"><name>Type</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a68bf0b145eab2c0209922ca4e80edcc5" kind="function"><name>getId</name></member>
+    <member refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1_1Type_1a91d69c0001378e71d1dddcf28ea8ea7b" kind="function"><name>fromId</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::Value</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1a83c09942c0351492fa1f3bc64fe3ae8c" kind="variable"><name>m_type</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1ab673245d3f1dd23da817a949586a1f48" kind="function"><name>Value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value_1af5ed9ef42394ce89dd77c1e34f8c2340" kind="function"><name>getType</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueArray" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueArray</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueArray_1a8673c559553326ac2c5243bd04b88808" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueArray_1a848fb11ca71bd5e47b6be44194fcf9bb" kind="function"><name>ValueArray</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueArray_1aa424a422b819ce00c586eaf344beb633" kind="function"><name>getList</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBase64" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueBase64</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBase64_1a9d32035a35986450e5e086e51f71b3b8" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBase64_1ae640a59754ee34633429dee34f446857" kind="function"><name>ValueBase64</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBase64_1a6cb00611c5ba6a9a40252e67fddcf7c1" kind="function"><name>getString</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBool" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueBool</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBool_1afbdc76f1fd295821958234ae5c21a1e1" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBool_1ae2a428dc7e4fc8e0a8a6691e387d2516" kind="function"><name>ValueBool</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueBool_1a3b867736706ba5ab6e0338b1a18369df" kind="function"><name>getBoolean</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueDateTime</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1a71e2cd5c71fa7a059e757ce29d2d251b" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1adce68b481bda86132bf84720340f828f" kind="function"><name>ValueDateTime</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDateTime_1a2775f7cf2be39af0af4190117bd92176" kind="function"><name>getDateTime</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDouble" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueDouble</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDouble_1aac7f84ba3359fad481467c4af856d3ed" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDouble_1a0ced616fd41f48b0377a4fed51e37d87" kind="function"><name>ValueDouble</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueDouble_1a20352cd3cea700f7e8a34992935f6f7b" kind="function"><name>getDouble</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::utils::ValueFactory</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a319b8a12493180a657df7f7b27aa6b06" kind="function"><name>build</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a574002767fb24126e1330084516486e8" kind="function"><name>build</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a1d92d1f05081054be40c6759cb809045" kind="function"><name>build</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a74ca95751de7b19e13cb3629ae1d38d8" kind="function"><name>doubleToString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a707db02995fd4ba4097092013b2e8de4" kind="function"><name>numberToXml</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1a0110ad98e138eabe0f0dd596013ca214" kind="function"><name>robotPoseToXml</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueFactory_1adb1565ba922910072054629e0a416875" kind="function"><name>loadToXml</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueI8" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueI8</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueI8_1a8130a2e234413c6248fdee50758ba161" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueI8_1a26f393077b84946837689bb584496e22" kind="function"><name>ValueI8</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueI8_1ad9b036e8b9187b9d20de4d7b3c7f09db" kind="function"><name>getI8</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueInt" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueInt</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueInt_1a4656b590fd550f1a6966aa4728b9ed8f" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueInt_1a15a1932d145ca92aaa9cf43e846caacf" kind="function"><name>ValueInt</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueInt_1aa0fee45bc50aa9d0a2d76f1ace03f85e" kind="function"><name>getInt</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueNil" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueNil</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueNil_1a9e16a5c66df13403477bed844e80bc0c" kind="function"><name>ValueNil</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueParser" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::utils::ValueParser</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueParser_1acc3017d467673619a1a7923c6861eb8a" kind="function"><name>parseNumber</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueParser_1abe18ab55d90e15d186bdb3bc44320cdb" kind="function"><name>parseRobotPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueParser_1a8f4ca68476c9fab23dfd724e58acb468" kind="function"><name>parseLoad</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueParser_1a142a685421722413b36118cd9688a677" kind="function"><name>parseRobotPose</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1ValueParser_1aa23a67cff80314922d746c2056c8ddc2" kind="function"><name>parseDouble</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueString</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString_1a2f1da27f8a5ada03e1197693f0a1c7d7" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString_1aa7bb4ae8508081dd1c8b02127aa6e083" kind="function"><name>ValueString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueString_1aaf35d50f9a7461eaae6e7c2290178d76" kind="function"><name>getString</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::values::ValueStruct</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1af0ef6d3b8def0eedcc7ba8c0b927c7e8" kind="variable"><name>m_data</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a95aff87c0800ad125b3a1759265fecd9" kind="function"><name>ValueStruct</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1ae95369f3dd08c4835139358eaa414073" kind="function"><name>getMap</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a24305a4aaf07a774f3cd9a0e87afaafe" kind="function"><name>getValueInt</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a70dd4903b0f2d4a03b62773fa80124f2" kind="function"><name>getValueBool</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a9be4bbcd62be5d2f765c07bd27bd68d4" kind="function"><name>getValueDouble</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a48e799e22de5cb1956d3d6ee6c1eac3f" kind="function"><name>getValueDateTime</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a2920a43dd8255cb62d409a9a36c6c014" kind="function"><name>getValueString</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a210ff71cc1045fba3feaebb1bbcafebc" kind="function"><name>getValueBase64</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1abf6e84c64ecdbbcdea36c11e8aa86da1" kind="function"><name>getValueArray</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a2bc5557a2fb8aaf3ea962f2d9f3af323" kind="function"><name>getValueStruct</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a6f17291f1bed04cb06de115774926a1f" kind="function"><name>getValueI8</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1ValueStruct_1a584fb138cf3ba304ae3c66629dd0ae54" kind="function"><name>getValue</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var" kind="class"><name>com::kassowrobots::api::editor::var::Var</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae1f7c39b8bc77747dcc172a2d4580fa9" kind="variable"><name>m_name</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a42610e027adc6ec8d50e250c25819d14" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ab62f6702d447dc39c7f6a76331542d9c" kind="function"><name>Custom</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a4ac82cb70c3386fe6f22f63d7dfc7205" kind="function"><name>System</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a3615704352020856eface6c47a7c6b76" kind="function"><name>System</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a42209aca06d9f64c2b912284adf48b44" kind="function"><name>Var</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a0915497fede81343c0da53f02d2089f1" kind="function"><name>getName</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae911900c886250a049deadb9472edf0f" kind="function"><name>setValue</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a2e14777b487c9618af3fe306f882afeb" kind="function"><name>getValue</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a7570bed1dbc4513d0dec5a52128e38fd" kind="function"><name>getProperty</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a384d3ebcd6865300e193226011143e83" kind="function"><name>sync</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae4b75df1d0b30436c4cea2e9d879555f" kind="function"><name>cast</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox" kind="class"><name>com::kassowrobots::api::app::view::VarDropBox</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a3e64806b13817a30c0c58dda5dad6fe3" kind="variable"><name>m_variable</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1ab09bf9edb6baaa64b145608e407ff8d8" kind="variable"><name>m_contentView</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a84d5adf70fccb2f2975ac3a5dd1aabca" kind="variable"><name>m_btnClear</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a7afd862a151a07521d61758e6bd000de" kind="variable"><name>m_dragManager</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a2b9fb8944749c4667a31d626670c1dcd" kind="variable"><name>m_onDropListener</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1afec29b739d3597c94ba67cb823de7d19" kind="variable"><name>m_onClearListener</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1ae52ff2f1b188e22d7f2d08eaedc1a91c" kind="variable"><name>m_onVarClickListener</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1ac8bb81d6cdb1fbae28b99fbcf45fe347" kind="variable"><name>m_hintText</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a0cd38bcf048f2bb4ef1f320e946004ff" kind="variable"><name>m_droppable</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a2de04fbf4e74a2425835d22ab76fbcca" kind="function"><name>VarDropBox</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1adfdba5c41f5542b528ac34ddda229424" kind="function"><name>VarDropBox</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a51226dbe7a235fd0556b31f5308cb919" kind="function"><name>VarDropBox</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a906057a731040714cc347ce85f969a12" kind="function"><name>getVariable</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1afff9e7c2da448efa0e5d71e01161d333" kind="function"><name>setVariable</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1ae8ca2c14122bb98cae4e192ed61720de" kind="function"><name>getHintText</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a090f5570b1bd8d524ed4f5d07c493fbf" kind="function"><name>setHintText</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1aee3e317a6ab30f074bf73b663737c238" kind="function"><name>isDroppable</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a2acab5ec4fffaaea0ded36807f0917b5" kind="function"><name>setDroppable</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a741bb062cffefe755e351ac462fe7383" kind="function"><name>setOnDropListener</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a623d58349e50ebb0532f0d80168bf720" kind="function"><name>setOnClearListener</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a716f2e0f0d027100cfb7edaf0d76d256" kind="function"><name>setOnVarClickListener</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a8da01bdb801651f5772122f7e4c87779" kind="function"><name>setEnabled</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1add277d8f1812b63ba36f847b7d9d8832" kind="function"><name>onAttachedToWindow</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1aa0a168594a5da4cc9b33bfe4e8b5720e" kind="function"><name>onDetachedFromWindow</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a7fdd1626c2ec2a85f2cb4c061bdb3386" kind="function"><name>init</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a984194ec42e08bcf1aaecf3948840d27" kind="function"><name>invalidateContent</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a518d8a5571cea65619c8dfdbd52aaa31" kind="function"><name>subscribeDDEvents</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1ab185f7d58d0aea8eee52f7561ddff385" kind="function"><name>unsubscribeDDEvents</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a4e7e4397b0e18783bbcbe3a78dc1468b" kind="function"><name>onClearButtonClick</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a69edbad938b3ff042842424fc0ffd509" kind="function"><name>getContentText</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1afcb5b115967a981d9a72d9c8f6543a2e" kind="function"><name>getContentTextColor</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a811123623785ba6d6e05f796846652c2" kind="function"><name>getContentPaintFlags</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1ae34be32d9f2550e6ce8b76c72b9cf134" kind="function"><name>getContentBackground</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox_1a5a37f47a5164312ca84a4159ca9e153a" kind="function"><name>dp2px</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister" kind="class"><name>com::kassowrobots::api::editor::var::VarRegister</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1ad49aa4304a94ef16f16d117d86cbfad1" kind="function"><name>getOpenedRegister</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1a9a285939dc46a2027ab9216e6ad8c2b7" kind="function"><name>getVarList</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1a757466693bb0d48ae9b4b1847bb00087" kind="function"><name>getVarList</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1af97d660d54b7b91cea0d22e7894e5abd" kind="function"><name>VarRegister</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::utils::XmlNode</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9c1a6e2fbae25bf608ccd8cf48e21804" kind="variable"><name>m_name</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ae1e2e51d9261c94a04b43ef25a8e5aea" kind="variable"><name>m_attributes</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9e77c8c23852503e90c29d7928e8025e" kind="variable"><name>m_value</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ab7950ee80df3221643f0617fd9842d9c" kind="variable"><name>m_children</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1afc721e2280734579c35438b77230abe2" kind="function"><name>factory</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1aabd611a7af7209de35f1e8491634c7ae" kind="function"><name>factory</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a3467557f44499461edfd1c5a50ec935d" kind="function"><name>XmlNode</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a83a5ab3614e2bd1115ffbcc59d0b11e3" kind="function"><name>XmlNode</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a855d774b81e2b9e42c944d52f8b762e7" kind="function"><name>getName</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a4bf7bcfce6389ba2e42dc1bd18746872" kind="function"><name>getValue</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a1861e514c366e00930125895bda36df7" kind="function"><name>getAttribute</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9b29e2d602e8973541eecc03737b4670" kind="function"><name>getAttribute</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a9a1e3eea8569761973dcb99292add47b" kind="function"><name>getValue</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1af1f8682a124ab4b52621658d0745e0e0" kind="function"><name>getValue</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a73e3ae0436aea012ec4d6a1e56da05bb" kind="function"><name>getChild</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1aa1885ab5c40073560ce901495c9a6d03" kind="function"><name>getChild</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1a7a5e89b4738f739e85d6e2a3e30039dc" kind="function"><name>getChildren</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlNode_1ae414342959acbd2a1529b0ec59edbe11" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlParseException" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::utils::XmlParseException</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils_1_1XmlParseException_1add3ce0eb417fc07f77e4b0081cf61e33" kind="function"><name>XmlParseException</name></member>
+  </compound>
+  <compound refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1XmlRpcClient" kind="class"><name>com::kassowrobots::api::robot::xmlrpc::XmlRpcClient</name>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1XmlRpcClient_1aeb5863e9c91e600af6b55f22533dd634" kind="function"><name>XmlRpcClient</name></member>
+    <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1XmlRpcClient_1a170fbbb1902e3ffd45b484733da912ae" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="namespacecom" kind="namespace"><name>com</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots" kind="namespace"><name>com::kassowrobots</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api" kind="namespace"><name>com::kassowrobots::api</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1app" kind="namespace"><name>com::kassowrobots::api::app</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1app_1_1fragment" kind="namespace"><name>com::kassowrobots::api::app::fragment</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1app_1_1view" kind="namespace"><name>com::kassowrobots::api::app::view</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1editor" kind="namespace"><name>com::kassowrobots::api::editor</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1editor_1_1var" kind="namespace"><name>com::kassowrobots::api::editor::var</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1lang" kind="namespace"><name>com::kassowrobots::api::lang</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1robot" kind="namespace"><name>com::kassowrobots::api::robot</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc" kind="namespace"><name>com::kassowrobots::api::robot::xmlrpc</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1utils" kind="namespace"><name>com::kassowrobots::api::robot::xmlrpc::utils</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values" kind="namespace"><name>com::kassowrobots::api::robot::xmlrpc::values</name>
+  </compound>
+  <compound refid="namespacecom_1_1kassowrobots_1_1api_1_1util" kind="namespace"><name>com::kassowrobots::api::util</name>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="KRContext_8java" kind="file"><name>KRContext.java</name>
+  </compound>
+  <compound refid="DragManager_8java" kind="file"><name>DragManager.java</name>
+  </compound>
+  <compound refid="VarDropBox_8java" kind="file"><name>VarDropBox.java</name>
+  </compound>
+  <compound refid="SelectionManager_8java" kind="file"><name>SelectionManager.java</name>
+  </compound>
+  <compound refid="TeachingManager_8java" kind="file"><name>TeachingManager.java</name>
+  </compound>
+  <compound refid="IVar_8java" kind="file"><name>IVar.java</name>
+  </compound>
+  <compound refid="Var_8java" kind="file"><name>Var.java</name>
+  </compound>
+  <compound refid="VarRegister_8java" kind="file"><name>VarRegister.java</name>
+  </compound>
+  <compound refid="Model_8java" kind="file"><name>Model.java</name>
+  </compound>
+  <compound refid="XmlRpcClient_8java" kind="file"><name>XmlRpcClient.java</name>
+  </compound>
+  <compound refid="KRSystem_8java" kind="file"><name>KRSystem.java</name>
+  </compound>
+  <compound refid="ApiConfig_8java" kind="file"><name>ApiConfig.java</name>
+  </compound>
+  <compound refid="KRFragment_8java" kind="file"><name>KRFragment.java</name>
+  </compound>
+  <compound refid="KRContextProvider_8java" kind="file"><name>KRContextProvider.java</name>
+  </compound>
+  <compound refid="DragEvent_8java" kind="file"><name>DragEvent.java</name>
+  </compound>
+  <compound refid="DragListener_8java" kind="file"><name>DragListener.java</name>
+  </compound>
+  <compound refid="CustomTeachingHandler_8java" kind="file"><name>CustomTeachingHandler.java</name>
+  </compound>
+  <compound refid="Frame_8java" kind="file"><name>Frame.java</name>
+  </compound>
+  <compound refid="InertiaMatrix_8java" kind="file"><name>InertiaMatrix.java</name>
+  </compound>
+  <compound refid="JSVector_8java" kind="file"><name>JSVector.java</name>
+  </compound>
+  <compound refid="Load_8java" kind="file"><name>Load.java</name>
+  </compound>
+  <compound refid="Number_8java" kind="file"><name>Number.java</name>
+  </compound>
+  <compound refid="Position_8java" kind="file"><name>Position.java</name>
+  </compound>
+  <compound refid="RobotPose_8java" kind="file"><name>RobotPose.java</name>
+  </compound>
+  <compound refid="Rotation_8java" kind="file"><name>Rotation.java</name>
+  </compound>
+  <compound refid="FrameID_8java" kind="file"><name>FrameID.java</name>
+  </compound>
+  <compound refid="LoadID_8java" kind="file"><name>LoadID.java</name>
+  </compound>
+  <compound refid="SystemID_8java" kind="file"><name>SystemID.java</name>
+  </compound>
+  <compound refid="Error_8java" kind="file"><name>Error.java</name>
+  </compound>
+  <compound refid="Fault_8java" kind="file"><name>Fault.java</name>
+  </compound>
+  <compound refid="Params_8java" kind="file"><name>Params.java</name>
+  </compound>
+  <compound refid="BadPathException_8java" kind="file"><name>BadPathException.java</name>
+  </compound>
+  <compound refid="ValueFactory_8java" kind="file"><name>ValueFactory.java</name>
+  </compound>
+  <compound refid="ValueParser_8java" kind="file"><name>ValueParser.java</name>
+  </compound>
+  <compound refid="XmlNode_8java" kind="file"><name>XmlNode.java</name>
+  </compound>
+  <compound refid="XmlParseException_8java" kind="file"><name>XmlParseException.java</name>
+  </compound>
+  <compound refid="Value_8java" kind="file"><name>Value.java</name>
+  </compound>
+  <compound refid="ValueArray_8java" kind="file"><name>ValueArray.java</name>
+  </compound>
+  <compound refid="ValueBase64_8java" kind="file"><name>ValueBase64.java</name>
+  </compound>
+  <compound refid="ValueBool_8java" kind="file"><name>ValueBool.java</name>
+  </compound>
+  <compound refid="ValueDateTime_8java" kind="file"><name>ValueDateTime.java</name>
+  </compound>
+  <compound refid="ValueDouble_8java" kind="file"><name>ValueDouble.java</name>
+  </compound>
+  <compound refid="ValueI8_8java" kind="file"><name>ValueI8.java</name>
+  </compound>
+  <compound refid="ValueInt_8java" kind="file"><name>ValueInt.java</name>
+  </compound>
+  <compound refid="ValueNil_8java" kind="file"><name>ValueNil.java</name>
+  </compound>
+  <compound refid="ValueString_8java" kind="file"><name>ValueString.java</name>
+  </compound>
+  <compound refid="ValueStruct_8java" kind="file"><name>ValueStruct.java</name>
+  </compound>
+  <compound refid="KRLog_8java" kind="file"><name>KRLog.java</name>
+  </compound>
+  <compound refid="Transform_8java" kind="file"><name>Transform.java</name>
+  </compound>
+  <compound refid="dir_0188a3e6da905bc60aceb35bf790b8c9" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api</name>
+  </compound>
+  <compound refid="dir_699a4a54f560e6bf98ace6ecc55161e4" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api</name>
+  </compound>
+  <compound refid="dir_18308d8fd5497e12fe18d966b57fd052" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api</name>
+  </compound>
+  <compound refid="dir_444f35eede280e73717081c951181716" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app</name>
+  </compound>
+  <compound refid="dir_f6a9d769e421c8f70566a0b75bbfd4ee" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app</name>
+  </compound>
+  <compound refid="dir_28fcc62b7e0cdab56a48e954a341499a" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com</name>
+  </compound>
+  <compound refid="dir_eb725adc0e51813faf24a5efeaf678e1" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com</name>
+  </compound>
+  <compound refid="dir_fc817975bd081e16215ecd6c8495c837" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor</name>
+  </compound>
+  <compound refid="dir_ee4ace52ec607e815ec4a5658be9c02d" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/editor</name>
+  </compound>
+  <compound refid="dir_f869a38ddcf5d6c592e29be5ecd6cbee" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external</name>
+  </compound>
+  <compound refid="dir_94ba3b1e24c500b08699cb7feab5b742" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/fragment</name>
+  </compound>
+  <compound refid="dir_fc05c6ff80f4a7b407de0597952650d5" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java</name>
+  </compound>
+  <compound refid="dir_3703c16f877febd6431675ce9524843f" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java</name>
+  </compound>
+  <compound refid="dir_c9c8bf20373c5251ab335ce86c08dd86" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots</name>
+  </compound>
+  <compound refid="dir_c620d5d01a51ca5f3e217193eb51e658" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots</name>
+  </compound>
+  <compound refid="dir_3378d7752fc56b5b9d7ab728d7e6a4a7" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang</name>
+  </compound>
+  <compound refid="dir_547d63a3cec94ae450cdf3309d9ddef3" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main</name>
+  </compound>
+  <compound refid="dir_11ff173f2d73623fe45ce0f630df2cc2" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/robot</name>
+  </compound>
+  <compound refid="dir_49c3f899de0ce06639c5959618ae8074" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot</name>
+  </compound>
+  <compound refid="dir_6be4c07e098dacc91071118ce4f28ca8" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src</name>
+  </compound>
+  <compound refid="dir_8bec8d55f1918e1c88356f4c767efcb1" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/util</name>
+  </compound>
+  <compound refid="dir_aca6f3c8cf4604eabb78d305bb566563" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/util</name>
+  </compound>
+  <compound refid="dir_59d6cddccccf1b846939bed345322782" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/utils</name>
+  </compound>
+  <compound refid="dir_cdceb49e8a84962a6bbfc5c4d61be1e0" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/values</name>
+  </compound>
+  <compound refid="dir_3b3c7c7ca2ae9fddf4ff0786fbafec1f" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var</name>
+  </compound>
+  <compound refid="dir_7b84bb6fedcbe6ace688ec9f855a30af" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/app/view</name>
+  </compound>
+  <compound refid="dir_b63667bd969771679bfb336474394089" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/view</name>
+  </compound>
+  <compound refid="dir_e2f028a9ca80b6c01ecaa764b9ba3428" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/robot/xmlrpc</name>
+  </compound>
+  <compound refid="dir_470b6b002b7300e5ae5c7d787b67bd77" kind="dir"><name>/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc</name>
+  </compound>
+</doxygenindex>

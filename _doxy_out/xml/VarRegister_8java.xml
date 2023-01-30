@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="VarRegister_8java" kind="file" language="Java">
+    <compoundname>VarRegister.java</compoundname>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister" prot="public">com::kassowrobots::api::editor::var::VarRegister</innerclass>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1editor_1_1var">com::kassowrobots::api::editor::var</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.kassowrobots.api.editor.var;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ArrayList;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister" kindref="compound">VarRegister</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister" kindref="compound">VarRegister</ref><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1ad49aa4304a94ef16f16d117d86cbfad1" kindref="member">getOpenedRegister</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1af97d660d54b7b91cea0d22e7894e5abd" kindref="member">VarRegister</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;IVar&lt;?&gt;&gt;<sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1a9a285939dc46a2027ab9216e6ad8c2b7" kindref="member">getVarList</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;&gt;();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>public<sp/>&lt;T&gt;<sp/>List&lt;IVar&lt;T&gt;&gt;<sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1a9a285939dc46a2027ab9216e6ad8c2b7" kindref="member">getVarList</ref>(Class&lt;T&gt;<sp/>aClass)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;&gt;();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1VarRegister_1af97d660d54b7b91cea0d22e7894e5abd" kindref="member">VarRegister</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/VarRegister.java"/>
+  </compounddef>
+</doxygen>

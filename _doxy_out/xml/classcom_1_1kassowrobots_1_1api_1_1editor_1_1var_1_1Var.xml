@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::editor::var::Var</compoundname>
+    <basecompoundref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" prot="public" virt="non-virtual">com::kassowrobots::api::editor::var::IVar&lt; T &gt;</basecompoundref>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1_1Builder" prot="public">com::kassowrobots::api::editor::var::Var::Builder</innerclass>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae1f7c39b8bc77747dcc172a2d4580fa9" prot="protected" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String com.kassowrobots.api.editor.var.Var&lt; T &gt;.m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.m_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="68" column="28" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a42610e027adc6ec8d50e250c25819d14" prot="protected" static="no" mutable="no">
+        <type>T</type>
+        <definition>T com.kassowrobots.api.editor.var.Var&lt; T &gt;.m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.m_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="71" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ab62f6702d447dc39c7f6a76331542d9c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static&lt; C &gt; <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; C &gt;</type>
+        <definition>static&lt; C &gt; IVar&lt; C &gt; com.kassowrobots.api.editor.var.Var&lt; T &gt;.Custom</definition>
+        <argsstring>( @NonNull String aName, @NonNull C aValue)</argsstring>
+        <name>Custom</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.Custom</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aName</declname>
+        </param>
+        <param>
+          <type>@NonNull C</type>
+          <declname>aValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs custom anonymous variable with given name and value. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the anonymous variable. Since anonymous variables are not registered, the name may not be unique. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The initial value of the anonymous variable. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new custom anonymous variable with requested name and initial value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="32" column="25" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a4ac82cb70c3386fe6f22f63d7dfc7205" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref> &gt;</type>
+        <definition>static IVar&lt; RobotPose &gt; com.kassowrobots.api.editor.var.Var&lt; T &gt;.System</definition>
+        <argsstring>( @NonNull String aName, @NonNull FrameID aFrameID)</argsstring>
+        <name>System</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.System</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aName</declname>
+        </param>
+        <param>
+          <type>@NonNull <ref refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1FrameID" kindref="compound">FrameID</ref></type>
+          <declname>aFrameID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs system anonymous variable that maps selected system frame. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the anonymous variable. Since anonymous variables are not registered, the name may not be unique. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aFrameID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the system frame to be mapped. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new anonymous variable that maps specified system frame. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="46" column="24" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="46" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a3615704352020856eface6c47a7c6b76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load" kindref="compound">Load</ref> &gt;</type>
+        <definition>static IVar&lt; Load &gt; com.kassowrobots.api.editor.var.Var&lt; T &gt;.System</definition>
+        <argsstring>( @NonNull String aName, @NonNull LoadID aLoadID)</argsstring>
+        <name>System</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.System</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aName</declname>
+        </param>
+        <param>
+          <type>@NonNull <ref refid="enumcom_1_1kassowrobots_1_1api_1_1robot_1_1LoadID" kindref="compound">LoadID</ref></type>
+          <declname>aLoadID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs system anonymous variable that maps selected system load. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the anonymous variable. Since anonymous variables are not registered, the name may not be unique. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aLoadID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the system load to be mapped. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new anonymous variable that maps specified system load. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="60" column="24" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="60" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a42209aca06d9f64c2b912284adf48b44" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.editor.var.Var&lt; T &gt;.Var</definition>
+        <argsstring>(@NonNull String aName, @NonNull T aValue)</argsstring>
+        <name>Var</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.Var</qualifiedname>
+        <param>
+          <type>@NonNull String</type>
+          <declname>aName</declname>
+        </param>
+        <param>
+          <type>@NonNull T</type>
+          <declname>aValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="73" column="15" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="73" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a0915497fede81343c0da53f02d2089f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.editor.var.Var&lt; T &gt;.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.getName</qualifiedname>
+        <reimplements refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1aaca0185cdab512d712503a94404bac7c">getName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns name of the variable.</para>
+<para><simplesect kind="return"><para>variable name </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="80" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae911900c886250a049deadb9472edf0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.editor.var.Var&lt; T &gt;.setValue</definition>
+        <argsstring>(@NonNull T aValue)</argsstring>
+        <name>setValue</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.setValue</qualifiedname>
+        <reimplements refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a7f77060e1cf5c168a24cae9847ff9e91">setValue</reimplements>
+        <param>
+          <type>@NonNull T</type>
+          <declname>aValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the new value of the variable. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="85" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a2e14777b487c9618af3fe306f882afeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T com.kassowrobots.api.editor.var.Var&lt; T &gt;.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.getValue</qualifiedname>
+        <reimplements refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a83f71253fbc50d11858d043cad6dd2a4">getValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the value of the variable. If the variable is not initialized, the value will be null. Note that the value may not be available instantly and it may be blocking (especially in case of persistent variables). Therefore try to avoid calling this method from UI thread.</para>
+<para><simplesect kind="return"><para>value of the variable or null </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="90" column="14" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a7570bed1dbc4513d0dec5a52128e38fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.kassowrobots.api.editor.var.Var&lt; T &gt;.getProperty</definition>
+        <argsstring>(String aName)</argsstring>
+        <name>getProperty</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.getProperty</qualifiedname>
+        <reimplements refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a1182ee71bb1b9181efdfbc18b8569729">getProperty</reimplements>
+        <param>
+          <type>String</type>
+          <declname>aName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns property for given name or null if such property does not exists.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>property name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>property value or null </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="96" column="19" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="96" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a384d3ebcd6865300e193226011143e83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.editor.var.Var&lt; T &gt;.sync</definition>
+        <argsstring>()</argsstring>
+        <name>sync</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.sync</qualifiedname>
+        <reimplements refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a41056009a10ed7ffb71a34603f54ef56">sync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Forces synchronization of variable. It provides immediate update of the remote value in case of persistent or system variables. This method does nothing in case of custom (user) variables. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="115" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="115" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae4b75df1d0b30436c4cea2e9d879555f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public&lt; C &gt; <ref refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar" kindref="compound">IVar</ref>&lt; C &gt;</type>
+        <definition>public&lt; C &gt; IVar&lt; C &gt; com.kassowrobots.api.editor.var.Var&lt; T &gt;.cast</definition>
+        <argsstring>(Class&lt; C &gt; aClass)</argsstring>
+        <name>cast</name>
+        <qualifiedname>com.kassowrobots.api.editor.var.Var.cast</qualifiedname>
+        <reimplements refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a87d5f7898e7e8ca8af0ca4b5e0a40521">cast</reimplements>
+        <param>
+          <type>Class&lt; C &gt;</type>
+          <declname>aClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Casts generic variable into the variable with specified data type. This can be used to avoid warnings on unchecked cast of generics.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <computeroutput><ref refid="" kindref="compound">Class</ref></computeroutput> object to be used as casted variable data type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>casted variable </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ClassCastException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if variable cannot be cast, ie. the requested class is not assignable by the current variable value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="110" column="18" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows to construct anonymous variable. Such variable is not registered in the var register, but it exists only locally either withing the UI (for example in the <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1VarDropBox" kindref="compound">VarDropBox</ref></computeroutput>) or in another variable (for example as a reference of some pose).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;T&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of the variable (such as <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" kindref="compound">Number</ref></computeroutput>, <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1RobotPose" kindref="compound">RobotPose</ref></computeroutput> or <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Load" kindref="compound">Load</ref></computeroutput>). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>com.kassowrobots.api.editor.var.Var&lt; T &gt;</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>com.kassowrobots.api.editor.var.IVar&lt; T &gt;</label>
+        <link refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.kassowrobots.api.editor.var.Var&lt; T &gt;</label>
+        <link refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>com.kassowrobots.api.editor.var.IVar&lt; T &gt;</label>
+        <link refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" line="23" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/external/java/com/kassowrobots/api/editor/var/Var.java" bodystart="23" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae4b75df1d0b30436c4cea2e9d879555f" prot="package" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>cast</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ab62f6702d447dc39c7f6a76331542d9c" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>Custom</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a0915497fede81343c0da53f02d2089f1" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>getName</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a7570bed1dbc4513d0dec5a52128e38fd" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>getProperty</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a2e14777b487c9618af3fe306f882afeb" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>getValue</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae1f7c39b8bc77747dcc172a2d4580fa9" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>m_name</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a42610e027adc6ec8d50e250c25819d14" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>m_value</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a298ae979306ccfca22a3bdb230d6d0e7" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>PROPERTY_DATA_CLASS</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a3181544f5375f463787c5a4adbe1f255" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>PROPERTY_MAPPING</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1ae55fa21d6240d23c62669906cdce95d2" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>PROPERTY_REFERENCE</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a04fd26568c07cb3dac6bce45c37319b4" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>PROPERTY_SCOPE</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1ae2e3c6835e24d7e8b642fb4c2d80f419" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>PROPERTY_TYPE</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a8748560e92a839716b1e555213cc864d" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>SCOPE_ANONYMOUS</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1ac25ca2e99f519a71102491136963e1cc" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>SCOPE_GLOBAL</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a62fe30bb586055cfe158dc16ddb5fba1" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>SCOPE_LOCAL</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a114c690dcbf8446aa7619b56150d729a" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>SCOPE_PERSISTENT</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1ae911900c886250a049deadb9472edf0f" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>setValue</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a384d3ebcd6865300e193226011143e83" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>sync</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a4ac82cb70c3386fe6f22f63d7dfc7205" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>System</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a3615704352020856eface6c47a7c6b76" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>System</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a35e76724e1647b321b5ecec9ea342974" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>TYPE_CUSTOM</name></member>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1IVar_1a5da2871b93a15bda68fab1e4d3887c61" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>TYPE_SYSTEM</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1editor_1_1var_1_1Var_1a42209aca06d9f64c2b912284adf48b44" prot="protected" virt="non-virtual"><scope>com::kassowrobots::api::editor::var::Var</scope><name>Var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

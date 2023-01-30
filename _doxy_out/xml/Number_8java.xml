@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="Number_8java" kind="file" language="Java">
+    <compoundname>Number.java</compoundname>
+    <innerclass refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" prot="public">com::kassowrobots::api::lang::Number</innerclass>
+    <innernamespace refid="namespacecom_1_1kassowrobots_1_1api_1_1lang">com::kassowrobots::api::lang</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.kassowrobots.api.lang;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>androidx.annotation.NonNull;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>androidx.annotation.Nullable;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" kindref="compound">Number</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>java.lang.Number<sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kindref="member">m_value</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a6f4dafd43aaf900fe4ec426876fabc94" kindref="member">Number</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a6f4dafd43aaf900fe4ec426876fabc94" kindref="member">Number</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>aValue)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(aValue);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a6f4dafd43aaf900fe4ec426876fabc94" kindref="member">Number</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>aValue)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(aValue);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1a5cd854ed5164f63f1dfec57c3ac9c7ae" kindref="member">l</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kindref="member">m_value</ref>.longValue();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1ae3171d57a57fcbe9e1cfab8066e7bcd0" kindref="member">d</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kindref="member">m_value</ref>.doubleValue();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>aValue)<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kindref="member">m_value</ref><sp/>=<sp/>aValue;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>aValue)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kindref="member">m_value</ref><sp/>=<sp/>aValue;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>@NonNull</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1ae1d31fc4d30e7b0bddb5ff68ad97d805" kindref="member">toString</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kindref="member">m_value</ref>.<ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1ae1d31fc4d30e7b0bddb5ff68ad97d805" kindref="member">toString</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1ab115c178e997a1b53a28701bd8686067" kindref="member">equals</ref>(@Nullable<sp/>Object<sp/>aObject)<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>aObject<sp/>instanceof<sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" kindref="compound">Number</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/><ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kindref="member">m_value</ref>.<ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1ab115c178e997a1b53a28701bd8686067" kindref="member">equals</ref>(((<ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number" kindref="compound">Number</ref>)<sp/>aObject).<ref refid="classcom_1_1kassowrobots_1_1api_1_1lang_1_1Number_1afad21b6c4c770f7f7032e31b3354ec38" kindref="member">m_value</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/lang/Number.java"/>
+  </compounddef>
+</doxygen>

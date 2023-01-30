@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler" kind="interface" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::editor::CustomTeachingHandler</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler_1a77a0bf37892aeabbde417578f1ca8027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.editor.CustomTeachingHandler.onTeachingIntent</definition>
+        <argsstring>()</argsstring>
+        <name>onTeachingIntent</name>
+        <qualifiedname>com.kassowrobots.api.editor.CustomTeachingHandler.onTeachingIntent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when a teaching intent is dispatched. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/editor/CustomTeachingHandler.java" line="13" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface definition for a listener that&apos;s invoked when a teaching intent is dispatched.</para>
+<para><simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1view_1_1DragManager" kindref="compound">com.kassowrobots.api.app.view.DragManager</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/editor/CustomTeachingHandler.java" line="8" column="18" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/editor/CustomTeachingHandler.java" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1kassowrobots_1_1api_1_1editor_1_1CustomTeachingHandler_1a77a0bf37892aeabbde417578f1ca8027" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::editor::CustomTeachingHandler</scope><name>onTeachingIntent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

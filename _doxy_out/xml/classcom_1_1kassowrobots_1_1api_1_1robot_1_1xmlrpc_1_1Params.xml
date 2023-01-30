@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::robot::xmlrpc::Params</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1aa355d6575564df5ca42d1ec4019a0e18" prot="private" static="no" mutable="no">
+        <type>final List&lt; <ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">Value</ref> &gt;</type>
+        <definition>final List&lt;Value&gt; com.kassowrobots.api.robot.xmlrpc.Params.m_valueList</definition>
+        <argsstring></argsstring>
+        <name>m_valueList</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.Params.m_valueList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" line="18" column="24" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1a1d5da8a776908a187e12a26b778d18e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.kassowrobots.api.robot.xmlrpc.Params.Params</definition>
+        <argsstring>()</argsstring>
+        <name>Params</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.Params.Params</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs empty list of params. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" line="23" column="12" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1a39fb066bc318fed4adc12f6d14d55834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.kassowrobots.api.robot.xmlrpc.Params.add</definition>
+        <argsstring>(Value aValue)</argsstring>
+        <name>add</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.Params.add</qualifiedname>
+        <param>
+          <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">Value</ref></type>
+          <declname>aValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds new param at the end of this params list.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Param to be added.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">com.kassowrobots.api.robot.xmlrpc.values.Value</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" line="34" column="17" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1afaf6a70fd4062af1723f8949c9e5ae31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.kassowrobots.api.robot.xmlrpc.Params.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.Params.size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns size of this params list.</para>
+<para><simplesect kind="return"><para>Size of the params list. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" line="43" column="16" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1abc1f5aa46a12658ad24805f196e76c2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">Value</ref></type>
+        <definition>Value com.kassowrobots.api.robot.xmlrpc.Params.getValue</definition>
+        <argsstring>(int aIndex)</argsstring>
+        <name>getValue</name>
+        <qualifiedname>com.kassowrobots.api.robot.xmlrpc.Params.getValue</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>aIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns param at the given index.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the param to be returned. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Param at the given index.</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1values_1_1Value" kindref="compound">com.kassowrobots.api.robot.xmlrpc.values.Value</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" line="55" column="18" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents list of params for the XML-RPC request. This params list is used as an argument of the <computeroutput><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1XmlRpcClient_1a170fbbb1902e3ffd45b484733da912ae" kindref="member">XmlRpcClient.execute(String, Params, double)</ref></computeroutput> method.</para>
+<para><simplesect kind="see"><para><ref refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1XmlRpcClient" kindref="compound">com.kassowrobots.api.robot.xmlrpc.XmlRpcClient</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" line="16" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/robot/xmlrpc/Params.java" bodystart="16" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1a39fb066bc318fed4adc12f6d14d55834" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::Params</scope><name>add</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1abc1f5aa46a12658ad24805f196e76c2a" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::Params</scope><name>getValue</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1aa355d6575564df5ca42d1ec4019a0e18" prot="private" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::Params</scope><name>m_valueList</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1a1d5da8a776908a187e12a26b778d18e1" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::Params</scope><name>Params</name></member>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1robot_1_1xmlrpc_1_1Params_1afaf6a70fd4062af1723f8949c9e5ae31" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::robot::xmlrpc::Params</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

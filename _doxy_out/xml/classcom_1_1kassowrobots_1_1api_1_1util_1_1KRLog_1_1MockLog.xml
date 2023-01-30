@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1MockLog" kind="class" language="Java" prot="private">
+    <compoundname>com::kassowrobots::api::util::KRLog::MockLog</compoundname>
+    <basecompoundref refid="interfacecom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1ILogImpl" prot="public" virt="non-virtual">com.kassowrobots.api.util.KRLog.ILogImpl</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1MockLog_1aa4c2df0493d8c63c7ed5afd465632d15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.kassowrobots.api.util.KRLog.MockLog.println</definition>
+        <argsstring>(int aPriority, String aTag, String aMessage)</argsstring>
+        <name>println</name>
+        <qualifiedname>com.kassowrobots.api.util.KRLog.MockLog.println</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>aPriority</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aTag</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/util/KRLog.java" line="203" column="20" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/util/KRLog.java" bodystart="203" bodyend="205"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>com.kassowrobots.api.util.KRLog.MockLog</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>com.kassowrobots.api.util.KRLog.ILogImpl</label>
+        <link refid="interfacecom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1ILogImpl"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.kassowrobots.api.util.KRLog.MockLog</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>com.kassowrobots.api.util.KRLog.ILogImpl</label>
+        <link refid="interfacecom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1ILogImpl"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/util/KRLog.java" line="200" column="20" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/util/KRLog.java" bodystart="200" bodyend="207"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1util_1_1KRLog_1_1MockLog_1aa4c2df0493d8c63c7ed5afd465632d15" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::util::KRLog::MockLog</scope><name>println</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

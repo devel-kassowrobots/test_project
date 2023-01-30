@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Examples &mdash; Kassow Android Api  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="API reference" href="../api/api.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kassow Android Api
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../first_cbun_app/first_cbun_app.html">First CBun App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use_cases/use_cases.html">Use Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releases/releases.html">Releases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/api.html">API reference</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Code Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data-types">Data Types</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#number">Number</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#robotpose">RobotPose</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#load">Load</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#variables">Variables</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#program-workcell-register">Program &amp; Workcell Register</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#anonymous">Anonymous</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#value-modification">Value Modification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#vardropbox">VarDropBox</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#editor">Editor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#selection-manager">Selection Manager</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#teaching-manager">Teaching Manager</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#drag-drop-manager">Drag&amp;Drop Manager</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#robot">Robot</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#model">Model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#xml-rpc">XML-RPC</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#utilities">Utilities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#krlog">KRLog</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#krsystem">KRSystem</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#transform">Transform</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kassow Android Api</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Code Examples</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/examples/examples.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="code-examples">
+<h1>Code Examples<a class="headerlink" href="#code-examples" title="Permalink to this headline"></a></h1>
+<p>This holds examples for using kr2_android_api.</p>
+<div class="section" id="data-types">
+<h2>Data Types<a class="headerlink" href="#data-types" title="Permalink to this headline"></a></h2>
+<div class="section" id="number">
+<h3>Number<a class="headerlink" href="#number" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="c1">// Constructs new instance of default (zero) number.</span>
+<span class="n">Number</span> <span class="n">num1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Number</span><span class="p">();</span>
+
+<span class="c1">// Constructs new instance of long integer number.</span>
+<span class="n">Number</span> <span class="n">num2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Number</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+
+<span class="c1">// Constructs new instance of floating point number.</span>
+<span class="n">Number</span> <span class="n">num3</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Number</span><span class="p">(</span><span class="mf">3.14</span><span class="p">);</span>
+
+<span class="c1">// Returns long integer value from the number.</span>
+<span class="kt">long</span> <span class="n">a</span> <span class="o">=</span> <span class="n">num2</span><span class="p">.</span><span class="na">l</span><span class="p">();</span>
+
+<span class="c1">// Returns double integer value from the number.</span>
+<span class="kt">double</span> <span class="n">b</span> <span class="o">=</span> <span class="n">num3</span><span class="p">.</span><span class="na">d</span><span class="p">();</span>
+
+<span class="c1">// Assigns long integer value to the number.</span>
+<span class="n">num2</span><span class="p">.</span><span class="na">set</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
+
+<span class="c1">// Assigns floating point value to the number.</span>
+<span class="n">num3</span><span class="p">.</span><span class="na">set</span><span class="p">(</span><span class="mf">1.4</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="robotpose">
+<h3>RobotPose<a class="headerlink" href="#robotpose" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="c1">// Constructs new instance of default (zero) robot pose.</span>
+<span class="n">RobotPose</span> <span class="n">rpose1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">RobotPose</span><span class="p">();</span>
+
+<span class="c1">// Constructs new instance of robot pose with given position and orientation.</span>
+<span class="n">RobotPose</span> <span class="n">rpose2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">RobotPose</span><span class="p">(</span>
+                           <span class="k">new</span> <span class="n">Position</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">),</span>      <span class="c1">// [m]</span>
+                           <span class="n">Rotation</span><span class="p">.</span><span class="na">fromRPY</span><span class="p">(</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">)</span>   <span class="c1">// [rad]</span>
+                       <span class="p">);</span>
+
+<span class="c1">// Constructs new instance of robot pose with given position, orientation, configuration and reference.</span>
+<span class="n">RobotPose</span> <span class="n">rpose3</span> <span class="o">=</span> <span class="k">new</span> <span class="n">RobotPose</span><span class="p">(</span>
+                           <span class="k">new</span> <span class="n">Position</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">),</span>      <span class="c1">// [m]</span>
+                           <span class="n">Rotation</span><span class="p">.</span><span class="na">fromRPY</span><span class="p">(</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">),</span>  <span class="c1">// [rad]</span>
+                           <span class="k">new</span> <span class="n">JSVector</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">),</span> <span class="c1">// [rad]</span>
+                           <span class="n">reference</span>  <span class="c1">// instance of IVar&lt;RobotPose&gt;</span>
+                       <span class="p">);</span>
+
+<span class="c1">// Constructs new instance of robot pose as a copy of source instance.</span>
+<span class="n">RobotPose</span> <span class="n">rpose3</span> <span class="o">=</span> <span class="k">new</span> <span class="n">RobotPose</span><span class="p">(</span><span class="n">rpose3</span><span class="p">);</span>
+
+<span class="c1">// Returns the robot pose position.</span>
+<span class="n">Position</span> <span class="n">pos</span> <span class="o">=</span> <span class="n">rpose1</span><span class="p">.</span><span class="na">position</span><span class="p">();</span>
+<span class="kt">double</span> <span class="n">posX</span> <span class="o">=</span> <span class="n">pos</span><span class="p">.</span><span class="na">getX</span><span class="p">();</span>  <span class="c1">// [m]</span>
+<span class="kt">double</span> <span class="n">posY</span> <span class="o">=</span> <span class="n">pos</span><span class="p">.</span><span class="na">getY</span><span class="p">();</span>  <span class="c1">// [m]</span>
+<span class="kt">double</span> <span class="n">posZ</span> <span class="o">=</span> <span class="n">pos</span><span class="p">.</span><span class="na">getZ</span><span class="p">();</span>  <span class="c1">// [m]</span>
+
+<span class="c1">// Returns the robot pose orientation.</span>
+<span class="n">Rotation</span> <span class="n">rot</span> <span class="o">=</span> <span class="n">rpose1</span><span class="p">.</span><span class="na">rotation</span><span class="p">();</span>
+<span class="kt">double</span> <span class="n">rotR</span> <span class="o">=</span> <span class="n">rot</span><span class="p">.</span><span class="na">asRPY</span><span class="p">().</span><span class="na">getR</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+<span class="kt">double</span> <span class="n">rotP</span> <span class="o">=</span> <span class="n">rot</span><span class="p">.</span><span class="na">asRPY</span><span class="p">().</span><span class="na">getP</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+<span class="kt">double</span> <span class="n">rotY</span> <span class="o">=</span> <span class="n">rot</span><span class="p">.</span><span class="na">asRPY</span><span class="p">().</span><span class="na">getY</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+
+<span class="c1">// Returns the robot pose joint configuration.</span>
+<span class="n">JSVector</span> <span class="n">config</span> <span class="o">=</span> <span class="n">rpose1</span><span class="p">.</span><span class="na">configuration</span><span class="p">();</span>
+<span class="kt">double</span> <span class="n">j1</span> <span class="o">=</span> <span class="n">config</span><span class="p">.</span><span class="na">getJ1</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+<span class="kt">double</span> <span class="n">j2</span> <span class="o">=</span> <span class="n">config</span><span class="p">.</span><span class="na">getJ2</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+<span class="kt">double</span> <span class="n">j3</span> <span class="o">=</span> <span class="n">config</span><span class="p">.</span><span class="na">getJ3</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+<span class="kt">double</span> <span class="n">j4</span> <span class="o">=</span> <span class="n">config</span><span class="p">.</span><span class="na">getJ4</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+<span class="kt">double</span> <span class="n">j5</span> <span class="o">=</span> <span class="n">config</span><span class="p">.</span><span class="na">getJ5</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+<span class="kt">double</span> <span class="n">j6</span> <span class="o">=</span> <span class="n">config</span><span class="p">.</span><span class="na">getJ6</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+<span class="kt">double</span> <span class="n">j7</span> <span class="o">=</span> <span class="n">config</span><span class="p">.</span><span class="na">getJ7</span><span class="p">();</span>  <span class="c1">// [rad]</span>
+
+<span class="c1">// Returns the robot pose reference.</span>
+<span class="n">IVar</span><span class="o">&lt;</span><span class="n">RobotPose</span><span class="o">&gt;</span> <span class="n">ref</span> <span class="o">=</span> <span class="n">rpose3</span><span class="p">.</span><span class="na">getReference</span><span class="p">();</span>
+
+<span class="c1">// Assings the reference to the robot pose.</span>
+<span class="n">rpose2</span><span class="p">.</span><span class="na">setReference</span><span class="p">(</span><span class="n">ref</span><span class="p">);</span>
+
+<span class="c1">// Clears the robot pose reference.</span>
+<span class="n">rpose3</span><span class="p">.</span><span class="na">setReference</span><span class="p">(</span><span class="kc">null</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="load">
+<h3>Load<a class="headerlink" href="#load" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="c1">// Constructs new instance of default (zero) load.</span>
+<span class="n">Load</span> <span class="n">load1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Load</span><span class="p">();</span>
+
+<span class="c1">// Constructs new instance of load with given mass, center of gravity, inertia matrix and pose.</span>
+<span class="n">Load</span> <span class="n">load2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Load</span><span class="p">(</span>
+                     <span class="mf">0.5</span><span class="p">,</span>  <span class="c1">// [kg]</span>
+                     <span class="k">new</span> <span class="n">Position</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">),</span> <span class="c1">// center of gravity [m]</span>
+                     <span class="k">new</span> <span class="n">InertiaMatrix</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="c1">// [kg.m2]</span>
+                     <span class="n">pose</span> <span class="c1">// instance of IVar&lt;RobotPose&gt;</span>
+
+                 <span class="p">);</span>
+
+<span class="c1">// Constructs new instance of load as a copy of source instance.</span>
+<span class="n">Load</span> <span class="n">load3</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Load</span><span class="p">(</span><span class="n">load2</span><span class="p">);</span>
+
+<span class="c1">// Returns the mass of the load.</span>
+<span class="kt">double</span> <span class="n">mass</span> <span class="o">=</span> <span class="n">load1</span><span class="p">.</span><span class="na">getMass</span><span class="p">();</span>
+
+<span class="c1">// Returns the center of gravity.</span>
+<span class="n">Position</span> <span class="n">cog</span> <span class="o">=</span> <span class="n">load1</span><span class="p">.</span><span class="na">centerOfGravity</span><span class="p">();</span>
+<span class="kt">double</span> <span class="n">x</span> <span class="o">=</span> <span class="n">cog</span><span class="p">.</span><span class="na">getX</span><span class="p">();</span>  <span class="c1">// [m]</span>
+<span class="kt">double</span> <span class="n">y</span> <span class="o">=</span> <span class="n">cog</span><span class="p">.</span><span class="na">getY</span><span class="p">();</span>  <span class="c1">// [m]</span>
+<span class="kt">double</span> <span class="n">z</span> <span class="o">=</span> <span class="n">cog</span><span class="p">.</span><span class="na">getZ</span><span class="p">();</span>  <span class="c1">// [m]</span>
+
+<span class="c1">// Returns the inertia matrix.</span>
+<span class="n">InertiaMatrix</span> <span class="n">imx</span> <span class="o">=</span> <span class="n">load1</span><span class="p">.</span><span class="na">inertiaMatrix</span><span class="p">();</span>
+<span class="kt">double</span> <span class="n">xx</span> <span class="o">=</span> <span class="n">img</span><span class="p">.</span><span class="na">getXX</span><span class="p">();</span>  <span class="c1">// [kg.m2]</span>
+<span class="kt">double</span> <span class="n">yy</span> <span class="o">=</span> <span class="n">img</span><span class="p">.</span><span class="na">getYY</span><span class="p">();</span>  <span class="c1">// [kg.m2]</span>
+<span class="kt">double</span> <span class="n">zz</span> <span class="o">=</span> <span class="n">img</span><span class="p">.</span><span class="na">getZZ</span><span class="p">();</span>  <span class="c1">// [kg.m2]</span>
+<span class="kt">double</span> <span class="n">xy</span> <span class="o">=</span> <span class="n">img</span><span class="p">.</span><span class="na">getXY</span><span class="p">();</span>  <span class="c1">// [kg.m2]</span>
+<span class="kt">double</span> <span class="n">xz</span> <span class="o">=</span> <span class="n">img</span><span class="p">.</span><span class="na">getXZ</span><span class="p">();</span>  <span class="c1">// [kg.m2]</span>
+<span class="kt">double</span> <span class="n">yz</span> <span class="o">=</span> <span class="n">img</span><span class="p">.</span><span class="na">getYZ</span><span class="p">();</span>  <span class="c1">// [kg.m2]</span>
+
+<span class="c1">// Returns the pose of the load.</span>
+<span class="n">IVar</span><span class="o">&lt;</span><span class="n">RobotPose</span><span class="o">&gt;</span> <span class="n">pose</span> <span class="o">=</span> <span class="n">load1</span><span class="p">.</span><span class="na">getPose</span><span class="p">();</span>
+
+<span class="c1">// Assigns new mass to the load.</span>
+<span class="n">load2</span><span class="p">.</span><span class="na">setMass</span><span class="p">(</span><span class="mf">0.6</span><span class="p">);</span>  <span class="c1">// [kg]</span>
+
+<span class="c1">// Assigns the pose to the load.</span>
+<span class="n">load2</span><span class="p">.</span><span class="na">setPose</span><span class="p">(</span><span class="n">pose</span><span class="p">);</span>
+
+<span class="c1">// Clears the pose of the load.</span>
+<span class="n">load2</span><span class="p">.</span><span class="na">setPose</span><span class="p">(</span><span class="kc">null</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="variables">
+<h2>Variables<a class="headerlink" href="#variables" title="Permalink to this headline"></a></h2>
+<div class="section" id="program-workcell-register">
+<h3>Program &amp; Workcell Register<a class="headerlink" href="#program-workcell-register" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="c1">// Retrieves register of all program and workcell variables.</span>
+<span class="n">VarRegister</span> <span class="n">register</span> <span class="o">=</span> <span class="n">VarRegister</span><span class="p">.</span><span class="na">getOpenedRegister</span><span class="p">();</span>
+
+<span class="c1">// Returns all registered variables in form of list.</span>
+<span class="n">List</span><span class="o">&lt;</span><span class="n">IVar</span><span class="o">&lt;?&gt;&gt;</span> <span class="n">varList</span> <span class="o">=</span> <span class="n">register</span><span class="p">.</span><span class="na">getVarList</span><span class="p">();</span>
+
+<span class="c1">// Returns all registered variables of Number data type in form of list.</span>
+<span class="n">List</span><span class="o">&lt;</span><span class="n">IVar</span><span class="o">&lt;</span><span class="n">Number</span><span class="o">&gt;&gt;</span> <span class="n">numVarList</span> <span class="o">=</span> <span class="n">register</span><span class="p">.</span><span class="na">getVarList</span><span class="p">(</span><span class="n">Number</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+
+<span class="c1">// Returns all registered variables of RobotPose data type in form of list.</span>
+<span class="n">List</span><span class="o">&lt;</span><span class="n">IVar</span><span class="o">&lt;</span><span class="n">RobotPose</span><span class="o">&gt;&gt;</span> <span class="n">rposeVarList</span> <span class="o">=</span> <span class="n">register</span><span class="p">.</span><span class="na">getVarList</span><span class="p">(</span><span class="n">RobotPose</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+
+<span class="c1">// Returns all registered variables of Load data type in form of list.</span>
+<span class="n">List</span><span class="o">&lt;</span><span class="n">IVar</span><span class="o">&lt;</span><span class="n">Load</span><span class="o">&gt;&gt;</span> <span class="n">loadVarList</span> <span class="o">=</span> <span class="n">register</span><span class="p">.</span><span class="na">getVarList</span><span class="p">(</span><span class="n">Load</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="anonymous">
+<h3>Anonymous<a class="headerlink" href="#anonymous" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="c1">// Constructs new anonymous custom variable with number data type.</span>
+<span class="n">IVar</span><span class="o">&lt;</span><span class="n">Number</span><span class="o">&gt;</span> <span class="n">var1</span> <span class="o">=</span> <span class="n">Var</span><span class="p">.</span><span class="na">Custom</span><span class="p">(</span>
+                        <span class="s">&quot;var1&quot;</span><span class="p">,</span>           <span class="c1">// label of the variable</span>
+                        <span class="k">new</span> <span class="n">Number</span><span class="p">(</span><span class="mf">3.14</span><span class="p">)</span>  <span class="c1">// initial value</span>
+                    <span class="p">);</span>
+
+<span class="c1">// Constructs new anonymous custom variable with robot pose data type.</span>
+<span class="n">IVar</span><span class="o">&lt;</span><span class="n">RobotPose</span><span class="o">&gt;</span> <span class="n">var2</span> <span class="o">=</span> <span class="n">Var</span><span class="p">.</span><span class="na">Custom</span><span class="p">(</span>
+                           <span class="s">&quot;var2&quot;</span><span class="p">,</span>         <span class="c1">// label of the variable</span>
+                           <span class="k">new</span> <span class="n">RobotPose</span><span class="p">(</span>  <span class="c1">// initial value</span>
+                               <span class="k">new</span> <span class="n">Position</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">),</span>     <span class="c1">// [m]</span>
+                               <span class="n">Rotation</span><span class="p">.</span><span class="na">fromRPY</span><span class="p">(</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">)</span>  <span class="c1">// [rad]</span>
+                           <span class="p">)</span>
+                       <span class="p">);</span>
+
+<span class="c1">// Constructs new anonymous custom variable with load data type.</span>
+<span class="n">IVar</span><span class="o">&lt;</span><span class="n">Load</span><span class="o">&gt;</span> <span class="n">var3</span> <span class="o">=</span> <span class="n">Var</span><span class="p">.</span><span class="na">Custom</span><span class="p">(</span>
+                      <span class="s">&quot;var3&quot;</span><span class="p">,</span>         <span class="c1">// label of the variable</span>
+                      <span class="k">new</span> <span class="n">Load</span><span class="p">(</span>       <span class="c1">// initial value</span>
+                          <span class="mf">0.5</span><span class="p">,</span>                               <span class="c1">// [kg]</span>
+                          <span class="k">new</span> <span class="n">Position</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">),</span>       <span class="c1">// [m]</span>
+                          <span class="k">new</span> <span class="n">InertiaMatrix</span><span class="p">(</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">),</span>  <span class="c1">// [kg.m2]</span>
+                          <span class="kc">null</span>
+                      <span class="p">)</span>
+                  <span class="p">);</span>
+
+<span class="c1">// Constructs new anonymous system variable that maps TCP frame.</span>
+<span class="n">IVar</span><span class="o">&lt;</span><span class="n">RobotPose</span><span class="o">&gt;</span> <span class="n">var4</span> <span class="o">=</span> <span class="n">Var</span><span class="p">.</span><span class="na">System</span><span class="p">(</span><span class="s">&quot;var4&quot;</span><span class="p">,</span> <span class="n">FrameID</span><span class="p">.</span><span class="na">TCP</span><span class="p">);</span>
+
+<span class="c1">// Constructs new anonymous system variable that maps Payload.</span>
+<span class="n">IVar</span><span class="o">&lt;</span><span class="n">Load</span><span class="o">&gt;</span> <span class="n">var5</span> <span class="o">=</span> <span class="n">Var</span><span class="p">.</span><span class="na">System</span><span class="p">(</span><span class="s">&quot;var5&quot;</span><span class="p">,</span> <span class="n">LoadID</span><span class="p">.</span><span class="na">PAYLOAD</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="value-modification">
+<h3>Value Modification<a class="headerlink" href="#value-modification" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="c1">// Constructs anonymous robot pose variable with default initial value.</span>
+<span class="n">IVar</span><span class="o">&lt;</span><span class="n">RobotPose</span><span class="o">&gt;</span> <span class="n">rposeVar</span> <span class="o">=</span> <span class="n">Var</span><span class="p">.</span><span class="na">Custom</span><span class="p">(</span>
+                               <span class="s">&quot;rposeVar&quot;</span><span class="p">,</span>  <span class="c1">// label of the variable</span>
+                                <span class="k">new</span> <span class="n">RobotPose</span><span class="p">(</span>  <span class="c1">// initial value</span>
+                                    <span class="k">new</span> <span class="n">Position</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">),</span>     <span class="c1">// [m]</span>
+                                    <span class="n">Rotation</span><span class="p">.</span><span class="na">fromRPY</span><span class="p">(</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">)</span>  <span class="c1">// [rad]</span>
+                                <span class="p">)</span>
+                           <span class="p">);</span>
+
+<span class="c1">// Obtains value (snapshot) from the variable.</span>
+<span class="n">RobotPose</span> <span class="n">rpose</span> <span class="o">=</span> <span class="n">rposeVar</span><span class="p">.</span><span class="na">getValue</span><span class="p">();</span>
+
+<span class="c1">// Modifies the robot pose value.</span>
+<span class="n">rpose</span><span class="p">.</span><span class="na">position</span><span class="p">().</span><span class="na">setX</span><span class="p">(</span><span class="mf">0.15</span><span class="p">);</span>
+<span class="n">rpose</span><span class="p">.</span><span class="na">position</span><span class="p">().</span><span class="na">setY</span><span class="p">(</span><span class="mf">0.25</span><span class="p">);</span>
+<span class="n">rpose</span><span class="p">.</span><span class="na">position</span><span class="p">().</span><span class="na">setZ</span><span class="p">(</span><span class="mf">0.35</span><span class="p">);</span>
+
+<span class="c1">// Assigns the modified value back to the variable (and triggers UI refresh).</span>
+<span class="n">rposeVar</span><span class="p">.</span><span class="na">setValue</span><span class="p">(</span><span class="n">rpose</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="vardropbox">
+<h3>VarDropBox<a class="headerlink" href="#vardropbox" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Constructs VarDropBox from context. Make sure to use KRContext.</span>
+<span class="cm"> */</span>
+<span class="n">VarDropBox</span> <span class="n">varDropBox</span> <span class="o">=</span> <span class="k">new</span> <span class="n">VarDropBox</span><span class="p">(</span><span class="n">getKRContext</span><span class="p">());</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Sets hint text, ie. the text to be show when the box is empty.</span>
+<span class="cm"> */</span>
+<span class="n">varDropBox</span><span class="p">.</span><span class="na">setHintText</span><span class="p">(</span><span class="s">&quot;Tap or drop variable&quot;</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Sets on click listener. This listener is invoked if user clicks the box.</span>
+<span class="cm"> */</span>
+<span class="n">varDropBox</span><span class="p">.</span><span class="na">setOnClickListener</span><span class="p">(</span><span class="n">view</span> <span class="o">-&gt;</span> <span class="p">{</span>
+    <span class="c1">// TODO: handle box click action</span>
+<span class="p">});</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Sets on clear listener. This listener is invoked if user removes a variable</span>
+<span class="cm"> * from the drop box by clicking the clear button.</span>
+<span class="cm"> */</span>
+<span class="n">varDropBox</span><span class="p">.</span><span class="na">setOnClearListener</span><span class="p">(</span><span class="n">variable</span> <span class="o">-&gt;</span> <span class="p">{</span>
+    <span class="c1">// TODO: handle clear button click action</span>
+<span class="p">});</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Sets on var click listener. This listener is invoked if the user clicks</span>
+<span class="cm"> * the variable within the drop box.</span>
+<span class="cm"> */</span>
+<span class="n">varDropBox</span><span class="p">.</span><span class="na">setOnVarClickListener</span><span class="p">(</span><span class="n">variable</span> <span class="o">-&gt;</span> <span class="p">{</span>
+    <span class="c1">// TODO: handle var click action</span>
+<span class="p">});</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Sets the drop listener. This listener is invoked if the user drops a variable</span>
+<span class="cm"> * into the drop box.</span>
+<span class="cm"> */</span>
+<span class="n">varDropBox</span><span class="p">.</span><span class="na">setOnDropListener</span><span class="p">(</span><span class="n">variable</span> <span class="o">-&gt;</span> <span class="p">{</span>
+    <span class="c1">// TODO: handle var added action</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="editor">
+<h2>Editor<a class="headerlink" href="#editor" title="Permalink to this headline"></a></h2>
+<div class="section" id="selection-manager">
+<h3>Selection Manager<a class="headerlink" href="#selection-manager" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Selection manager can be obtained as a KRService from KRContext. The following line</span>
+<span class="cm"> * demonstrates how you can get the selection manager inside the KRFragment class. Note</span>
+<span class="cm"> * that the service will be available only on the real robot and not in the emulated</span>
+<span class="cm"> * environment.</span>
+<span class="cm"> */</span>
+<span class="n">SelectionManager</span> <span class="n">manager</span> <span class="o">=</span> <span class="n">getKRContext</span><span class="p">().</span><span class="na">getKRService</span><span class="p">(</span><span class="n">KRContext</span><span class="p">.</span><span class="na">SELECTION_MANAGER_SERVICE</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Retrieves list of selected variables. If the list is empty, no variables are selected.</span>
+<span class="cm"> */</span>
+<span class="n">List</span><span class="o">&lt;</span><span class="n">IVar</span><span class="o">&lt;?&gt;&gt;</span> <span class="n">varList</span> <span class="o">=</span> <span class="n">manager</span><span class="p">.</span><span class="na">getVarSelection</span><span class="p">();</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Selects single variable. Such variable will be highlighted in the UI and its parameters</span>
+<span class="cm"> * will be accessible via Options Panel.</span>
+<span class="cm"> */</span>
+<span class="n">manager</span><span class="p">.</span><span class="na">setSelection</span><span class="p">(</span><span class="n">var</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Selects multiple variables. Such variables will be highlighted in the UI.</span>
+<span class="cm"> */</span>
+<span class="n">List</span><span class="o">&lt;</span><span class="n">IVar</span><span class="o">&lt;?&gt;&gt;</span> <span class="n">varList2</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="p">();</span>
+<span class="n">varList2</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">var1</span><span class="p">);</span>
+<span class="n">varList2</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">var2</span><span class="p">);</span>
+<span class="n">manager</span><span class="p">.</span><span class="na">setVarSelection</span><span class="p">(</span><span class="n">varList2</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Clears variable selection, ie. deselects all variables.</span>
+<span class="cm"> */</span>
+<span class="n">manager</span><span class="p">.</span><span class="na">setVarSelection</span><span class="p">(</span><span class="k">new</span> <span class="n">ArrayList</span><span class="p">());</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="teaching-manager">
+<h3>Teaching Manager<a class="headerlink" href="#teaching-manager" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Teaching manager can be obtained as a KRService from KRContext. The following line</span>
+<span class="cm"> * demonstrates how you can get the teaching manager inside the KRFragment class. Note</span>
+<span class="cm"> * that the service will be available only on the real robot and not in the emulated</span>
+<span class="cm"> * environment.</span>
+<span class="cm"> */</span>
+<span class="n">TeachingManager</span> <span class="n">manager</span> <span class="o">=</span> <span class="n">getKRContext</span><span class="p">().</span><span class="na">getKRService</span><span class="p">(</span><span class="n">KRContext</span><span class="p">.</span><span class="na">TEACHING_MANAGER_SERVICE</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Your own custom teaching handler implementation.</span>
+<span class="cm"> */</span>
+<span class="n">CustomTeachingHandler</span> <span class="n">handler</span> <span class="o">=</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="p">{</span>
+    <span class="c1">// TODO: Implement action to be executed on teaching intent (such as adding new pose).</span>
+<span class="p">};</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Attaches the handler to the teaching manager. Once the handler is attached, its</span>
+<span class="cm"> * onTeachingIntent method will be executed on each teaching intent (ie. on each</span>
+<span class="cm"> * back drive button double click). It is recommended to attach the handler once</span>
+<span class="cm"> * the CBun UI is created (for example in onCreateView method of KRFragment).</span>
+<span class="cm"> */</span>
+<span class="n">manager</span><span class="p">.</span><span class="na">attach</span><span class="p">(</span><span class="n">handler</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Detaches the handler from the teaching manager once it is not needed anymore.</span>
+<span class="cm"> * Do not forget to detach the handler when CBun App is closed, otherwise the default</span>
+<span class="cm"> * teaching handler will not be triggered. It is recommended to detach the handler once</span>
+<span class="cm"> * the CBun UI is destroyed (for example in onDestroyView method of KRFragment).</span>
+<span class="cm"> */</span>
+<span class="n">manager</span><span class="p">.</span><span class="na">detach</span><span class="p">(</span><span class="n">handler</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="drag-drop-manager">
+<h3>Drag&amp;Drop Manager<a class="headerlink" href="#drag-drop-manager" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Drag manager can be obtained as a KRService from KRContext. The following line</span>
+<span class="cm"> * demonstrates how you can get the drag manager inside the KRFragment class. Note</span>
+<span class="cm"> * that the service will be available only on the real robot and not in the emulated</span>
+<span class="cm"> * environment.</span>
+<span class="cm"> */</span>
+<span class="n">DragManager</span> <span class="n">manager</span> <span class="o">=</span> <span class="n">getKRContext</span><span class="p">().</span><span class="na">getKRService</span><span class="p">(</span><span class="n">KRContext</span><span class="p">.</span><span class="na">DRAG_MANAGER_SERVICE</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Adds your view to the drag manager. Such view can respond to drag events.</span>
+<span class="cm"> */</span>
+<span class="n">manager</span><span class="p">.</span><span class="na">addDropView</span><span class="p">(</span><span class="n">myView</span><span class="p">,</span> <span class="n">aEvent</span> <span class="o">-&gt;</span> <span class="p">{</span>
+    <span class="c1">// TODO: Implement action to be executed on drag events provided to your view.</span>
+<span class="p">});</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Removes your view from the drag manager. Such will no more trigger respond to</span>
+<span class="cm"> * drag events.</span>
+<span class="cm"> */</span>
+<span class="n">manager</span><span class="p">.</span><span class="na">removeDropView</span><span class="p">(</span><span class="n">myView</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="robot">
+<h2>Robot<a class="headerlink" href="#robot" title="Permalink to this headline"></a></h2>
+<div class="section" id="model">
+<h3>Model<a class="headerlink" href="#model" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Returns the model of the real robot.</span>
+<span class="cm"> */</span>
+<span class="n">Model</span> <span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="p">.</span><span class="na">getRealModel</span><span class="p">();</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Returns flange frame expressed in world frame.</span>
+<span class="cm"> */</span>
+<span class="n">Frame</span> <span class="n">flangeFrame</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="na">getFrame</span><span class="p">(</span><span class="n">FrameID</span><span class="p">.</span><span class="na">FLANGE</span><span class="p">,</span> <span class="n">FrameID</span><span class="p">.</span><span class="na">WORLD</span><span class="p">);</span>
+<span class="kt">double</span> <span class="n">flangePosX</span> <span class="o">=</span> <span class="n">flangeFrame</span><span class="p">.</span><span class="na">position</span><span class="p">().</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Returns current TCP frame expressed in flange frame.</span>
+<span class="cm"> */</span>
+<span class="n">Frame</span> <span class="n">tcpFrame</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="na">getFrame</span><span class="p">(</span><span class="n">FrameID</span><span class="p">.</span><span class="na">TCP</span><span class="p">,</span> <span class="n">FrameID</span><span class="p">.</span><span class="na">FLANGE</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Returns current tool load.</span>
+<span class="cm"> */</span>
+<span class="n">Load</span> <span class="n">toolLoad</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="na">getLoad</span><span class="p">(</span><span class="n">LoadID</span><span class="p">.</span><span class="na">TOOL</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Returns current payload.</span>
+<span class="cm"> */</span>
+<span class="n">Load</span> <span class="n">payload</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="na">getLoad</span><span class="p">(</span><span class="n">LoadID</span><span class="p">.</span><span class="na">PAYLOAD</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Returns current joints angle.</span>
+<span class="cm"> */</span>
+<span class="n">JSVector</span> <span class="n">jointsAngle</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="na">getJoints</span><span class="p">(</span><span class="n">SystemID</span><span class="p">.</span><span class="na">JOINTS_ANGLE</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="xml-rpc">
+<h3>XML-RPC<a class="headerlink" href="#xml-rpc" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Constructs XML-RPC client for given server ID.</span>
+<span class="cm"> */</span>
+<span class="n">XmlRpcClient</span> <span class="n">client</span> <span class="o">=</span> <span class="k">new</span> <span class="n">XmlRpcClient</span><span class="p">(</span><span class="s">&quot;test&quot;</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Prepares XML-RPC call params.</span>
+<span class="cm"> */</span>
+<span class="n">Params</span> <span class="n">params</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Params</span><span class="p">();</span>
+<span class="n">params</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="k">new</span> <span class="n">ValueInt</span><span class="p">(</span><span class="mi">10</span><span class="p">));</span>  <span class="c1">// int argument</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Executes XML-RPC call and handles possible failure.</span>
+<span class="cm"> */</span>
+<span class="k">try</span> <span class="p">{</span>
+    <span class="n">Value</span> <span class="n">ret</span> <span class="o">=</span> <span class="n">client</span><span class="p">.</span><span class="na">execute</span><span class="p">(</span>
+                           <span class="s">&quot;getData&quot;</span><span class="p">,</span>  <span class="c1">// method name</span>
+                           <span class="n">params</span><span class="p">,</span>     <span class="c1">// method params</span>
+                           <span class="mi">2</span>           <span class="c1">// timeout [s]</span>
+                       <span class="p">);</span>
+    <span class="c1">// TODO: process output value</span>
+<span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="n">Fault</span> <span class="n">e</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// TODO: handle XML-RPC failure</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="utilities">
+<h2>Utilities<a class="headerlink" href="#utilities" title="Permalink to this headline"></a></h2>
+<div class="section" id="krlog">
+<h3>KRLog<a class="headerlink" href="#krlog" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Adds debug log.</span>
+<span class="cm"> */</span>
+<span class="n">KRLog</span><span class="p">.</span><span class="na">d</span><span class="p">(</span><span class="s">&quot;MyClass&quot;</span><span class="p">,</span> <span class="s">&quot;This is debug message&quot;</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Adds error log.</span>
+<span class="cm"> */</span>
+<span class="n">KRLog</span><span class="p">.</span><span class="na">e</span><span class="p">(</span><span class="s">&quot;MyClass&quot;</span><span class="p">,</span> <span class="s">&quot;This is error message&quot;</span><span class="p">,</span> <span class="n">e</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="krsystem">
+<h3>KRSystem<a class="headerlink" href="#krsystem" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Closes CBun App, ie. removes KRFragment from screen and destroys it.</span>
+<span class="cm"> */</span>
+<span class="n">KRSystem</span><span class="p">.</span><span class="na">exit</span><span class="p">();</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="transform">
+<h3>Transform<a class="headerlink" href="#transform" title="Permalink to this headline"></a></h3>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm"> * Converts robot pose into a new reference, ie. the reference pose is updated</span>
+<span class="cm"> * and the coordinates are recalculated.</span>
+<span class="cm"> */</span>
+<span class="n">RobotPose</span> <span class="n">out1</span> <span class="o">=</span> <span class="n">Transform</span><span class="p">.</span><span class="na">convertToNewReference</span><span class="p">();</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Moves the robot pose into a new reference, ie. the coordinates are untouched</span>
+<span class="cm"> * and the reference pose variable is updated.</span>
+<span class="cm"> */</span>
+<span class="n">RobotPose</span> <span class="n">out2</span> <span class="o">=</span> <span class="n">Transform</span><span class="p">.</span><span class="na">moveToNewReference</span><span class="p">(</span><span class="n">out1</span><span class="p">,</span> <span class="n">refVar2</span><span class="p">);</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * Evaluates robot pose into world frame.</span>
+<span class="cm"> */</span>
+<span class="n">Frame</span> <span class="n">frame</span> <span class="o">=</span> <span class="n">Transform</span><span class="p">.</span><span class="na">evaluate</span><span class="p">(</span><span class="n">out2</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../api/api.html" class="btn btn-neutral float-left" title="API reference" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Kassow Robots.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

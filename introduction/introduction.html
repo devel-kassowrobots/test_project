@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introduction &mdash; Kassow Android Api  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="First CBun App" href="../first_cbun_app/first_cbun_app.html" />
+    <link rel="prev" title="Welcome to Kassow Android Api’s documentation!" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kassow Android Api
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#krfragment">KRFragment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#krcontext">KRContext</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-bundle-xml-file">The bundle.xml file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cbun-app-launch">CBun App Launch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#backend">Backend</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../first_cbun_app/first_cbun_app.html">First CBun App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use_cases/use_cases.html">Use Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releases/releases.html">Releases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/api.html">API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/examples.html">Code Examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kassow Android Api</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Introduction</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/introduction/introduction.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline"></a></h1>
+<p>CBun App can be developed almost the same way like any other Android application. It is based on the same fundamentals, such as</p>
+<ul class="simple">
+<li><p>Java and Kotlin programming languages</p></li>
+<li><p>Android SDK and 3rd party libraries</p></li>
+<li><p>XML, Java or Kotlin (Jetpack Compose) user interface declaration</p></li>
+<li><p>Gradle build tool</p></li>
+</ul>
+<p>During the development process, the CBun App can be build, launched and tested as a standalone Android application on any Android device (either real or emulated). Eventually, the generated APK can be packed into a CBun file and installed on a real robot.</p>
+<div class="section" id="krfragment">
+<h2>KRFragment<a class="headerlink" href="#krfragment" title="Permalink to this headline"></a></h2>
+<p>KRFragment is the essential component of CBun App, since it provides an entry point for interacting with the user. KRFragment represents user interface (UI) of the CBun App on the Teach Pendant screen, therefore each KRFragment has to:</p>
+<ul class="simple">
+<li><p>define the UI layout</p></li>
+<li><p>handle user inputs</p></li>
+</ul>
+<p>Once the user launches CBun App, the appropriate KRFragment is automatically constructed and placed over one of the tool panels (whether it will be the left or right panel depends on the application context).</p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/KRFragment.jpg"><img alt="KRFragment" src="../_images/KRFragment.jpg" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">KRFragment of Calculator CBun App</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</div>
+<p>You implement your own CBun App UI as a subclass of the <a class="reference internal" href="../api/api.html#krfragment-class"><span class="std std-ref">KRFragment</span></a> class. This UI is based on the standard Android <a class="reference external" href="https://developer.android.com/guide/fragments">fragment</a> (ie. KRFragment is derived from Fragment class), but the fragment is attached to the screen with the KRContext instead of the base Android Context.</p>
+</div>
+<div class="section" id="krcontext">
+<h2>KRContext<a class="headerlink" href="#krcontext" title="Permalink to this headline"></a></h2>
+<p>KRContext is an interface to global information about CBun App environment. It allows access to CBun App specific classes, and resources (such as strings, layouts, images, etc.). It also provides handles to KR services that represent interface to some of the Teach Pendant host application features.</p>
+<p>KRContext is based on standard Android <a class="reference external" href="https://developer.android.com/reference/android/content/Context">context</a> (ie. KRContext is derived from Context class). It is constructed automatically by the Teach Pendant host application on the CBun App start and its instance is passed to the KRFragment once the fragment is attached to the screen.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Make sure that you always use KRContext rather than the base Android Context. Whereas the base Context will work in a standalone CBun App, it may fail when installed on a real robot.</p>
+</div>
+</div>
+<div class="section" id="the-bundle-xml-file">
+<h2>The bundle.xml file<a class="headerlink" href="#the-bundle-xml-file" title="Permalink to this headline"></a></h2>
+<p>The bundle.xml file describes the CBun to the robot and it has to be packed with each CBun. The bundle.xml has been already used for the description of Custom Devices, therefore this document will focus only on the declaration of CBun Apps via the new <code class="docutils literal notranslate"><span class="pre">&lt;application&gt;</span></code> element.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?document type=&quot;cbunxml&quot; version=&quot;1.0&quot; ?&gt;</span>
+<span class="nt">&lt;bundle</span> <span class="na">name=</span><span class="s">&quot;CalculatorCBun&quot;</span> <span class="na">version=</span><span class="s">&quot;1.0.0&quot;</span> <span class="na">type=</span><span class="s">&quot;custom&quot;</span><span class="nt">&gt;</span>
+    ...
+    <span class="nt">&lt;application</span>
+        <span class="na">package=</span><span class="s">&quot;com.kassowrobots.calculator&quot;</span>
+        <span class="na">apk=</span><span class="s">&quot;/calculator.apk&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;fragment</span>
+            <span class="na">name=</span><span class="s">&quot;.CalculatorFragment&quot;</span>
+            <span class="na">label=</span><span class="s">&quot;Calculator&quot;</span>
+            <span class="na">icon=</span><span class="s">&quot;ic_calc.png&quot;</span> <span class="nt">&gt;</span>
+            <span class="nt">&lt;backend&gt;</span>...<span class="nt">&lt;/backend&gt;</span>
+            <span class="nt">&lt;intent-filter&gt;</span>...<span class="nt">&lt;/intent-filter&gt;</span>
+        <span class="nt">&lt;/fragment&gt;</span>
+        ...
+    <span class="nt">&lt;/application&gt;</span>
+<span class="nt">&lt;/bundle&gt;</span>
+</pre></div>
+</div>
+<p>In the <code class="docutils literal notranslate"><span class="pre">&lt;application&gt;</span></code> element, the <code class="docutils literal notranslate"><span class="pre">package</span></code> attribute specifies the CBun App package name and it has to be aligned with the package name in your CBun App Android project. The <code class="docutils literal notranslate"><span class="pre">apk</span></code> attribute defines the path to the relevant APK relatively to the root of the CBun package.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">&lt;fragment&gt;</span></code> element defines an entry point of the CBun App. Its <code class="docutils literal notranslate"><span class="pre">name</span></code> attribute specifies the qualified class name (relatively to the application package) of the KRFragment subclass. The <code class="docutils literal notranslate"><span class="pre">label</span></code> attribute declares a string to be used as the user-friendly label for this CBun App entry point and the optional <code class="docutils literal notranslate"><span class="pre">icon</span></code> attribute specifies a path to app icon relatively to the APK drawable folder.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">&lt;backend&gt;</span></code> element defines optional <a class="reference internal" href="#backend">backend</a> of the CBun App. This element is optional and has to be defined only if a backend is used.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">&lt;intent-filter&gt;</span></code> element specifies the types of intents that can launch the CBun App.</p>
+</div>
+<div class="section" id="cbun-app-launch">
+<h2>CBun App Launch<a class="headerlink" href="#cbun-app-launch" title="Permalink to this headline"></a></h2>
+<p>CBun App can be launched from Teach Pendant host application on user interaction only. There are various places in the Teach Pendant host application that allow to launch a CBun App by clicking its launcher, such as:</p>
+<ul class="simple">
+<li><p>CBun Apps section in the Workcell tool</p></li>
+<li><p>Define Pose popup menu in RobotPose variable options panel</p></li>
+<li><p>Custom device dashboard icon</p></li>
+</ul>
+<p>Whether the CBun App launcher is listed in one of these locations depends on the intents, that the CBun App can handle. The set of intents that the CBun App entry-point (fragment) responds to, is declared by <code class="docutils literal notranslate"><span class="pre">&lt;intent-filter&gt;</span></code> element in bundle.xml file.</p>
+<p>Action <code class="docutils literal notranslate"><span class="pre">MAIN</span></code> together with the <code class="docutils literal notranslate"><span class="pre">LAUNCHER</span></code> category represents the standard CBun App launcher. Such application is listed in the Workcell -&gt; CBun Apps section.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;intent-filter&gt;</span>
+    <span class="nt">&lt;action</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.action.MAIN&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;category</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.category.LAUNCHER&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/intent-filter&gt;</span>
+</pre></div>
+</div>
+<p>Action <code class="docutils literal notranslate"><span class="pre">DEFINE_POSE</span></code> signals a CBun App that allows to define value of a general RobotPose variable. Such CBun App is accessible via Define Pose popup menu from options panel of any RobotPose variable.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;intent-filter&gt;</span>
+    <span class="nt">&lt;action</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.action.DEFINE_POSE&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/intent-filter&gt;</span>
+</pre></div>
+</div>
+<p>Action <code class="docutils literal notranslate"><span class="pre">DEFINE_TCP</span></code> signals a CBun App that allows to define value of a RobotPose variable that either maps the real TCP frame (in case of system variable) or represents its coordinates (in case of custom variable).</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;intent-filter&gt;</span>
+    <span class="nt">&lt;action</span> <span class="na">name=</span><span class="s">&quot;com.kassowrobots.intent.action.DEFINE_TCP&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/intent-filter&gt;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Various actions and categories can be combined together either in the same intent-filter or by using multiple intent-filters.</p>
+</div>
+</div>
+<div class="section" id="backend">
+<h2>Backend<a class="headerlink" href="#backend" title="Permalink to this headline"></a></h2>
+<p>Each CBun App entry-point (fragment) may be equipped with optional backend. This backend is automatically initialized on a CBun App start and cleaned on a CBun App exit. The communication between frontend and backend is based on XML-RPC, where the frontend acts as a client and the backend represents the XML-RPC server.</p>
+<p>You implement your own backend in C++ as a subclass of the <code class="docutils literal notranslate"><span class="pre">kr2_bundle_api::CBunClass</span></code>. The backend class has to be described to the robot by specifying the <code class="docutils literal notranslate"><span class="pre">&lt;backend&gt;</span></code> element in <a class="reference internal" href="#the-bundle-xml-file">the bundle.xml file</a>.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;backend</span> <span class="na">lib=</span><span class="s">&quot;/libcalculator&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;class</span> <span class="na">name=</span><span class="s">&quot;calculator_cbun::Calculator&quot;</span>
+        <span class="na">base=</span><span class="s">&quot;kr2_bundle_api::CBunClass&quot;</span>
+        <span class="na">group=</span><span class="s">&quot;__calc__&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/backend&gt;</span>
+</pre></div>
+</div>
+<p>In the <code class="docutils literal notranslate"><span class="pre">&lt;backend&gt;</span></code> element, the <code class="docutils literal notranslate"><span class="pre">lib</span></code> attribute specifies the path to the relevant library (*.so) relatively to the root of the CBun package.</p>
+<p>In the <code class="docutils literal notranslate"><span class="pre">&lt;class&gt;</span></code> element, the <code class="docutils literal notranslate"><span class="pre">name</span></code> attribute defines the qualified C++ class name and the <code class="docutils literal notranslate"><span class="pre">base</span></code> attribute specifies the base class (<code class="docutils literal notranslate"><span class="pre">kr2_bundle_api::CBun</span>
+<span class="pre">Class</span></code> is now the only option). The <code class="docutils literal notranslate"><span class="pre">group</span></code> attribute identifies the CBun Sandbox process and it is important for the XML-RPC communication, since it represents the address of the XML-RPC server.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="Welcome to Kassow Android Api’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../first_cbun_app/first_cbun_app.html" class="btn btn-neutral float-right" title="First CBun App" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Kassow Robots.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

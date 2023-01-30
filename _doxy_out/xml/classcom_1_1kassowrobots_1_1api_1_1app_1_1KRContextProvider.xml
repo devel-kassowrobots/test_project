@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContextProvider" kind="class" language="Java" prot="public">
+    <compoundname>com::kassowrobots::api::app::KRContextProvider</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContextProvider_1a302518b3bd12384540c766c1866bc163" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContext" kindref="compound">KRContext</ref></type>
+        <definition>KRContext com.kassowrobots.api.app.KRContextProvider.getContext</definition>
+        <argsstring>(@NonNull Context aContext)</argsstring>
+        <name>getContext</name>
+        <qualifiedname>com.kassowrobots.api.app.KRContextProvider.getContext</qualifiedname>
+        <param>
+          <type>@NonNull Context</type>
+          <declname>aContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/KRContextProvider.java" line="9" column="22" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/KRContextProvider.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/KRContextProvider.java" line="7" column="7" bodyfile="/Users/tino/Projects/KR2013ApS/CodeBase/_KSW_/kr2_android_api/api/src/main/java/com/kassowrobots/api/app/KRContextProvider.java" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classcom_1_1kassowrobots_1_1api_1_1app_1_1KRContextProvider_1a302518b3bd12384540c766c1866bc163" prot="public" virt="non-virtual"><scope>com::kassowrobots::api::app::KRContextProvider</scope><name>getContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
